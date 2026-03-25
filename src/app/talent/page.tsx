@@ -7,58 +7,58 @@ export default function Talent() {
     <div className="Talent_TalentList__wyeOz TalentList container !mt-5 page">
       <div className="">
         <div className="col-span-1 md:col-span-2">
-          <h1 className="ui header">Hire Crypto &amp; Web3 Talent</h1>
+          <h1 className="ui header">Hire Talents</h1>
           <p className="my-4 md:text-2xl ">
-            26,373 Web3 Experts for Hire . Browse and contact them below.
+            26,373 .Net Experts for Hire . Browse and contact them below.
           </p>
           <div className="-space-x-2">
             <img
-              alt="web3 talent profile picture"
+              alt=".Net talent profile picture"
               src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/resize:fill/dpr:1.2/width:100/height:100/plain/gs:/job-listing-logos/5979bfb9-bd68-4013-94ad-458b9828d2c2.png"
               className="relative z-0 h-10 transition-all rounded-full aspect-square hover:z-10 hover:scale-125 active:scale-95 active:-rotate-3 hover:rotate-6 hover:shadow-xl "
             />
             <img
-              alt="web3 talent profile picture"
+              alt=".Net talent profile picture"
               src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/resize:fill/dpr:1.2/width:100/height:100/plain/gs:/job-listing-logos/15c949b9-b008-4d27-a88b-29ff27c3e726.png"
               className="relative z-0 h-10 transition-all rounded-full aspect-square hover:z-10 hover:scale-125 active:scale-95 active:-rotate-3 hover:rotate-6 hover:shadow-xl "
             />
             <img
-              alt="web3 talent profile picture"
+              alt=".Net talent profile picture"
               src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/resize:fill/dpr:1.2/width:100/height:100/plain/gs:/job-listing-logos/3e8adef0-f72c-4d95-98ce-3400b37c6fbf.jpeg"
               className="relative z-0 h-10 transition-all rounded-full aspect-square hover:z-10 hover:scale-125 active:scale-95 active:-rotate-3 hover:rotate-6 hover:shadow-xl "
             />
             <img
-              alt="web3 talent profile picture"
+              alt=".Net talent profile picture"
               src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/resize:fill/dpr:1.2/width:100/height:100/plain/gs:/job-listing-logos/efe572c9-93a2-423a-8066-0ea7ffde3d41.jpeg"
               className="relative z-0 h-10 transition-all rounded-full aspect-square hover:z-10 hover:scale-125 active:scale-95 active:-rotate-3 hover:rotate-6 hover:shadow-xl "
             />
             <img
-              alt="web3 talent profile picture"
+              alt=".Net talent profile picture"
               src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/resize:fill/dpr:1.2/width:100/height:100/plain/https://lh3.googleusercontent.com/a-/AOh14GgBX9n5sso1CXtSmGEwpI1lPuDKZkTFEXAEIwHc6g=s96-c"
               className="relative z-0 h-10 transition-all rounded-full aspect-square hover:z-10 hover:scale-125 active:scale-95 active:-rotate-3 hover:rotate-6 hover:shadow-xl "
             />
             <img
-              alt="web3 talent profile picture"
+              alt=".Net talent profile picture"
               src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/resize:fill/dpr:1.2/width:100/height:100/plain/gs:/job-listing-logos/9afa106e-f14e-4036-b524-273ac0489622.png"
               className="relative z-0 h-10 transition-all rounded-full aspect-square hover:z-10 hover:scale-125 active:scale-95 active:-rotate-3 hover:rotate-6 hover:shadow-xl "
             />
             <img
-              alt="web3 talent profile picture"
+              alt=".Net talent profile picture"
               src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/resize:fill/dpr:1.2/width:100/height:100/plain/gs:/job-listing-logos/3fdb784d-d9e4-4759-b35d-30d053cd649b.png"
               className="relative z-0 h-10 transition-all rounded-full aspect-square hover:z-10 hover:scale-125 active:scale-95 active:-rotate-3 hover:rotate-6 hover:shadow-xl hidden sm:inline-block"
             />
             <img
-              alt="web3 talent profile picture"
+              alt=".Net talent profile picture"
               src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/resize:fill/dpr:1.2/width:100/height:100/plain/gs:/job-listing-logos/cad573ff-6ce5-4246-aa78-6f9c9c8c6654.jpeg"
               className="relative z-0 h-10 transition-all rounded-full aspect-square hover:z-10 hover:scale-125 active:scale-95 active:-rotate-3 hover:rotate-6 hover:shadow-xl hidden sm:inline-block"
             />
             <img
-              alt="web3 talent profile picture"
+              alt=".Net talent profile picture"
               src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/resize:fill/dpr:1.2/width:100/height:100/plain/gs:/job-listing-logos/ad004b4d-5d45-4b3c-bec9-dd93dd725743.jpg"
               className="relative z-0 h-10 transition-all rounded-full aspect-square hover:z-10 hover:scale-125 active:scale-95 active:-rotate-3 hover:rotate-6 hover:shadow-xl hidden sm:inline-block"
             />
             <img
-              alt="web3 talent profile picture"
+              alt=".Net talent profile picture"
               src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/resize:fill/dpr:1.2/width:100/height:100/plain/gs:/job-listing-logos/6ab85786-dfda-4dbf-b92f-dabc3062a4a1.jpg"
               className="relative z-0 h-10 transition-all rounded-full aspect-square hover:z-10 hover:scale-125 active:scale-95 active:-rotate-3 hover:rotate-6 hover:shadow-xl hidden sm:inline-block"
             />
@@ -69,12 +69,12 @@ export default function Talent() {
         </div>
       </div>
       <div className="my-4 space-x-4 space-y-2 text-center sm:text-left">
-        <Link href=""  className="inline-block btn btn-md btn-brand-blue">
+        <Link href="" className="inline-block btn btn-md btn-brand-blue">
           Create Employer Profile
         </Link>
-        <Link href="" 
+        <Link
+          href=""
           className="inline-block btn btn-md bg-foreground text-background hover:text-background"
-          
         >
           Create Talent Profile
         </Link>
@@ -148,7 +148,7 @@ export default function Talent() {
           </svg>{" "}
           Saved
         </button>
-        <button  className="category overflow-visible !bg-brand-blue">
+        <button className="category overflow-visible !bg-brand-blue">
           <div className="relative text-left group relative dropdown-select">
             <div className="">
               <span className="text-white">
@@ -177,24 +177,24 @@ export default function Talent() {
             </div>
           </div>
         </button>
-        <Link href="" className="category" >
+        <Link href="" className="category">
           Solidity Developers
         </Link>
-        <Link href="" className="category" >
+        <Link href="" className="category">
           Business Development
         </Link>
-        <Link href="" className="category" >
+        <Link href="" className="category">
           Designers
         </Link>
-        <Link href="" className="category" >
+        <Link href="" className="category">
           Partnerships
         </Link>
-        <Link href="" className="category" >
+        <Link href="" className="category">
           Legal
         </Link>
       </nav>
       <p className="mb-0 text-sm text-center text-foreground/60">
-        Trusted by Worlds leading Web3 Companies:
+        Trusted by Worlds leading .Net Companies:
       </p>
       <div className="horizontal-fade mt-3 sm:space-x-[5em] space-x-[3em] relative w-full overflow-hidden whitespace-nowrap mb-5">
         <div className="items-center justify-around inline-block sm:space-x-[5em] space-x-[3em] whitespace-nowrap carousel-logo grayscale">
@@ -604,8 +604,7 @@ export default function Talent() {
         </span>
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
-            alt="Chief Executive Officer (web3/AI)"
-            
+            alt="Chief Executive Officer (.Net/AI)"
             loading="lazy"
             width="100"
             height="100"
@@ -617,12 +616,12 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
-                  Chief Executive Officer (web3/AI)
+                  Chief Executive Officer (.Net/AI)
                 </Link>
               </h2>
             </div>
@@ -665,9 +664,9 @@ export default function Talent() {
                 >
                   <path d="M256 32c-88.004 0-160 70.557-160 156.801C96 306.4 256 480 256 480s160-173.6 160-291.199C416 102.557 344.004 32 256 32zm0 212.801c-31.996 0-57.144-24.645-57.144-56 0-31.357 25.147-56 57.144-56s57.144 24.643 57.144 56c0 31.355-25.148 56-57.144 56z"></path>
                 </svg>
-                <Link href=""
+                <Link
+                  href=""
                   className="ml-0.5 text-gray-800 cursor-pointer dark:text-gray-400 hover:underline"
-                  
                 >
                   United States
                 </Link>
@@ -675,16 +674,13 @@ export default function Talent() {
               <span className="text-gray-800 dark:text-gray-400">GMT-6</span>
             </div>
             <div className="flex flex-wrap gap-2 mb-2 -mt-1 leading-6">
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Marketing
               </Link>
-              <Link href=""
-                className="category cursor-pointer"
-                
-              >
+              <Link href="" className="category cursor-pointer">
                 Partnerships
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Leadership
               </Link>
             </div>
@@ -700,7 +696,6 @@ export default function Talent() {
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
             alt="Sales,Partnerships, Marketing &amp; GTM"
-            
             loading="lazy"
             width="100"
             height="100"
@@ -712,10 +707,10 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
                   Sales,Partnerships, Marketing &amp; GTM
                 </Link>
@@ -773,10 +768,10 @@ export default function Talent() {
             <div className="flex flex-wrap gap-2 mb-2 -mt-1 leading-6">
               <span className="category cursor-pointer">Head</span>
               <span className="category cursor-pointer">Latam Region</span>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Leadership
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Startup
               </Link>
               <span className="category cursor-pointer">Team MGMT</span>
@@ -795,7 +790,6 @@ export default function Talent() {
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
             alt="Blockchain Business Architect"
-            
             loading="lazy"
             width="100"
             height="100"
@@ -807,10 +801,10 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
                   Blockchain Business Architect
                 </Link>
@@ -855,9 +849,9 @@ export default function Talent() {
                 >
                   <path d="M256 32c-88.004 0-160 70.557-160 156.801C96 306.4 256 480 256 480s160-173.6 160-291.199C416 102.557 344.004 32 256 32zm0 212.801c-31.996 0-57.144-24.645-57.144-56 0-31.357 25.147-56 57.144-56s57.144 24.643 57.144 56c0 31.355-25.148 56-57.144 56z"></path>
                 </svg>
-                <Link href=""
+                <Link
+                  href=""
                   className="ml-0.5 text-gray-800 cursor-pointer dark:text-gray-400 hover:underline"
-                  
                 >
                   Dubai
                 </Link>
@@ -867,7 +861,7 @@ export default function Talent() {
             <span className="leading-7 line-clamp-2">
               I didn’t start my journey as a developer. I wasn’t a coder. But
               I’ve always been a builder—of ideas, teams, and vision. I came
-              into the Web3 space not just with curiosity, but with a deep
+              into the .Net space not just with curiosity, but with a deep
               belief that blockchain could empower people, democratize access,
               and challenge the outdated structures of tech{" "}
             </span>
@@ -876,7 +870,6 @@ export default function Talent() {
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
             alt="Web Jedi"
-            
             loading="lazy"
             width="100"
             height="100"
@@ -888,10 +881,10 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
                   Web Jedi
                 </Link>
@@ -936,9 +929,9 @@ export default function Talent() {
                 >
                   <path d="M256 32c-88.004 0-160 70.557-160 156.801C96 306.4 256 480 256 480s160-173.6 160-291.199C416 102.557 344.004 32 256 32zm0 212.801c-31.996 0-57.144-24.645-57.144-56 0-31.357 25.147-56 57.144-56s57.144 24.643 57.144 56c0 31.355-25.148 56-57.144 56z"></path>
                 </svg>
-                <Link href=""
+                <Link
+                  href=""
                   className="ml-0.5 text-gray-800 cursor-pointer dark:text-gray-400 hover:underline"
-                  
                 >
                   Boston
                 </Link>
@@ -947,18 +940,18 @@ export default function Talent() {
             </div>
             <div className="flex flex-wrap gap-2 mb-2 -mt-1 leading-6">
               <span className="category cursor-pointer">HTML</span>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Javascript
               </Link>
               <span className="category cursor-pointer">JQuery</span>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 React.js
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 NFTs
               </Link>
               <span className="category cursor-pointer">Analytics</span>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Marketing
               </Link>
             </div>
@@ -974,7 +967,6 @@ export default function Talent() {
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
             alt="Project Manager | FinTech &amp; Crypto | Business Development | Head of Sales"
-            
             loading="lazy"
             width="100"
             height="100"
@@ -986,10 +978,10 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
                   Project Manager | FinTech &amp; Crypto | Business Development
                   | Head of Sales
@@ -1039,22 +1031,22 @@ export default function Talent() {
                   Moscow
                 </span>
                 ,{" "}
-                <Link href=""
+                <Link
+                  href=""
                   className="ml-0.5 text-gray-800 cursor-pointer dark:text-gray-400 hover:underline"
-                  
                 >
                   Russia
                 </Link>
               </span>
             </div>
             <div className="flex flex-wrap gap-2 mb-2 -mt-1 leading-6">
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Sales
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Marketing
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Management
               </Link>
             </div>
@@ -1070,7 +1062,6 @@ export default function Talent() {
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
             alt="PPC Specialist"
-            
             loading="lazy"
             width="100"
             height="100"
@@ -1082,10 +1073,10 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
                   PPC Specialist
                 </Link>
@@ -1156,7 +1147,6 @@ export default function Talent() {
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
             alt="community manager"
-            
             loading="lazy"
             width="100"
             height="100"
@@ -1168,10 +1158,10 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
                   community manager
                 </Link>
@@ -1230,8 +1220,7 @@ export default function Talent() {
         </li>
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
-            alt="Full Stack Web3 / Blockchain developer"
-            
+            alt="Full Stack .Net / Blockchain developer"
             loading="lazy"
             width="100"
             height="100"
@@ -1243,12 +1232,12 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
-                  Full Stack Web3 / Blockchain developer
+                  Full Stack .Net / Blockchain developer
                 </Link>
               </h2>
             </div>
@@ -1301,31 +1290,28 @@ export default function Talent() {
               </span>
             </div>
             <div className="flex flex-wrap gap-2 mb-2 -mt-1 leading-6">
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Solidity
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Typescript
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Node.js
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Rust
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 React.js
               </Link>
-              <Link href=""
-                className="category cursor-pointer"
-                
-              >
+              <Link href="" className="category cursor-pointer">
                 Openzeppelin
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Hardhat
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Python
               </Link>
             </div>
@@ -1341,7 +1327,6 @@ export default function Talent() {
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
             alt="Business development"
-            
             loading="lazy"
             width="100"
             height="100"
@@ -1353,10 +1338,10 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
                   Business development
                 </Link>
@@ -1409,12 +1394,12 @@ export default function Talent() {
             </div>
             <div className="flex flex-wrap gap-2 mb-2 -mt-1 leading-6">
               <span className="category cursor-pointer">fundraising</span>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 research
               </Link>
             </div>
             <span className="leading-7 line-clamp-2">
-              With over a decade in the cryptocurrency and Web3 sectors, I
+              With over a decade in the cryptocurrency and .Net sectors, I
               specialize in business development, early-stage investments, and
               fundraising. As Chief Investment Officer at Moonhill Capital, I
               raised $10 million for Moonhill Fund II and an additional $10
@@ -1425,7 +1410,6 @@ export default function Talent() {
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
             alt="Product Manager"
-            
             loading="lazy"
             width="100"
             height="100"
@@ -1437,10 +1421,10 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
                   Product Manager
                 </Link>
@@ -1485,9 +1469,9 @@ export default function Talent() {
                 >
                   <path d="M256 32c-88.004 0-160 70.557-160 156.801C96 306.4 256 480 256 480s160-173.6 160-291.199C416 102.557 344.004 32 256 32zm0 212.801c-31.996 0-57.144-24.645-57.144-56 0-31.357 25.147-56 57.144-56s57.144 24.643 57.144 56c0 31.355-25.148 56-57.144 56z"></path>
                 </svg>
-                <Link href=""
+                <Link
+                  href=""
                   className="ml-0.5 text-gray-800 cursor-pointer dark:text-gray-400 hover:underline"
-                  
                 >
                   India
                 </Link>
@@ -1495,37 +1479,36 @@ export default function Talent() {
               <span className="text-gray-800 dark:text-gray-400">GMT+5.5</span>
             </div>
             <div className="flex flex-wrap gap-2 mb-2 -mt-1 leading-6">
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Blockchain
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Solidity
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 NodeJS
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 MongoDB
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 TypeScript
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Leadership
               </Link>
             </div>
             <span className="leading-7 line-clamp-2">
-              Im ----- -----, a Web3 Product Manager at Chingari. 4 years of
+              Im ----- -----, a .Net Product Manager at Chingari. 4 years of
               product management experience with Tech &amp; Entrepreneurial
               background | Built wallet, dex, bots, and agents in DeFi, CeFi, AI
-              &amp; Web3 Social. Work Sample - https://tinyurl.com/ProofOfWork2
+              &amp; .Net Social. Work Sample - https://tinyurl.com/ProofOfWork2
             </span>
           </div>
         </li>
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
             alt="Head of Marketng"
-            
             loading="lazy"
             width="100"
             height="100"
@@ -1537,10 +1520,10 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
                   Head of Marketng
                 </Link>
@@ -1603,7 +1586,6 @@ export default function Talent() {
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
             alt="Community Manager Leader"
-            
             loading="lazy"
             width="100"
             height="100"
@@ -1615,10 +1597,10 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
                   Community Manager Leader
                 </Link>
@@ -1663,9 +1645,9 @@ export default function Talent() {
                 >
                   <path d="M256 32c-88.004 0-160 70.557-160 156.801C96 306.4 256 480 256 480s160-173.6 160-291.199C416 102.557 344.004 32 256 32zm0 212.801c-31.996 0-57.144-24.645-57.144-56 0-31.357 25.147-56 57.144-56s57.144 24.643 57.144 56c0 31.355-25.148 56-57.144 56z"></path>
                 </svg>
-                <Link href=""
+                <Link
+                  href=""
                   className="ml-0.5 text-gray-800 cursor-pointer dark:text-gray-400 hover:underline"
-                  
                 >
                   VietNam
                 </Link>
@@ -1673,19 +1655,19 @@ export default function Talent() {
               <span className="text-gray-800 dark:text-gray-400">GMT+7</span>
             </div>
             <div className="flex flex-wrap gap-2 mb-2 -mt-1 leading-6">
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Marketing
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Meme
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Community
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 ChatGPT
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Content
               </Link>
             </div>
@@ -1701,7 +1683,6 @@ export default function Talent() {
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
             alt="Chief Marketing Officer / Head of Marketing"
-            
             loading="lazy"
             width="100"
             height="100"
@@ -1713,10 +1694,10 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
                   Chief Marketing Officer / Head of Marketing
                 </Link>
@@ -1761,9 +1742,9 @@ export default function Talent() {
                 >
                   <path d="M256 32c-88.004 0-160 70.557-160 156.801C96 306.4 256 480 256 480s160-173.6 160-291.199C416 102.557 344.004 32 256 32zm0 212.801c-31.996 0-57.144-24.645-57.144-56 0-31.357 25.147-56 57.144-56s57.144 24.643 57.144 56c0 31.355-25.148 56-57.144 56z"></path>
                 </svg>
-                <Link href=""
+                <Link
+                  href=""
                   className="ml-0.5 text-gray-800 cursor-pointer dark:text-gray-400 hover:underline"
-                  
                 >
                   Dubai
                 </Link>
@@ -1780,7 +1761,6 @@ export default function Talent() {
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
             alt="Software Engineer"
-            
             loading="lazy"
             width="100"
             height="100"
@@ -1792,10 +1772,10 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
                   Software Engineer
                 </Link>
@@ -1840,29 +1820,29 @@ export default function Talent() {
                 >
                   <path d="M256 32c-88.004 0-160 70.557-160 156.801C96 306.4 256 480 256 480s160-173.6 160-291.199C416 102.557 344.004 32 256 32zm0 212.801c-31.996 0-57.144-24.645-57.144-56 0-31.357 25.147-56 57.144-56s57.144 24.643 57.144 56c0 31.355-25.148 56-57.144 56z"></path>
                 </svg>
-                <Link href=""
+                <Link
+                  href=""
                   className="ml-0.5 text-gray-800 cursor-pointer dark:text-gray-400 hover:underline"
-                  
                 >
                   London
                 </Link>
               </span>
             </div>
             <div className="flex flex-wrap gap-2 mb-2 -mt-1 leading-6">
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 React
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Angular
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 TypeScript
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 JavaScript
               </Link>
               <span className="category cursor-pointer">TailwindCSS</span>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Solidity
               </Link>
             </div>
@@ -1878,7 +1858,6 @@ export default function Talent() {
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
             alt="Event &amp; Marketing Manager | Community Manager"
-            
             loading="lazy"
             width="100"
             height="100"
@@ -1890,10 +1869,10 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
                   Event &amp; Marketing Manager | Community Manager
                 </Link>
@@ -1938,9 +1917,9 @@ export default function Talent() {
                 >
                   <path d="M256 32c-88.004 0-160 70.557-160 156.801C96 306.4 256 480 256 480s160-173.6 160-291.199C416 102.557 344.004 32 256 32zm0 212.801c-31.996 0-57.144-24.645-57.144-56 0-31.357 25.147-56 57.144-56s57.144 24.643 57.144 56c0 31.355-25.148 56-57.144 56z"></path>
                 </svg>
-                <Link href=""
+                <Link
+                  href=""
                   className="ml-0.5 text-gray-800 cursor-pointer dark:text-gray-400 hover:underline"
-                  
                 >
                   Remote
                 </Link>
@@ -1953,7 +1932,7 @@ export default function Talent() {
             <span className="leading-7 line-clamp-2">
               I’m an Event Lead and Community Builder with a decade of
               experience turning ideas into high-impact events, with a sharp
-              focus on Web3 and blockchain. From orchestrating ETHMumbai,
+              focus on .Net and blockchain. From orchestrating ETHMumbai,
               Mumbai’s first ETH hackathon to running Zebu Live 2024 in just
               three months with a lean team, I know how to move fast, s
             </span>
@@ -1962,7 +1941,6 @@ export default function Talent() {
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
             alt="Senior Executive IT Advisor"
-            
             loading="lazy"
             width="100"
             height="100"
@@ -1974,10 +1952,10 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
                   Senior Executive IT Advisor
                 </Link>
@@ -2022,9 +2000,9 @@ export default function Talent() {
                 >
                   <path d="M256 32c-88.004 0-160 70.557-160 156.801C96 306.4 256 480 256 480s160-173.6 160-291.199C416 102.557 344.004 32 256 32zm0 212.801c-31.996 0-57.144-24.645-57.144-56 0-31.357 25.147-56 57.144-56s57.144 24.643 57.144 56c0 31.355-25.148 56-57.144 56z"></path>
                 </svg>
-                <Link href=""
+                <Link
+                  href=""
                   className="ml-0.5 text-gray-800 cursor-pointer dark:text-gray-400 hover:underline"
-                  
                 >
                   Luxembourg
                 </Link>
@@ -2036,19 +2014,19 @@ export default function Talent() {
               <span className="text-gray-800 dark:text-gray-400">GMT+1</span>
             </div>
             <div className="flex flex-wrap gap-2 mb-2 -mt-1 leading-6">
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 python
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 MEMEs
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Bitcoin
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Ethereum
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Solana
               </Link>
             </div>
@@ -2063,8 +2041,7 @@ export default function Talent() {
         </li>
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
-            alt="Web3 Experience Architect &amp; Digital Innovation Strategist"
-            
+            alt=".Net Experience Architect &amp; Digital Innovation Strategist"
             loading="lazy"
             width="100"
             height="100"
@@ -2076,12 +2053,12 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
-                  Web3 Experience Architect &amp; Digital Innovation Strategist
+                  .Net Experience Architect &amp; Digital Innovation Strategist
                 </Link>
               </h2>
             </div>
@@ -2139,10 +2116,10 @@ export default function Talent() {
               <span className="text-gray-800 dark:text-gray-400">GMT+7</span>
             </div>
             <div className="flex flex-wrap gap-2 mb-2 -mt-1 leading-6">
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Marketing
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 NFTs
               </Link>
               <span className="category cursor-pointer">Events</span>
@@ -2151,7 +2128,7 @@ export default function Talent() {
               With a diverse background in hospitality management, marketing,
               and entrepreneurship, I bring a blend of strategic leadership,
               customer-centric innovation, and operational acumen to the realm
-              of Web3. Since 2017, I have been actively involved in Web3,
+              of .Net. Since 2017, I have been actively involved in .Net,
               including building NFT token-gated events, which
             </span>
           </div>
@@ -2159,7 +2136,6 @@ export default function Talent() {
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
             alt="Junior UX/UI Designer"
-            
             loading="lazy"
             width="100"
             height="100"
@@ -2171,10 +2147,10 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
                   Junior UX/UI Designer
                 </Link>
@@ -2219,27 +2195,27 @@ export default function Talent() {
                 >
                   <path d="M256 32c-88.004 0-160 70.557-160 156.801C96 306.4 256 480 256 480s160-173.6 160-291.199C416 102.557 344.004 32 256 32zm0 212.801c-31.996 0-57.144-24.645-57.144-56 0-31.357 25.147-56 57.144-56s57.144 24.643 57.144 56c0 31.355-25.148 56-57.144 56z"></path>
                 </svg>
-                <Link href=""
+                <Link
+                  href=""
                   className="ml-0.5 text-gray-800 cursor-pointer dark:text-gray-400 hover:underline"
-                  
                 >
                   Remote
                 </Link>
               </span>
             </div>
             <div className="flex flex-wrap gap-2 mb-2 -mt-1 leading-6">
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Design
               </Link>
               <span className="category cursor-pointer">HTML</span>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Illustrator
               </Link>
             </div>
             <span className="leading-7 line-clamp-2">
               Since 2021, I have been actively engaged in landing page design
               and graphic design in general. At the end of 2021, I started to
-              get acquainted with the web3 industry, and to this day I combine
+              get acquainted with the .Net industry, and to this day I combine
               these two areas and develop myself. In my free time, I do personal
               research on projects that interest me an
             </span>
@@ -2248,7 +2224,6 @@ export default function Talent() {
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
             alt="Research &amp; DD Lead"
-            
             loading="lazy"
             width="100"
             height="100"
@@ -2260,10 +2235,10 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
                   Research &amp; DD Lead
                 </Link>
@@ -2308,9 +2283,9 @@ export default function Talent() {
                 >
                   <path d="M256 32c-88.004 0-160 70.557-160 156.801C96 306.4 256 480 256 480s160-173.6 160-291.199C416 102.557 344.004 32 256 32zm0 212.801c-31.996 0-57.144-24.645-57.144-56 0-31.357 25.147-56 57.144-56s57.144 24.643 57.144 56c0 31.355-25.148 56-57.144 56z"></path>
                 </svg>
-                <Link href=""
+                <Link
+                  href=""
                   className="ml-0.5 text-gray-800 cursor-pointer dark:text-gray-400 hover:underline"
-                  
                 >
                   Remote
                 </Link>
@@ -2318,7 +2293,7 @@ export default function Talent() {
               <span className="text-gray-800 dark:text-gray-400">GMT+1</span>
             </div>
             <div className="flex flex-wrap gap-2 mb-2 -mt-1 leading-6">
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 DeFi
               </Link>
             </div>
@@ -2334,7 +2309,6 @@ export default function Talent() {
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
             alt="Community Manager"
-            
             loading="lazy"
             width="100"
             height="100"
@@ -2346,10 +2320,10 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
                   Community Manager
                 </Link>
@@ -2398,9 +2372,9 @@ export default function Talent() {
                   Port-Harcourt City
                 </span>
                 ,{" "}
-                <Link href=""
+                <Link
+                  href=""
                   className="ml-0.5 text-gray-800 cursor-pointer dark:text-gray-400 hover:underline"
-                  
                 >
                   Nigeria.
                 </Link>
@@ -2408,7 +2382,7 @@ export default function Talent() {
               <span className="text-gray-800 dark:text-gray-400">GMT+1</span>
             </div>
             <span className="leading-7 line-clamp-2">
-              Been in web3 for 3 years. Love the connections. Hope to get the
+              Been in .Net for 3 years. Love the connections. Hope to get the
               best out of myself in years to come
             </span>
           </div>
@@ -2416,7 +2390,6 @@ export default function Talent() {
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
             alt="Chief Marketing Officer"
-            
             loading="lazy"
             width="100"
             height="100"
@@ -2428,10 +2401,10 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
                   Chief Marketing Officer
                 </Link>
@@ -2477,7 +2450,6 @@ export default function Talent() {
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
             alt="Senior Blockchain Developer"
-            
             loading="lazy"
             width="100"
             height="100"
@@ -2489,10 +2461,10 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
                   Senior Blockchain Developer
                 </Link>
@@ -2537,9 +2509,9 @@ export default function Talent() {
                 >
                   <path d="M256 32c-88.004 0-160 70.557-160 156.801C96 306.4 256 480 256 480s160-173.6 160-291.199C416 102.557 344.004 32 256 32zm0 212.801c-31.996 0-57.144-24.645-57.144-56 0-31.357 25.147-56 57.144-56s57.144 24.643 57.144 56c0 31.355-25.148 56-57.144 56z"></path>
                 </svg>
-                <Link href=""
+                <Link
+                  href=""
                   className="ml-0.5 text-gray-800 cursor-pointer dark:text-gray-400 hover:underline"
-                  
                 >
                   Canada
                 </Link>
@@ -2547,26 +2519,26 @@ export default function Talent() {
               <span className="text-gray-800 dark:text-gray-400">GMT-7</span>
             </div>
             <div className="flex flex-wrap gap-2 mb-2 -mt-1 leading-6">
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Solidity
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Typescript
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Nodejs
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 React
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Rust
               </Link>
               <span className="category cursor-pointer">Anchor</span>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Python
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 AngularJS
               </Link>
               <span className="category cursor-pointer">ASP.NET</span>
@@ -2575,7 +2547,7 @@ export default function Talent() {
               As a seasoned Blockchain Developer, I bring over 10 years of
               experience in building secure, decentralized, and scalable
               blockchain solutions. Proficient in smart contract development,
-              DeFi protocols, and Web3 integrations, I excel in architecting
+              DeFi protocols, and .Net integrations, I excel in architecting
               innovative blockchain applications that drive efficie
             </span>
           </div>
@@ -2583,7 +2555,6 @@ export default function Talent() {
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
             alt="UX/UI &amp; Graphic Designer"
-            
             loading="lazy"
             width="100"
             height="100"
@@ -2595,10 +2566,10 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
                   UX/UI &amp; Graphic Designer
                 </Link>
@@ -2647,16 +2618,16 @@ export default function Talent() {
                   Saint-Petersburg
                 </span>
                 ,{" "}
-                <Link href=""
+                <Link
+                  href=""
                   className="ml-0.5 text-gray-800 cursor-pointer dark:text-gray-400 hover:underline"
-                  
                 >
                   Russia
                 </Link>
               </span>
             </div>
             <div className="flex flex-wrap gap-2 mb-2 -mt-1 leading-6">
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 UX Design
               </Link>
               <span className="category cursor-pointer">UI Design</span>
@@ -2673,7 +2644,6 @@ export default function Talent() {
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
             alt="Product Manager/Owner "
-            
             loading="lazy"
             width="100"
             height="100"
@@ -2685,10 +2655,10 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
                   Product Manager/Owner{" "}
                 </Link>
@@ -2745,10 +2715,10 @@ export default function Talent() {
               <span className="category cursor-pointer">Kanban</span>
               <span className="category cursor-pointer">B Testing</span>
               <span className="category cursor-pointer">Gamification</span>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 DeFi
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 NFTs
               </Link>
               <span className="category cursor-pointer">Wireframing</span>
@@ -2756,18 +2726,17 @@ export default function Talent() {
               <span className="category cursor-pointer">Jira</span>
             </div>
             <span className="leading-7 line-clamp-2">
-              🚀 From Sport Science to Web3 Product Management: A Unique Path to
+              🚀 From Sport Science to .Net Product Management: A Unique Path to
               Innovation My journey began in project management within the
               sports &amp; health sector, where I led high-impact initiatives
               for over 10 years. But my passion for innovation and emerging
-              technologies drove me to Web3, where I’ve spent t
+              technologies drove me to .Net, where I’ve spent t
             </span>
           </div>
         </li>
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
             alt="Full Stack Developer"
-            
             loading="lazy"
             width="100"
             height="100"
@@ -2779,10 +2748,10 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
                   Full Stack Developer
                 </Link>
@@ -2827,9 +2796,9 @@ export default function Talent() {
                 >
                   <path d="M256 32c-88.004 0-160 70.557-160 156.801C96 306.4 256 480 256 480s160-173.6 160-291.199C416 102.557 344.004 32 256 32zm0 212.801c-31.996 0-57.144-24.645-57.144-56 0-31.357 25.147-56 57.144-56s57.144 24.643 57.144 56c0 31.355-25.148 56-57.144 56z"></path>
                 </svg>
-                <Link href=""
+                <Link
+                  href=""
                   className="ml-0.5 text-gray-800 cursor-pointer dark:text-gray-400 hover:underline"
-                  
                 >
                   Philippines
                 </Link>
@@ -2837,24 +2806,24 @@ export default function Talent() {
               <span className="text-gray-800 dark:text-gray-400">GMT+8</span>
             </div>
             <div className="flex flex-wrap gap-2 mb-2 -mt-1 leading-6">
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Typescript
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 React
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 NodeJS
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 GraphQL
               </Link>
               <span className="category cursor-pointer">Strapi</span>
               <span className="category cursor-pointer">Sails.js</span>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Next.js
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Mocha
               </Link>
               <span className="category cursor-pointer">TailwindCSS</span>
@@ -2872,7 +2841,6 @@ export default function Talent() {
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
             alt="Business Development Manager "
-            
             loading="lazy"
             width="100"
             height="100"
@@ -2884,10 +2852,10 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
                   Business Development Manager{" "}
                 </Link>
@@ -2947,7 +2915,7 @@ export default function Talent() {
               <span className="category cursor-pointer">Arabic</span>
               <span className="category cursor-pointer">English</span>
               <span className="category cursor-pointer">Russian</span>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Leadership
               </Link>
             </div>
@@ -2963,7 +2931,6 @@ export default function Talent() {
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
             alt="Graphic | Video | Web"
-            
             loading="lazy"
             width="100"
             height="100"
@@ -2975,10 +2942,10 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
                   Graphic | Video | Web
                 </Link>
@@ -3023,9 +2990,9 @@ export default function Talent() {
                 >
                   <path d="M256 32c-88.004 0-160 70.557-160 156.801C96 306.4 256 480 256 480s160-173.6 160-291.199C416 102.557 344.004 32 256 32zm0 212.801c-31.996 0-57.144-24.645-57.144-56 0-31.357 25.147-56 57.144-56s57.144 24.643 57.144 56c0 31.355-25.148 56-57.144 56z"></path>
                 </svg>
-                <Link href=""
+                <Link
+                  href=""
                   className="ml-0.5 text-gray-800 cursor-pointer dark:text-gray-400 hover:underline"
-                  
                 >
                   India
                 </Link>
@@ -3036,10 +3003,10 @@ export default function Talent() {
               <span className="category cursor-pointer">HTML5</span>
               <span className="category cursor-pointer">CSS3</span>
               <span className="category cursor-pointer">Tailwind</span>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Figma
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Illustrator
               </Link>
               <span className="category cursor-pointer">Photoshop</span>
@@ -3059,7 +3026,6 @@ export default function Talent() {
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
             alt="Communications Manager"
-            
             loading="lazy"
             width="100"
             height="100"
@@ -3071,10 +3037,10 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
                   Communications Manager
                 </Link>
@@ -3119,9 +3085,9 @@ export default function Talent() {
                 >
                   <path d="M256 32c-88.004 0-160 70.557-160 156.801C96 306.4 256 480 256 480s160-173.6 160-291.199C416 102.557 344.004 32 256 32zm0 212.801c-31.996 0-57.144-24.645-57.144-56 0-31.357 25.147-56 57.144-56s57.144 24.643 57.144 56c0 31.355-25.148 56-57.144 56z"></path>
                 </svg>
-                <Link href=""
+                <Link
+                  href=""
                   className="ml-0.5 text-gray-800 cursor-pointer dark:text-gray-400 hover:underline"
-                  
                 >
                   India
                 </Link>
@@ -3139,7 +3105,6 @@ export default function Talent() {
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
             alt="Moderator "
-            
             loading="lazy"
             width="100"
             height="100"
@@ -3151,10 +3116,10 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
                   Moderator{" "}
                 </Link>
@@ -3199,9 +3164,9 @@ export default function Talent() {
                 >
                   <path d="M256 32c-88.004 0-160 70.557-160 156.801C96 306.4 256 480 256 480s160-173.6 160-291.199C416 102.557 344.004 32 256 32zm0 212.801c-31.996 0-57.144-24.645-57.144-56 0-31.357 25.147-56 57.144-56s57.144 24.643 57.144 56c0 31.355-25.148 56-57.144 56z"></path>
                 </svg>
-                <Link href=""
+                <Link
+                  href=""
                   className="ml-0.5 text-gray-800 cursor-pointer dark:text-gray-400 hover:underline"
-                  
                 >
                   India
                 </Link>
@@ -3216,7 +3181,6 @@ export default function Talent() {
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
             alt="Solidity || Back End || Front End Engineer"
-            
             loading="lazy"
             width="100"
             height="100"
@@ -3228,10 +3192,10 @@ export default function Talent() {
           <div className="flex-1 w-auto lg:w-0">
             <div className="flex flex-col justify-between items-top md:flex-row">
               <h2 className="flex items-center gap-4 mb-0">
-                <Link href=""
+                <Link
+                  href=""
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
-                  
                 >
                   Solidity || Back End || Front End Engineer
                 </Link>
@@ -3276,9 +3240,9 @@ export default function Talent() {
                 >
                   <path d="M256 32c-88.004 0-160 70.557-160 156.801C96 306.4 256 480 256 480s160-173.6 160-291.199C416 102.557 344.004 32 256 32zm0 212.801c-31.996 0-57.144-24.645-57.144-56 0-31.357 25.147-56 57.144-56s57.144 24.643 57.144 56c0 31.355-25.148 56-57.144 56z"></path>
                 </svg>
-                <Link href=""
+                <Link
+                  href=""
                   className="ml-0.5 text-gray-800 cursor-pointer dark:text-gray-400 hover:underline"
-                  
                 >
                   Canada
                 </Link>
@@ -3286,20 +3250,20 @@ export default function Talent() {
               <span className="text-gray-800 dark:text-gray-400">GMT-7</span>
             </div>
             <div className="flex flex-wrap gap-2 mb-2 -mt-1 leading-6">
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Solidity
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Blockchain
               </Link>
-              <Link href="" className="category cursor-pointer" >
-                Web3
+              <Link href="" className="category cursor-pointer">
+                .Net
               </Link>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 Python
               </Link>
               <span className="category cursor-pointer">.Net</span>
-              <Link href="" className="category cursor-pointer" >
+              <Link href="" className="category cursor-pointer">
                 ReactJS
               </Link>
             </div>
@@ -3308,7 +3272,7 @@ export default function Talent() {
               experience in designing, developing, and deploying smart
               contracts, decentralized applications (DApps), and blockchain
               protocols. Expertise in EVM-compatible networks, Solidity,
-              Web3.js, and backend integration. Adept at integrating{" "}
+              .Net.js, and backend integration. Adept at integrating{" "}
             </span>
           </div>
         </li>
@@ -3316,38 +3280,38 @@ export default function Talent() {
       <div className="relative z-10 gap-1 pt-10 my-4 text-xl text-center">
         <div className="bg-gradient-to-t dark:from-[#051123] from-white to-transparent pt-[400px] !-mt-[400px] pointer-events-none"></div>
         <p>
-          Showing 30 Web3 Experts profiles out of 26,373+
+          Showing 30 .Net Experts profiles out of 26,373+
           <br />
           Subscribe to Talent List to access them all.
         </p>
         <div className="my-5 -space-x-2">
           <img
             loading="lazy"
-            alt="web3 talent profile picture"
+            alt=".Net talent profile picture"
             src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/resize:fill/dpr:1.2/width:100/height:100/plain/gs:/job-listing-logos/5979bfb9-bd68-4013-94ad-458b9828d2c2.png"
             className="relative z-0 w-10 h-10 transition-all rounded-full aspect-square hover:z-10 hover:scale-125 active:scale-95 active:-rotate-3 hover:rotate-6 hover:shadow-xl"
           />
           <img
             loading="lazy"
-            alt="web3 talent profile picture"
+            alt=".Net talent profile picture"
             src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/resize:fill/dpr:1.2/width:100/height:100/plain/gs:/job-listing-logos/15c949b9-b008-4d27-a88b-29ff27c3e726.png"
             className="relative z-0 w-10 h-10 transition-all rounded-full aspect-square hover:z-10 hover:scale-125 active:scale-95 active:-rotate-3 hover:rotate-6 hover:shadow-xl"
           />
           <img
             loading="lazy"
-            alt="web3 talent profile picture"
+            alt=".Net talent profile picture"
             src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/resize:fill/dpr:1.2/width:100/height:100/plain/gs:/job-listing-logos/3e8adef0-f72c-4d95-98ce-3400b37c6fbf.jpeg"
             className="relative z-0 w-10 h-10 transition-all rounded-full aspect-square hover:z-10 hover:scale-125 active:scale-95 active:-rotate-3 hover:rotate-6 hover:shadow-xl"
           />
           <img
             loading="lazy"
-            alt="web3 talent profile picture"
+            alt=".Net talent profile picture"
             src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/resize:fill/dpr:1.2/width:100/height:100/plain/gs:/job-listing-logos/efe572c9-93a2-423a-8066-0ea7ffde3d41.jpeg"
             className="relative z-0 w-10 h-10 transition-all rounded-full aspect-square hover:z-10 hover:scale-125 active:scale-95 active:-rotate-3 hover:rotate-6 hover:shadow-xl"
           />
           <img
             loading="lazy"
-            alt="web3 talent profile picture"
+            alt=".Net talent profile picture"
             src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/resize:fill/dpr:1.2/width:100/height:100/plain/https://lh3.googleusercontent.com/a-/AOh14GgBX9n5sso1CXtSmGEwpI1lPuDKZkTFEXAEIwHc6g=s96-c"
             className="relative z-0 w-10 h-10 transition-all rounded-full aspect-square hover:z-10 hover:scale-125 active:scale-95 active:-rotate-3 hover:rotate-6 hover:shadow-xl"
           />
@@ -3355,11 +3319,11 @@ export default function Talent() {
             +26,373 more
           </span>
         </div>
-        <Link href="" className="inline-block btn btn-blue" >
+        <Link href="" className="inline-block btn btn-blue">
           Subscribe to Talent List
         </Link>
         <p className="mb-0 text-sm text-center text-gray-500 mt-14">
-          Trusted by Worlds leading Web3 Companies:
+          Trusted by Worlds leading .Net Companies:
         </p>
         <div className="horizontal-fade mt-3 sm:space-x-[5em] space-x-[3em] relative w-full overflow-hidden whitespace-nowrap mb-5">
           <div className="items-center justify-around inline-block sm:space-x-[5em] space-x-[3em] whitespace-nowrap carousel-logo grayscale">
@@ -3764,112 +3728,97 @@ export default function Talent() {
           </div>
         </div>
       </div>
-      <h3 className="mt-14 sm:px-10">Web3 Talent Categories for Hire</h3>
+      <h3 className="mt-14 sm:px-10">.Net Talent Categories for Hire</h3>
       <div className="grayscale columns-2 md:columns-3 sm:px-10">
-        <Link href="" className="block py-1 hover:underline" >
-          Hire Web3 Rust Developers
+        <Link href="" className="block py-1 hover:underline">
+          Hire .Net Rust Developers
         </Link>
-        <Link href="" className="block py-1 hover:underline" >
-          Hire Web3 React Developers
+        <Link href="" className="block py-1 hover:underline">
+          Hire .Net React Developers
         </Link>
-        <Link href="" className="block py-1 hover:underline" >
-          Hire Web3 Polkadot Experts
+        <Link href="" className="block py-1 hover:underline">
+          Hire .Net Polkadot Experts
         </Link>
-        <Link href="" className="block py-1 hover:underline" >
+        <Link href="" className="block py-1 hover:underline">
           Hire Solidity Developers
         </Link>
-        <Link href="" className="block py-1 hover:underline" >
-          Hire Web3 Next.js Developers
+        <Link href="" className="block py-1 hover:underline">
+          Hire .Net Next.js Developers
         </Link>
-        <Link href="" className="block py-1 hover:underline" >
-          Hire Web3 ZK Experts
+        <Link href="" className="block py-1 hover:underline">
+          Hire .Net ZK Experts
         </Link>
-        <Link href="" className="block py-1 hover:underline" >
-          Hire Web3 Node Developers
+        <Link href="" className="block py-1 hover:underline">
+          Hire .Net Node Developers
         </Link>
-        <Link href=""
-          className="block py-1 hover:underline"
-          
-        >
-          Hire Web3 Community Managers
+        <Link href="" className="block py-1 hover:underline">
+          Hire .Net Community Managers
         </Link>
-        <Link href="" className="block py-1 hover:underline" >
-          Hire Web3 Reddit Experts
+        <Link href="" className="block py-1 hover:underline">
+          Hire .Net Reddit Experts
         </Link>
-        <Link href=""
-          className="block py-1 hover:underline"
-          
-        >
-          Hire Web3 Telegram Moderators
+        <Link href="" className="block py-1 hover:underline">
+          Hire .Net Telegram Moderators
         </Link>
-        <Link href="" className="block py-1 hover:underline" >
-          Hire Web3 Illustrator Experts
+        <Link href="" className="block py-1 hover:underline">
+          Hire .Net Illustrator Experts
         </Link>
-        <Link href="" className="block py-1 hover:underline" >
-          Hire Web3 React.js Developers
+        <Link href="" className="block py-1 hover:underline">
+          Hire .Net React.js Developers
         </Link>
-        <Link href="" className="block py-1 hover:underline" >
-          Hire Web3 UX Designers
+        <Link href="" className="block py-1 hover:underline">
+          Hire .Net UX Designers
         </Link>
-        <Link href="" className="block py-1 hover:underline" >
-          Hire Web3 GO Developers
+        <Link href="" className="block py-1 hover:underline">
+          Hire .Net GO Developers
         </Link>
-        <Link href="" className="block py-1 hover:underline" >
-          Hire Web3 Video Experts
+        <Link href="" className="block py-1 hover:underline">
+          Hire .Net Video Experts
         </Link>
-        <Link href="" className="block py-1 hover:underline" >
-          Hire Web3 Devops Experts
+        <Link href="" className="block py-1 hover:underline">
+          Hire .Net Devops Experts
         </Link>
-        <Link href="" className="block py-1 hover:underline" >
+        <Link href="" className="block py-1 hover:underline">
           Hire Blockchain Experts
         </Link>
-        <Link href="" className="block py-1 hover:underline" >
-          Hire Web3 Full Stack Experts
+        <Link href="" className="block py-1 hover:underline">
+          Hire .Net Full Stack Experts
         </Link>
-        <Link href="" className="block py-1 hover:underline" >
-          Hire Web3 Executive Experts
+        <Link href="" className="block py-1 hover:underline">
+          Hire .Net Executive Experts
         </Link>
-        <Link href=""
-          className="block py-1 hover:underline"
-          
-        >
-          Hire Web3 Social Media Managers
+        <Link href="" className="block py-1 hover:underline">
+          Hire .Net Social Media Managers
         </Link>
-        <Link href=""
-          className="block py-1 hover:underline"
-          
-        >
-          Hire Web3 Business Development Experts
+        <Link href="" className="block py-1 hover:underline">
+          Hire .Net Business Development Experts
         </Link>
-        <Link href="" className="block py-1 hover:underline" >
-          Hire Web3 Aws Experts
+        <Link href="" className="block py-1 hover:underline">
+          Hire .Net Aws Experts
         </Link>
-        <Link href="" className="block py-1 hover:underline" >
-          Hire Web3 Erc721 Experts
+        <Link href="" className="block py-1 hover:underline">
+          Hire .Net Erc721 Experts
         </Link>
-        <Link href="" className="block py-1 hover:underline" >
-          Hire Web3 Metaverse Experts
+        <Link href="" className="block py-1 hover:underline">
+          Hire .Net Metaverse Experts
         </Link>
-        <Link href="" className="block py-1 hover:underline" >
-          Hire Web3 Subgraph Experts
+        <Link href="" className="block py-1 hover:underline">
+          Hire .Net Subgraph Experts
         </Link>
-        <Link href="" className="block py-1 hover:underline" >
-          Hire Web3 Vue.js Experts
+        <Link href="" className="block py-1 hover:underline">
+          Hire .Net Vue.js Experts
         </Link>
-        <Link href=""
-          className="block py-1 hover:underline"
-          
-        >
-          Hire Web3 Discord Moderators
+        <Link href="" className="block py-1 hover:underline">
+          Hire .Net Discord Moderators
         </Link>
-        <Link href="" className="block py-1 hover:underline" >
-          Hire Web3 NFT Experts
+        <Link href="" className="block py-1 hover:underline">
+          Hire .Net NFT Experts
         </Link>
-        <Link href="" className="block py-1 hover:underline" >
-          Hire Web3 Elixir Developers
+        <Link href="" className="block py-1 hover:underline">
+          Hire .Net Elixir Developers
         </Link>
-        <Link href="" className="block py-1 hover:underline" >
-          Hire Web3 Serverless Developers
+        <Link href="" className="block py-1 hover:underline">
+          Hire .Net Serverless Developers
         </Link>
       </div>
     </div>
