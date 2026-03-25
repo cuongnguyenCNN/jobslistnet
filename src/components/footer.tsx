@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="container flex flex-col justify-center gap-2 md:items-center sm:flex-row">
           <div className="flex flex-col items-center text-center md:text-left md:items-start">
             <p className="m-0 text-xl font-bold">Get real-time job alerts 🔔</p>
-            <p className="">Join web3 professionals on Telegram</p>
+            <p className="">Join .Net professionals on Telegram</p>
           </div>
           <div className="flex md:items-center sm:pl-4">
             <button
@@ -235,9 +235,9 @@ export default function Footer() {
             <div className="grid grid-cols-2 gap-8 md:grid-cols-4 lg:col-span-2">
               <div className="flex flex-col space-y-2">
                 <h3 className="mb-2 font-bold">For Candidates</h3>
-                <Link className="hover:underline undefined" href="/web3">
+                <Link className="hover:underline undefined" href="/.Net">
                   {" "}
-                  Web3 Jobs
+                  .Net Jobs
                 </Link>
 
                 <Link className="hover:underline undefined" href="/internship">
@@ -247,7 +247,7 @@ export default function Footer() {
 
                 <Link className="hover:underline undefined" href="/remote">
                   {" "}
-                  Remote Web3 Jobs
+                  Remote .Net Jobs
                 </Link>
 
                 <Link
@@ -256,12 +256,12 @@ export default function Footer() {
                   rel="noopener"
                 >
                   {" "}
-                  Web3 Events
+                  .Net Events
                 </Link>
 
                 <Link className="hover:underline undefined" href="/courses">
                   {" "}
-                  Web3 Courses
+                  .Net Courses
                 </Link>
 
                 <Link
@@ -320,7 +320,7 @@ export default function Footer() {
                   href="/talent"
                 >
                   {" "}
-                  Find &amp; Hire Web3 Talent
+                  Find &amp; Hire .Net Talent
                 </Link>
 
                 <Link
@@ -343,13 +343,13 @@ export default function Footer() {
                   href="https://tally.so/r/wvMJzD"
                 >
                   {" "}
-                  Web3 Salary Reports
+                  .Net Salary Reports
                 </Link>
 
                 <Link
                   className="hover:underline undefined"
                   target="_blank"
-                  href="/web3-recruitment-agency"
+                  href="/.Net-recruitment-agency"
                 >
                   {" "}
                   Blockchain Recruitment
