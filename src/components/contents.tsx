@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-
 export default function Contents() {
   return (
     <div>
@@ -115,14 +114,13 @@ export default function Contents() {
           <div className="flex items-center justify-between px-2 mb-2 text-sm">
             <div>
               <h2 className="hidden text-sm font-normal sm:inline opacity-60">
-                Crypto Jobs.
+                .Net Jobs.
               </h2>
               <p className="inline ml-.5 sm:ml-1 opacity-60">
                 Latest: 1 hour ago
               </p>
               <div className="inline-block space-x-2">
                 <Link
-
                   aria-label="RSS feed"
                   target="_blank"
                   className='after:!content-[""]'
@@ -208,25 +206,21 @@ export default function Contents() {
                       />
                     </div>
                     <Link
-
                       className="job-title-text text-base @[500px]:text-xl @[500px]:!ml-[calc(var(--container-padding)_/_2)] @[500px]:!max-w-[var(--job-title-max-width)]"
                       href="/jobs/defi-analyst-and-customer-success-account-manager-yieldschool-remote"
                     >
                       DeFi Analyst and Customer Success/Account Manager
                     </Link>
-
                   </div>
                 </td>
                 <td className="block -mt-2 @[500px]:mt-0 @[500px]:inline-block sm:!ml-1">
                   <Link
-
                     target="_blank"
                     className="job-company-name-text @[500px]:!max-w-48 text-base @[500px]:text-xl @[500px]:leading-[1]"
                     href="/companies/yieldschool"
                   >
                     Yieldschool{" "}
                   </Link>
-
                 </td>
                 <td></td>
                 <td className="inline-block -mt-1 @[500px]:-mt-2">
@@ -286,25 +280,21 @@ export default function Contents() {
                       />
                     </div>
                     <Link
-
                       className="job-title-text text-base @[500px]:text-xl @[500px]:!ml-[calc(var(--container-padding)_/_2)] @[500px]:!max-w-[var(--job-title-max-width)]"
                       href="/jobs/bisq-is-hiring-senior-java-developers-at-bisq"
                     >
                       Senior Java Developers
                     </Link>
-
                   </div>
                 </td>
                 <td className="block -mt-2 @[500px]:mt-0 @[500px]:inline-block sm:!ml-1">
                   <Link
-
                     target="_blank"
                     className="job-company-name-text @[500px]:!max-w-48 text-base @[500px]:text-xl @[500px]:leading-[1]"
                     href="/companies/bisq"
                   >
                     Bisq{" "}
                   </Link>
-
                 </td>
                 <td></td>
                 <td className="inline-block -mt-1 @[500px]:-mt-2">
@@ -361,25 +351,21 @@ export default function Contents() {
                       />
                     </div>
                     <Link
-
                       className="job-title-text text-base @[500px]:text-xl @[500px]:!ml-[calc(var(--container-padding)_/_2)] @[500px]:!max-w-[var(--job-title-max-width)]"
                       href="/jobs/prediction-markets-business-developer-at-seer"
                     >
                       [Prediction Markets] Business Developer
                     </Link>
-
                   </div>
                 </td>
                 <td className="block -mt-2 @[500px]:mt-0 @[500px]:inline-block sm:!ml-1">
                   <Link
-
                     target="_blank"
                     className="job-company-name-text @[500px]:!max-w-48 text-base @[500px]:text-xl @[500px]:leading-[1]"
                     href="/companies/seer"
                   >
                     Seer{" "}
                   </Link>
-
                 </td>
                 <td></td>
                 <td className="inline-block -mt-1 @[500px]:-mt-2">
@@ -436,25 +422,21 @@ export default function Contents() {
                       />
                     </div>
                     <Link
-
                       className="job-title-text text-base @[500px]:text-xl @[500px]:!ml-[calc(var(--container-padding)_/_2)] @[500px]:!max-w-[var(--job-title-max-width)]"
                       href="/jobs/general-assistant-prediction-market-at-seer"
                     >
                       General Assistant (Prediction Market)
                     </Link>
-
                   </div>
                 </td>
                 <td className="block -mt-2 @[500px]:mt-0 @[500px]:inline-block sm:!ml-1">
                   <Link
-
                     target="_blank"
                     className="job-company-name-text @[500px]:!max-w-48 text-base @[500px]:text-xl @[500px]:leading-[1]"
                     href="/companies/seer"
                   >
                     Seer{" "}
                   </Link>
-
                 </td>
                 <td></td>
                 <td className="inline-block -mt-1 @[500px]:-mt-2"></td>
@@ -495,25 +477,21 @@ export default function Contents() {
                       />
                     </div>
                     <Link
-
                       className="job-title-text text-base @[500px]:text-xl @[500px]:!ml-[calc(var(--container-padding)_/_2)] @[500px]:!max-w-[var(--job-title-max-width)]"
                       href="/jobs/event-manager-at-kleros"
                     >
                       Event Manager - Blockchain/LegalTech/FinTech
                     </Link>
-
                   </div>
                 </td>
                 <td className="block -mt-2 @[500px]:mt-0 @[500px]:inline-block sm:!ml-1">
                   <Link
-
                     target="_blank"
                     className="job-company-name-text @[500px]:!max-w-48 text-base @[500px]:text-xl @[500px]:leading-[1]"
                     href="/companies/kleros"
                   >
                     Kleros{" "}
                   </Link>
-
                 </td>
                 <td></td>
                 <td className="inline-block -mt-1 @[500px]:-mt-2">
@@ -570,25 +548,21 @@ export default function Contents() {
                       />
                     </div>
                     <Link
-
                       className="job-title-text text-base @[500px]:text-xl @[500px]:!ml-[calc(var(--container-padding)_/_2)] @[500px]:!max-w-[var(--job-title-max-width)]"
                       href="/jobs/fullstack-engineer-singapore-or-new-york-in-office-at-paradex"
                     >
                       Fullstack Engineer
                     </Link>
-
                   </div>
                 </td>
                 <td className="block -mt-2 @[500px]:mt-0 @[500px]:inline-block sm:!ml-1">
                   <Link
-
                     target="_blank"
                     className="job-company-name-text @[500px]:!max-w-48 text-base @[500px]:text-xl @[500px]:leading-[1]"
                     href="/companies/paradex"
                   >
                     Paradex{" "}
                   </Link>
-
                 </td>
                 <td></td>
                 <td className="inline-block -mt-1 @[500px]:-mt-2"></td>
@@ -631,25 +605,21 @@ export default function Contents() {
                       />
                     </div>
                     <Link
-
                       className="job-title-text text-base @[500px]:text-xl @[500px]:!ml-[calc(var(--container-padding)_/_2)] @[500px]:!max-w-[var(--job-title-max-width)]"
                       href="/jobs/data-engineer-singapore-on-site-at-paradex"
                     >
                       Data Engineer
                     </Link>
-
                   </div>
                 </td>
                 <td className="block -mt-2 @[500px]:mt-0 @[500px]:inline-block sm:!ml-1">
                   <Link
-
                     target="_blank"
                     className="job-company-name-text @[500px]:!max-w-48 text-base @[500px]:text-xl @[500px]:leading-[1]"
                     href="/companies/paradex"
                   >
                     Paradex{" "}
                   </Link>
-
                 </td>
                 <td></td>
                 <td className="inline-block -mt-1 @[500px]:-mt-2"></td>
@@ -690,25 +660,21 @@ export default function Contents() {
                       />
                     </div>
                     <Link
-
                       className="job-title-text text-base @[500px]:text-xl @[500px]:!ml-[calc(var(--container-padding)_/_2)] @[500px]:!max-w-[var(--job-title-max-width)]"
                       href="/jobs/technical-support-solutions-engineer-singapore-at-paradex"
                     >
                       Technical Support/Solutions Engineer
                     </Link>
-
                   </div>
                 </td>
                 <td className="block -mt-2 @[500px]:mt-0 @[500px]:inline-block sm:!ml-1">
                   <Link
-
                     target="_blank"
                     className="job-company-name-text @[500px]:!max-w-48 text-base @[500px]:text-xl @[500px]:leading-[1]"
                     href="/companies/paradex"
                   >
                     Paradex{" "}
                   </Link>
-
                 </td>
                 <td></td>
                 <td className="inline-block -mt-1 @[500px]:-mt-2"></td>
@@ -733,317 +699,7 @@ export default function Contents() {
                   1w
                 </td>
               </tr>
-              <tr className="" role="button">
-                <td className="inline-block">
-                  <div className="flex items-center">
-                    <div className="job-company-logo">
-                      <img
-                        alt="Zark Lab logo"
-                        loading="lazy"
-                        width="60"
-                        height="60"
-                        decoding="async"
-                        data-nimg="1"
-                        className="rounded"
-                        src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/5c41dad4-b45d-431a-956a-4a8e560d15bc.png"
-                      />
-                    </div>
-                    <Link
 
-                      className="job-title-text text-base @[500px]:text-xl @[500px]:!ml-[calc(var(--container-padding)_/_2)] @[500px]:!max-w-[var(--job-title-max-width)]"
-                      href="/jobs/senior-ai-ml-engineer-search-at-zark-lab"
-                    >
-                      Senior AI/ML Engineer, Search
-                    </Link>
-
-                  </div>
-                </td>
-                <td className="block -mt-2 @[500px]:mt-0 @[500px]:inline-block sm:!ml-1">
-                  <Link
-
-                    target="_blank"
-                    className="job-company-name-text @[500px]:!max-w-48 text-base @[500px]:text-xl @[500px]:leading-[1]"
-                    href="/companies/zark-lab"
-                  >
-                    Zark Lab{" "}
-                  </Link>
-
-                </td>
-                <td></td>
-                <td className="inline-block -mt-1 @[500px]:-mt-2"></td>
-                <td className="inline-block -mt-1 @[500px]:-mt-2 !ml-0 hidden">
-                  <span className="hidden">Remote</span>
-                </td>
-                <td className="job-tags -mt-1 @[500px]:-mt-2 !ml-0">
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Engineering
-                  </span>
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    AI
-                  </span>
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Machine Learning
-                  </span>
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Remote
-                  </span>
-                </td>
-                <td className="job-time-since-creation @[500px]:!text-lg">
-                  3w
-                </td>
-              </tr>
-              <tr className="" role="button">
-                <td className="inline-block">
-                  <div className="flex items-center">
-                    <div className="job-company-logo">
-                      <img
-                        alt="EoT Labs logo"
-                        loading="lazy"
-                        width="60"
-                        height="60"
-                        decoding="async"
-                        data-nimg="1"
-                        className="rounded"
-                        src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/5cdacd76-4001-477a-991d-f6c753c7b957.jpg"
-                      />
-                    </div>
-                    <Link
-
-                      className="job-title-text text-base @[500px]:text-xl @[500px]:!ml-[calc(var(--container-padding)_/_2)] @[500px]:!max-w-[var(--job-title-max-width)]"
-                      href="/jobs/senior-software-engineer-freelance-at-eot-labs"
-                    >
-                      Senior Software Engineer (Freelance)
-                    </Link>
-
-                  </div>
-                </td>
-                <td className="block -mt-2 @[500px]:mt-0 @[500px]:inline-block sm:!ml-1">
-                  <Link
-
-                    target="_blank"
-                    className="job-company-name-text @[500px]:!max-w-48 text-base @[500px]:text-xl @[500px]:leading-[1]"
-                    href="/companies/eot-labs-gmbh"
-                  >
-                    EoT Labs{" "}
-                  </Link>
-
-                </td>
-                <td></td>
-                <td className="inline-block -mt-1 @[500px]:-mt-2"></td>
-                <td className="inline-block -mt-1 @[500px]:-mt-2 !ml-0 hidden">
-                  <span className="hidden">Remote</span>
-                </td>
-                <td className="job-tags -mt-1 @[500px]:-mt-2 !ml-0">
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Remote
-                  </span>
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Web3
-                  </span>
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Developer
-                  </span>
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Freelance
-                  </span>
-                </td>
-                <td className="job-time-since-creation @[500px]:!text-lg">
-                  1w
-                </td>
-              </tr>
-              <tr className="" role="button">
-                <td className="inline-block">
-                  <div className="flex items-center">
-                    <div className="job-company-logo">
-                      <img
-                        alt="Almanak logo"
-                        loading="lazy"
-                        width="60"
-                        height="60"
-                        decoding="async"
-                        data-nimg="1"
-                        className="rounded"
-                        src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/49e2bf85-57d9-4c7c-b09c-13c982fc6782.jpg"
-                      />
-                    </div>
-                    <Link
-
-                      className="job-title-text text-base @[500px]:text-xl @[500px]:!ml-[calc(var(--container-padding)_/_2)] @[500px]:!max-w-[var(--job-title-max-width)]"
-                      href="/jobs/quantitative-researcher-at-almanak"
-                    >
-                      Quantitative Researcher
-                    </Link>
-
-                  </div>
-                </td>
-                <td className="block -mt-2 @[500px]:mt-0 @[500px]:inline-block sm:!ml-1">
-                  <Link
-
-                    target="_blank"
-                    className="job-company-name-text @[500px]:!max-w-48 text-base @[500px]:text-xl @[500px]:leading-[1]"
-                    href="/companies/almanak"
-                  >
-                    Almanak{" "}
-                  </Link>
-
-                </td>
-                <td></td>
-                <td className="inline-block -mt-1 @[500px]:-mt-2"></td>
-                <td className="inline-block -mt-1 @[500px]:-mt-2 !ml-0 hidden">
-                  <span className="hidden">Remote</span>
-                </td>
-                <td className="job-tags -mt-1 @[500px]:-mt-2 !ml-0">
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Research
-                  </span>
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Trading
-                  </span>
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Python
-                  </span>
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    DeFi
-                  </span>
-                </td>
-                <td className="job-time-since-creation @[500px]:!text-lg">
-                  3w
-                </td>
-              </tr>
-              <tr className="" role="button">
-                <td className="inline-block">
-                  <div className="flex items-center">
-                    <div className="job-company-logo">
-                      <img
-                        alt="Swaps.io logo"
-                        loading="lazy"
-                        width="60"
-                        height="60"
-                        decoding="async"
-                        data-nimg="1"
-                        className="rounded"
-                        src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/a785f59f-9326-4b31-a2a1-ecb7afd9521f.jpeg"
-                      />
-                    </div>
-                    <Link
-
-                      className="job-title-text text-base @[500px]:text-xl @[500px]:!ml-[calc(var(--container-padding)_/_2)] @[500px]:!max-w-[var(--job-title-max-width)]"
-                      href="/jobs/business-development-manager-fundraising-swaps-io-remote"
-                    >
-                      Investment Advisor / Growth Lead
-                    </Link>
-
-                  </div>
-                </td>
-                <td className="block -mt-2 @[500px]:mt-0 @[500px]:inline-block sm:!ml-1">
-                  <Link
-
-                    target="_blank"
-                    className="job-company-name-text @[500px]:!max-w-48 text-base @[500px]:text-xl @[500px]:leading-[1]"
-                    href="/companies/kinetex-network"
-                  >
-                    Swaps.io{" "}
-                  </Link>
-
-                </td>
-                <td></td>
-                <td className="inline-block -mt-1 @[500px]:-mt-2"></td>
-                <td className="inline-block -mt-1 @[500px]:-mt-2 !ml-0 hidden">
-                  <span className="hidden">Remote</span>
-                </td>
-                <td className="job-tags -mt-1 @[500px]:-mt-2 !ml-0">
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Non Tech
-                  </span>
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Remote
-                  </span>
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Business Development
-                  </span>
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Web3
-                  </span>
-                </td>
-                <td className="job-time-since-creation @[500px]:!text-lg">
-                  2w
-                </td>
-              </tr>
-              <tr className="" role="button">
-                <td className="inline-block">
-                  <div className="flex items-center">
-                    <div className="job-company-logo">
-                      <img
-                        alt="prePO logo"
-                        loading="lazy"
-                        width="60"
-                        height="60"
-                        decoding="async"
-                        data-nimg="1"
-                        className="rounded"
-                        src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/42840059-8749-4fff-98e8-f694738b3510.png"
-                      />
-                    </div>
-                    <Link
-
-                      className="job-title-text text-base @[500px]:text-xl @[500px]:!ml-[calc(var(--container-padding)_/_2)] @[500px]:!max-w-[var(--job-title-max-width)]"
-                      href="/jobs/senior-frontend-engineer-at-prepo-1"
-                    >
-                      Senior Frontend Engineer
-                    </Link>
-
-                  </div>
-                </td>
-                <td className="block -mt-2 @[500px]:mt-0 @[500px]:inline-block sm:!ml-1">
-                  <Link
-
-                    target="_blank"
-                    className="job-company-name-text @[500px]:!max-w-48 text-base @[500px]:text-xl @[500px]:leading-[1]"
-                    href="/companies/prepo"
-                  >
-                    prePO{" "}
-                  </Link>
-
-                </td>
-                <td></td>
-                <td className="inline-block -mt-1 @[500px]:-mt-2">
-                  <div className="flex items-center my-1 text-sm !my-0 pt-1.5 -ml-1 pl-0 !mr-2">
-                    <svg
-                      stroke="currentColor"
-                      fill="currentColor"
-                      stroke-width="0"
-                      viewBox="0 0 24 24"
-                      className="m-0 mr-1 sm:-ml-[1px] text-light-green size-5"
-                      height="1em"
-                      width="1em"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M12.0049 22.0027C6.48204 22.0027 2.00488 17.5256 2.00488 12.0027C2.00488 6.4799 6.48204 2.00275 12.0049 2.00275C17.5277 2.00275 22.0049 6.4799 22.0049 12.0027C22.0049 17.5256 17.5277 22.0027 12.0049 22.0027ZM8.50488 14.0027V16.0027H11.0049V18.0027H13.0049V16.0027H14.0049C15.3856 16.0027 16.5049 14.8835 16.5049 13.5027C16.5049 12.122 15.3856 11.0027 14.0049 11.0027H10.0049C9.72874 11.0027 9.50488 10.7789 9.50488 10.5027C9.50488 10.2266 9.72874 10.0027 10.0049 10.0027H15.5049V8.00275H13.0049V6.00275H11.0049V8.00275H10.0049C8.62417 8.00275 7.50488 9.12203 7.50488 10.5027C7.50488 11.8835 8.62417 13.0027 10.0049 13.0027H14.0049C14.281 13.0027 14.5049 13.2266 14.5049 13.5027C14.5049 13.7789 14.281 14.0027 14.0049 14.0027H8.50488Z"></path>
-                    </svg>
-                    <span className="align-middle">150k-300k/year</span>
-                  </div>
-                </td>
-                <td className="inline-block -mt-1 @[500px]:-mt-2 !ml-0 hidden">
-                  <span className="hidden">Remote</span>
-                </td>
-                <td className="job-tags -mt-1 @[500px]:-mt-2 !ml-0">
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    DeFi
-                  </span>
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Frontend
-                  </span>
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Engineering
-                  </span>
-                  <span className="text-xs @[500px]:text-sm category opacity-60 hidden @[430px]:!inline-block">
-                    Remote
-                  </span>
-                </td>
-                <td className="job-time-since-creation @[500px]:!text-lg">
-                  3d
-                </td>
-              </tr>
               <tr className="" role="button">
                 <td className="inline-block">
                   <div className="flex items-center">
@@ -1060,25 +716,21 @@ export default function Contents() {
                       />
                     </div>
                     <Link
-
                       className="job-title-text text-base @[500px]:text-xl @[500px]:!ml-[calc(var(--container-padding)_/_2)] @[500px]:!max-w-[var(--job-title-max-width)]"
                       href="/jobs/head-of-growth-remote-at-thrive-protocol"
                     >
                       Head of Growth
                     </Link>
-
                   </div>
                 </td>
                 <td className="block -mt-2 @[500px]:mt-0 @[500px]:inline-block sm:!ml-1">
                   <Link
-
                     target="_blank"
                     className="job-company-name-text @[500px]:!max-w-48 text-base @[500px]:text-xl @[500px]:leading-[1]"
                     href="/companies/thrive-protocol"
                   >
                     Thrive Protocol{" "}
                   </Link>
-
                 </td>
                 <td></td>
                 <td className="inline-block -mt-1 @[500px]:-mt-2">
@@ -1135,25 +787,21 @@ export default function Contents() {
                       />
                     </div>
                     <Link
-
                       className="job-title-text text-base @[500px]:text-xl @[500px]:!ml-[calc(var(--container-padding)_/_2)] @[500px]:!max-w-[var(--job-title-max-width)]"
                       href="/jobs/social-media-content-manager-at-nodeshift"
                     >
                       Social Media Content Manager (Web3/Crypto)
                     </Link>
-
                   </div>
                 </td>
                 <td className="block -mt-2 @[500px]:mt-0 @[500px]:inline-block sm:!ml-1">
                   <Link
-
                     target="_blank"
                     className="job-company-name-text @[500px]:!max-w-48 text-base @[500px]:text-xl @[500px]:leading-[1]"
                     href="/companies/nodeshift"
                   >
                     NodeShift{" "}
                   </Link>
-
                 </td>
                 <td></td>
                 <td className="inline-block -mt-1 @[500px]:-mt-2">
@@ -1210,25 +858,21 @@ export default function Contents() {
                       />
                     </div>
                     <Link
-
                       className="job-title-text text-base @[500px]:text-xl @[500px]:!ml-[calc(var(--container-padding)_/_2)] @[500px]:!max-w-[var(--job-title-max-width)]"
                       href="/jobs/community-manager-at-krnl-labs"
                     >
                       Community Manager
                     </Link>
-
                   </div>
                 </td>
                 <td className="block -mt-2 @[500px]:mt-0 @[500px]:inline-block sm:!ml-1">
                   <Link
-
                     target="_blank"
                     className="job-company-name-text @[500px]:!max-w-48 text-base @[500px]:text-xl @[500px]:leading-[1]"
                     href="/companies/krnl-labs"
                   >
                     KRNL Labs{" "}
                   </Link>
-
                 </td>
                 <td></td>
                 <td className="inline-block -mt-1 @[500px]:-mt-2"></td>
@@ -1269,25 +913,21 @@ export default function Contents() {
                       />
                     </div>
                     <Link
-
                       className="job-title-text text-base @[500px]:text-xl @[500px]:!ml-[calc(var(--container-padding)_/_2)] @[500px]:!max-w-[var(--job-title-max-width)]"
                       href="/jobs/frontend-blockchain-developer-paris-or-remote-europe-at-mangrove"
                     >
                       Frontend / Blockchain Developer
                     </Link>
-
                   </div>
                 </td>
                 <td className="block -mt-2 @[500px]:mt-0 @[500px]:inline-block sm:!ml-1">
                   <Link
-
                     target="_blank"
                     className="job-company-name-text @[500px]:!max-w-48 text-base @[500px]:text-xl @[500px]:leading-[1]"
                     href="/companies/mangrove"
                   >
                     Mangrove{" "}
                   </Link>
-
                 </td>
                 <td></td>
                 <td className="inline-block -mt-1 @[500px]:-mt-2">
@@ -1346,25 +986,21 @@ export default function Contents() {
                       />
                     </div>
                     <Link
-
                       className="job-title-text text-base @[500px]:text-xl @[500px]:!ml-[calc(var(--container-padding)_/_2)] @[500px]:!max-w-[var(--job-title-max-width)]"
                       href="/jobs/web3-web2-cto-opportunity-at-innovion"
                     >
                       Web3 &amp; Web2 CTO Opportunity
                     </Link>
-
                   </div>
                 </td>
                 <td className="block -mt-2 @[500px]:mt-0 @[500px]:inline-block sm:!ml-1">
                   <Link
-
                     target="_blank"
                     className="job-company-name-text @[500px]:!max-w-48 text-base @[500px]:text-xl @[500px]:leading-[1]"
                     href="/companies/innovion"
                   >
                     Innovion{" "}
                   </Link>
-
                 </td>
                 <td></td>
                 <td className="inline-block -mt-1 @[500px]:-mt-2"></td>
@@ -1394,215 +1030,6 @@ export default function Contents() {
                   <div className="flex items-center">
                     <div className="job-company-logo">
                       <img
-                        alt="Kadena logo"
-                        loading="lazy"
-                        width="60"
-                        height="60"
-                        decoding="async"
-                        data-nimg="1"
-                        className="rounded"
-                        src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/4645ee34-61b3-495d-a405-fdfc616ade6d.png"
-                      />
-                    </div>
-                    <Link
-
-                      className="job-title-text text-base @[500px]:text-xl @[500px]:!ml-[calc(var(--container-padding)_/_2)] @[500px]:!max-w-[var(--job-title-max-width)]"
-                      href="/jobs/business-development-analyst-labs-at-kadena"
-                    >
-                      Business Development Analyst, Labs
-                    </Link>
-
-                  </div>
-                </td>
-                <td className="block -mt-2 @[500px]:mt-0 @[500px]:inline-block sm:!ml-1">
-                  <Link
-
-                    target="_blank"
-                    className="job-company-name-text @[500px]:!max-w-48 text-base @[500px]:text-xl @[500px]:leading-[1]"
-                    href="/companies/kadena"
-                  >
-                    Kadena{" "}
-                  </Link>
-
-                </td>
-                <td></td>
-                <td className="inline-block -mt-1 @[500px]:-mt-2">
-                  <div className="flex items-center my-1 text-sm !my-0 pt-1.5 -ml-1 pl-0 !mr-2">
-                    <svg
-                      stroke="currentColor"
-                      fill="currentColor"
-                      stroke-width="0"
-                      viewBox="0 0 24 24"
-                      className="m-0 mr-1 sm:-ml-[1px] text-light-green size-5"
-                      height="1em"
-                      width="1em"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M12.0049 22.0027C6.48204 22.0027 2.00488 17.5256 2.00488 12.0027C2.00488 6.4799 6.48204 2.00275 12.0049 2.00275C17.5277 2.00275 22.0049 6.4799 22.0049 12.0027C22.0049 17.5256 17.5277 22.0027 12.0049 22.0027ZM8.50488 14.0027V16.0027H11.0049V18.0027H13.0049V16.0027H14.0049C15.3856 16.0027 16.5049 14.8835 16.5049 13.5027C16.5049 12.122 15.3856 11.0027 14.0049 11.0027H10.0049C9.72874 11.0027 9.50488 10.7789 9.50488 10.5027C9.50488 10.2266 9.72874 10.0027 10.0049 10.0027H15.5049V8.00275H13.0049V6.00275H11.0049V8.00275H10.0049C8.62417 8.00275 7.50488 9.12203 7.50488 10.5027C7.50488 11.8835 8.62417 13.0027 10.0049 13.0027H14.0049C14.281 13.0027 14.5049 13.2266 14.5049 13.5027C14.5049 13.7789 14.281 14.0027 14.0049 14.0027H8.50488Z"></path>
-                    </svg>
-                    <span className="align-middle">75k-90k/year</span>
-                  </div>
-                </td>
-                <td className="inline-block -mt-1 @[500px]:-mt-2 !ml-0 hidden">
-                  <span className="hidden">Remote</span>
-                </td>
-                <td className="job-tags -mt-1 @[500px]:-mt-2 !ml-0">
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Research
-                  </span>
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Analyst
-                  </span>
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Full Time
-                  </span>
-                  <span className="text-xs @[500px]:text-sm category opacity-60 hidden @[430px]:!inline-block">
-                    Remote
-                  </span>
-                </td>
-                <td className="job-time-since-creation @[500px]:!text-lg">
-                  3w
-                </td>
-              </tr>
-              <tr className="" role="button">
-                <td className="inline-block">
-                  <div className="flex items-center">
-                    <div className="job-company-logo">
-                      <img
-                        alt="Twyne logo"
-                        loading="lazy"
-                        width="60"
-                        height="60"
-                        decoding="async"
-                        data-nimg="1"
-                        className="rounded"
-                        src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/70cc8d81-4e4e-41ef-85af-2ac67721d938.png"
-                      />
-                    </div>
-                    <Link
-
-                      className="job-title-text text-base @[500px]:text-xl @[500px]:!ml-[calc(var(--container-padding)_/_2)] @[500px]:!max-w-[var(--job-title-max-width)]"
-                      href="/jobs/head-of-marketing-social-media-defi-at-twyne"
-                    >
-                      Marketing &amp; Social Media [1st hire]
-                    </Link>
-
-                  </div>
-                </td>
-                <td className="block -mt-2 @[500px]:mt-0 @[500px]:inline-block sm:!ml-1">
-                  <Link
-
-                    target="_blank"
-                    className="job-company-name-text @[500px]:!max-w-48 text-base @[500px]:text-xl @[500px]:leading-[1]"
-                    href="/companies/twyne"
-                  >
-                    Twyne{" "}
-                  </Link>
-
-                </td>
-                <td></td>
-                <td className="inline-block -mt-1 @[500px]:-mt-2"></td>
-                <td className="inline-block -mt-1 @[500px]:-mt-2 !ml-0 hidden">
-                  <span className="hidden">Remote</span>
-                </td>
-                <td className="job-tags -mt-1 @[500px]:-mt-2 !ml-0">
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Marketing
-                  </span>
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Content
-                  </span>
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Community
-                  </span>
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Discord
-                  </span>
-                </td>
-                <td className="job-time-since-creation @[500px]:!text-lg">
-                  2w
-                </td>
-              </tr>
-              <tr className="" role="button">
-                <td className="inline-block">
-                  <div className="flex items-center">
-                    <div className="job-company-logo">
-                      <img
-                        alt="HyroTrader logo"
-                        loading="lazy"
-                        width="60"
-                        height="60"
-                        decoding="async"
-                        data-nimg="1"
-                        className="rounded"
-                        src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/4995ebac-df14-4921-bfbf-71a8f86eb0e1.jpg"
-                      />
-                    </div>
-                    <Link
-
-                      className="job-title-text text-base @[500px]:text-xl @[500px]:!ml-[calc(var(--container-padding)_/_2)] @[500px]:!max-w-[var(--job-title-max-width)]"
-                      href="/jobs/crypto-trader-analyst-at-hyrotrader-dubai-at-hyrotrader"
-                    >
-                      Crypto Trader / Analyst at HyroTrader
-                    </Link>
-
-                  </div>
-                </td>
-                <td className="block -mt-2 @[500px]:mt-0 @[500px]:inline-block sm:!ml-1">
-                  <Link
-
-                    target="_blank"
-                    className="job-company-name-text @[500px]:!max-w-48 text-base @[500px]:text-xl @[500px]:leading-[1]"
-                    href="/companies/hyrotrader"
-                  >
-                    HyroTrader{" "}
-                  </Link>
-
-                </td>
-                <td></td>
-                <td className="inline-block -mt-1 @[500px]:-mt-2">
-                  <div className="flex items-center my-1 text-sm !my-0 pt-1.5 -ml-1 pl-0 !mr-2">
-                    <svg
-                      stroke="currentColor"
-                      fill="currentColor"
-                      stroke-width="0"
-                      viewBox="0 0 24 24"
-                      className="m-0 mr-1 sm:-ml-[1px] text-light-green size-5"
-                      height="1em"
-                      width="1em"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M12.0049 22.0027C6.48204 22.0027 2.00488 17.5256 2.00488 12.0027C2.00488 6.4799 6.48204 2.00275 12.0049 2.00275C17.5277 2.00275 22.0049 6.4799 22.0049 12.0027C22.0049 17.5256 17.5277 22.0027 12.0049 22.0027ZM8.50488 14.0027V16.0027H11.0049V18.0027H13.0049V16.0027H14.0049C15.3856 16.0027 16.5049 14.8835 16.5049 13.5027C16.5049 12.122 15.3856 11.0027 14.0049 11.0027H10.0049C9.72874 11.0027 9.50488 10.7789 9.50488 10.5027C9.50488 10.2266 9.72874 10.0027 10.0049 10.0027H15.5049V8.00275H13.0049V6.00275H11.0049V8.00275H10.0049C8.62417 8.00275 7.50488 9.12203 7.50488 10.5027C7.50488 11.8835 8.62417 13.0027 10.0049 13.0027H14.0049C14.281 13.0027 14.5049 13.2266 14.5049 13.5027C14.5049 13.7789 14.281 14.0027 14.0049 14.0027H8.50488Z"></path>
-                    </svg>
-                    <span className="align-middle">2.5k-6k/month</span>
-                  </div>
-                </td>
-                <td className="inline-block -mt-1 @[500px]:-mt-2 !ml-0">
-                  <span className="text-sm !mr-2">📍 Dubai</span>
-                </td>
-                <td className="job-tags -mt-1 @[500px]:-mt-2 !ml-0 !max-w-[10rem] @[400px]:!max-w-none">
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Trading
-                  </span>
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Analyst
-                  </span>
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Full Time
-                  </span>
-                  <span className="text-xs @[500px]:text-sm category opacity-60 hidden @[430px]:!inline-block">
-                    Remote
-                  </span>
-                </td>
-                <td className="job-time-since-creation @[500px]:!text-lg">
-                  5d
-                </td>
-              </tr>
-              <tr className="" role="button">
-                <td className="inline-block">
-                  <div className="flex items-center">
-                    <div className="job-company-logo">
-                      <img
                         alt="Chainlabs logo"
                         loading="lazy"
                         width="60"
@@ -1624,94 +1051,21 @@ export default function Contents() {
                       />
                     </div>
                     <Link
-
-                      className="job-title-text text-base @[500px]:text-xl @[500px]:!ml-[calc(var(--container-padding)_/_2)] @[500px]:!max-w-[var(--job-title-max-width)]"
-                      href="/jobs/ceo-blockchain-at-chainlabs"
-                    >
-                      CEO - Blockchain Data
-                    </Link>
-
-                  </div>
-                </td>
-                <td className="block -mt-2 @[500px]:mt-0 @[500px]:inline-block sm:!ml-1">
-                  <Link
-
-                    target="_blank"
-                    className="job-company-name-text @[500px]:!max-w-48 text-base @[500px]:text-xl @[500px]:leading-[1]"
-                    href="/companies/chainlabs"
-                  >
-                    Chainlabs{" "}
-                  </Link>
-
-                </td>
-                <td></td>
-                <td className="inline-block -mt-1 @[500px]:-mt-2"></td>
-                <td className="inline-block -mt-1 @[500px]:-mt-2 !ml-0 hidden">
-                  <span className="hidden">Remote</span>
-                </td>
-                <td className="job-tags -mt-1 @[500px]:-mt-2 !ml-0">
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Web3
-                  </span>
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Non Tech
-                  </span>
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Full Time
-                  </span>
-                  <span className="text-xs @[500px]:text-sm category opacity-60">
-                    Remote
-                  </span>
-                </td>
-                <td className="job-time-since-creation @[500px]:!text-lg">
-                  1w
-                </td>
-              </tr>
-              <tr className="" role="button">
-                <td className="inline-block">
-                  <div className="flex items-center">
-                    <div className="job-company-logo">
-                      <img
-                        alt="Chainlabs logo"
-                        loading="lazy"
-                        width="60"
-                        height="60"
-                        decoding="async"
-                        data-nimg="1"
-                        className="rounded dark:hidden"
-                        src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/a5b0137b-2af3-4804-9ecd-22aa84234a84.png"
-                      />
-                      <img
-                        alt="Chainlabs logo"
-                        loading="lazy"
-                        width="60"
-                        height="60"
-                        decoding="async"
-                        data-nimg="1"
-                        className="hidden rounded dark:inline-block"
-                        src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/f5eacd3a-0e01-4219-b6a2-5ecfb953241c.png"
-                      />
-                    </div>
-                    <Link
-
                       className="job-title-text text-base @[500px]:text-xl @[500px]:!ml-[calc(var(--container-padding)_/_2)] @[500px]:!max-w-[var(--job-title-max-width)]"
                       href="/jobs/senior-backend-engineer-web-scraping-at-chainlabs"
                     >
                       Senior Backend Engineer (Web Scraping)
                     </Link>
-
                   </div>
                 </td>
                 <td className="block -mt-2 @[500px]:mt-0 @[500px]:inline-block sm:!ml-1">
                   <Link
-
                     target="_blank"
                     className="job-company-name-text @[500px]:!max-w-48 text-base @[500px]:text-xl @[500px]:leading-[1]"
                     href="/companies/chainlabs"
                   >
                     Chainlabs{" "}
                   </Link>
-
                 </td>
                 <td></td>
                 <td className="inline-block -mt-1 @[500px]:-mt-2"></td>
@@ -1762,25 +1116,21 @@ export default function Contents() {
                       />
                     </div>
                     <Link
-
                       className="job-title-text text-base @[500px]:text-xl @[500px]:!ml-[calc(var(--container-padding)_/_2)] @[500px]:!max-w-[var(--job-title-max-width)]"
                       href="/jobs/investigator-blockchain-at-chainlabs"
                     >
                       Investigator - Blockchain
                     </Link>
-
                   </div>
                 </td>
                 <td className="block -mt-2 @[500px]:mt-0 @[500px]:inline-block sm:!ml-1">
                   <Link
-
                     target="_blank"
                     className="job-company-name-text @[500px]:!max-w-48 text-base @[500px]:text-xl @[500px]:leading-[1]"
                     href="/companies/chainlabs"
                   >
                     Chainlabs{" "}
                   </Link>
-
                 </td>
                 <td></td>
                 <td className="inline-block -mt-1 @[500px]:-mt-2"></td>
@@ -1831,25 +1181,21 @@ export default function Contents() {
                       />
                     </div>
                     <Link
-
                       className="job-title-text text-base @[500px]:text-xl @[500px]:!ml-[calc(var(--container-padding)_/_2)] @[500px]:!max-w-[var(--job-title-max-width)]"
                       href="/jobs/web3-data-labels-researcher-at-chainlabs"
                     >
                       Web3 Data Labels Researcher
                     </Link>
-
                   </div>
                 </td>
                 <td className="block -mt-2 @[500px]:mt-0 @[500px]:inline-block sm:!ml-1">
                   <Link
-
                     target="_blank"
                     className="job-company-name-text @[500px]:!max-w-48 text-base @[500px]:text-xl @[500px]:leading-[1]"
                     href="/companies/chainlabs"
                   >
                     Chainlabs{" "}
                   </Link>
-
                 </td>
                 <td></td>
                 <td className="inline-block -mt-1 @[500px]:-mt-2"></td>
@@ -1894,7 +1240,6 @@ export default function Contents() {
             <ul className="flex flex-row items-center gap-1">
               <li className="">
                 <Link
-
                   className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 gap-1 pl-2.5 pointer-events-none"
                   aria-label="Previous page"
                   rel="prev"
@@ -1917,7 +1262,6 @@ export default function Contents() {
                   </svg>
                   <span>Previous</span>
                 </Link>
-
               </li>
               <li className="">
                 <span
@@ -1929,13 +1273,11 @@ export default function Contents() {
               </li>
               <li className="">
                 <Link
-
                   className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed hover:bg-accent hover:text-accent-foreground h-9 w-9"
                   href="/?page=2"
                 >
                   2
                 </Link>
-
               </li>
               <li className="">
                 <span
@@ -1962,7 +1304,6 @@ export default function Contents() {
               </li>
               <li className="">
                 <Link
-
                   className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 gap-1 pr-2.5"
                   aria-label="Next page"
                   rel="next"
@@ -1985,7 +1326,6 @@ export default function Contents() {
                     ></path>
                   </svg>
                 </Link>
-
               </li>
             </ul>
           </nav>
@@ -2015,7 +1355,6 @@ export default function Contents() {
                 <h2 className="!m-0 text-4xl font-bold">
                   Senior Java Developers{" "}
                   <Link
-
                     title="Open on a new tab"
                     target="_blank"
                     className="hover:text-brand-blue hover:underline"
@@ -2034,22 +1373,18 @@ export default function Contents() {
                       <path d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"></path>
                     </svg>
                   </Link>
-
                 </h2>
                 <h3 className="!m-0 text-2xl flex items-center gap-2">
                   at{" "}
                   <Link
-
                     target="_blank"
                     className="hover:underline"
                     href="/companies/bisq"
                   >
                     Bisq
-                  </Link>
-{" "}
+                  </Link>{" "}
                   <span className="pl-4 md:pl-0 space-x-2">
                     <Link
-
                       aria-label="Company Site"
                       target="_blank"
                       className="hover:text-brand-blue"
@@ -2071,7 +1406,6 @@ export default function Contents() {
                     </Link>
 
                     <Link
-
                       aria-label="Company Twitter"
                       target="_blank"
                       className="hover:text-brand-blue hover:underline"
@@ -2091,7 +1425,6 @@ export default function Contents() {
                         <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path>
                       </svg>
                     </Link>
-
                   </span>
                 </h3>
                 <div className="flex flex-wrap items-center float-right gap-2 mt-2">
@@ -2110,81 +1443,65 @@ export default function Contents() {
                     </svg>
                     <span className="align-middle">8k-16k/month</span>
                   </div>
-                  <Link
- className="category text-sm !my-0" href="/developer">
+                  <Link className="category text-sm !my-0" href="/developer">
                     Developer
                   </Link>
 
-                  <Link
- className="category text-sm !my-0" href="/exchange">
+                  <Link className="category text-sm !my-0" href="/exchange">
                     Exchange
                   </Link>
 
-                  <Link
- className="category text-sm !my-0" href="/open-source">
+                  <Link className="category text-sm !my-0" href="/open-source">
                     Open Source
                   </Link>
 
-                  <Link
- className="category text-sm !my-0" href="/java">
+                  <Link className="category text-sm !my-0" href="/java">
                     Java
                   </Link>
 
-                  <Link
- className="category text-sm !my-0" href="/bitcoin">
+                  <Link className="category text-sm !my-0" href="/bitcoin">
                     Bitcoin
                   </Link>
 
-                  <Link
- className="category text-sm !my-0" href="/ui-ux">
+                  <Link className="category text-sm !my-0" href="/ui-ux">
                     UI/UX
                   </Link>
 
-                  <Link
- className="category text-sm !my-0" href="/remote">
+                  <Link className="category text-sm !my-0" href="/remote">
                     Remote
                   </Link>
 
-                  <Link
- className="category text-sm !my-0" href="/senior">
+                  <Link className="category text-sm !my-0" href="/senior">
                     Senior
                   </Link>
 
-                  <Link
- className="category text-sm !my-0" href="/security">
+                  <Link className="category text-sm !my-0" href="/security">
                     Security
                   </Link>
 
-                  <Link
- className="category text-sm !my-0" href="/cryptography">
+                  <Link className="category text-sm !my-0" href="/cryptography">
                     Cryptography
                   </Link>
 
-                  <Link
- className="category text-sm !my-0" href="/rust">
+                  <Link className="category text-sm !my-0" href="/rust">
                     Rust
                   </Link>
 
-                  <Link
- className="category text-sm !my-0" href="/kotlin">
+                  <Link className="category text-sm !my-0" href="/kotlin">
                     Kotlin
                   </Link>
 
-                  <Link
- className="category text-sm !my-0" href="/mobile">
+                  <Link className="category text-sm !my-0" href="/mobile">
                     Mobile
                   </Link>
 
-                  <Link
- className="category text-sm !my-0" href="/full-time">
+                  <Link className="category text-sm !my-0" href="/full-time">
                     Full Time
                   </Link>
 
-                  <Link
- className="category text-sm !my-0" href="/web3">
+                  <Link className="category text-sm !my-0" href="/web3">
                     Web3
                   </Link>
-
                 </div>
               </div>
             </div>
@@ -2399,11 +1716,9 @@ export default function Contents() {
               <ul>
                 <li>
                   Matrix Bisq 2 Dev Channel:{" "}
-                  <Link
- href="https://matrix.to/#/#bisq2-dev:matrix.org">
+                  <Link href="https://matrix.to/#/#bisq2-dev:matrix.org">
                     https://matrix.to/#/#bisq2-dev:matrix.org
                   </Link>
-
                 </li>
               </ul>
               <h3>Learn More About Bisq</h3>
@@ -2411,105 +1726,90 @@ export default function Contents() {
                 <li>
                   <p>
                     Website:{" "}
-                    <Link
- href="https://bisq.network">https://bisq.network</Link>
-
+                    <Link href="https://bisq.network">
+                      https://bisq.network
+                    </Link>
                   </p>
                 </li>
                 <li>
                   <p>
                     GitHub:{" "}
-                    <Link
- href="https://github.com/bisq-network">
+                    <Link href="https://github.com/bisq-network">
                       https://github.com/bisq-network
                     </Link>
-
                   </p>
                 </li>
               </ul>
               <p className="cjl-hid-lnk">
                 Listed in:{" "}
-                <Link
- href="https://cryptojobslist.com">Cryptocurrency Jobs</Link>
-,{" "}
-                <Link
- href="https://cryptojobslist.com/developer">
+                <Link href="https://cryptojobslist.com">
+                  Cryptocurrency Jobs
+                </Link>
+                ,{" "}
+                <Link href="https://cryptojobslist.com/developer">
                   Developer Web3 Jobs
                 </Link>
-
                 ,{" "}
-                <Link
- href="https://cryptojobslist.com/exchange">
+                <Link href="https://cryptojobslist.com/exchange">
                   Exchange Web3 Jobs
                 </Link>
-
                 ,{" "}
-                <Link
- href="https://cryptojobslist.com/open-source">
+                <Link href="https://cryptojobslist.com/open-source">
                   Open Source Web3 Jobs
                 </Link>
-
-                , <Link
- href="https://cryptojobslist.com/java">Java Web3 Jobs</Link>
-,{" "}
-                <Link
- href="https://cryptojobslist.com/bitcoin">
-                  Bitcoin Crypto Jobs
+                ,{" "}
+                <Link href="https://cryptojobslist.com/java">
+                  Java Web3 Jobs
                 </Link>
-
-                , <Link
- href="https://cryptojobslist.com/ui-ux">UI/UX Web3 Jobs</Link>
-
                 ,{" "}
-                <Link
- href="https://cryptojobslist.com/remote">Remote Web3 Jobs</Link>
-
-                ,{" "}
-                <Link
- href="https://cryptojobslist.com/senior">
-                  Senior Crypto Jobs
+                <Link href="https://cryptojobslist.com/bitcoin">
+                  Bitcoin .Net Jobs
                 </Link>
-
                 ,{" "}
-                <Link
- href="https://cryptojobslist.com/security">
+                <Link href="https://cryptojobslist.com/ui-ux">
+                  UI/UX Web3 Jobs
+                </Link>
+                ,{" "}
+                <Link href="https://cryptojobslist.com/remote">
+                  Remote Web3 Jobs
+                </Link>
+                ,{" "}
+                <Link href="https://cryptojobslist.com/senior">
+                  Senior .Net Jobs
+                </Link>
+                ,{" "}
+                <Link href="https://cryptojobslist.com/security">
                   Security Web3 Jobs
                 </Link>
-
                 ,{" "}
-                <Link
- href="https://cryptojobslist.com/cryptography">
-                  Cryptography Crypto Jobs
+                <Link href="https://cryptojobslist.com/cryptography">
+                  Cryptography .Net Jobs
                 </Link>
-
-                , <Link
- href="https://cryptojobslist.com/rust">Rust Crypto Jobs</Link>
-
                 ,{" "}
-                <Link
- href="https://cryptojobslist.com/kotlin">
-                  Kotlin Crypto Jobs
+                <Link href="https://cryptojobslist.com/rust">
+                  Rust .Net Jobs
                 </Link>
-
                 ,{" "}
-                <Link
- href="https://cryptojobslist.com/mobile">Mobile Web3 Jobs</Link>
-
-                ,{" "}
-                <Link
- href="https://cryptojobslist.com/full-time">
-                  Full Time Crypto Jobs
+                <Link href="https://cryptojobslist.com/kotlin">
+                  Kotlin .Net Jobs
                 </Link>
-
-                , <Link
- href="https://cryptojobslist.com/web3">Web3 Crypto Jobs</Link>
-
+                ,{" "}
+                <Link href="https://cryptojobslist.com/mobile">
+                  Mobile Web3 Jobs
+                </Link>
+                ,{" "}
+                <Link href="https://cryptojobslist.com/full-time">
+                  Full Time .Net Jobs
+                </Link>
+                ,{" "}
+                <Link href="https://cryptojobslist.com/web3">
+                  Web3 .Net Jobs
+                </Link>
                 .
               </p>
             </div>
             <div className="flex items-center gap-2">
               <Link
-
                 target="_blank"
                 className="block p-1 px-4 pb-1.5 font-normal text-left border border-foreground/15 hover:border-foreground bg-transparent text-foreground/80 hover:text-foreground btn clickable"
                 href="https://t.me/cryptojobslist/8188"
@@ -2533,7 +1833,6 @@ export default function Contents() {
               </Link>
 
               <Link
-
                 target="_blank"
                 className="block p-1 px-4 pb-1.5 font-normal text-left border border-foreground/15 hover:border-foreground bg-transparent text-foreground/80 hover:text-foreground btn clickable"
                 href="https://x.com/CryptoJobsList/status/1901239105104588880"
@@ -2556,7 +1855,6 @@ export default function Contents() {
                   </svg>
                 </span>
               </Link>
-
             </div>
             <div id="JobApplicationForm2">
               <form id="JobApplicationForm">
