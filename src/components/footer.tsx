@@ -401,7 +401,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="mt-5 opacity-60">
-            © 2025 CryptoJobsList. All rights reserved
+            © 2025 DevJobsHub. All rights reserved
           </div>
         </div>
       </footer>
