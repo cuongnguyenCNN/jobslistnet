@@ -243,16 +243,6 @@ export default function Footer() {
                 </Link>
 
                 <Link
-                  href="https://github.com/cryptojobslist/discord-bot"
-                  className="hover:underline undefined"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  {" "}
-                  Discord Jobs Bot
-                </Link>
-
-                <Link
                   href="https://cryptojobslist.com/telegram-bot"
                   className="hover:underline undefined"
                   rel="noopener"
@@ -313,37 +303,9 @@ export default function Footer() {
                   {" "}
                   .Net Salary Reports
                 </Link>
-
-                <Link
-                  className="hover:underline undefined"
-                  target="_blank"
-                  href="/.Net-recruitment-agency"
-                >
-                  {" "}
-                  Blockchain Recruitment
-                </Link>
               </div>
               <div className="flex flex-col space-y-2">
                 <h3 className="mb-2 font-bold">Partners</h3>
-                <Link
-                  href="https://etherscan.io/?ref=CryptoJobsList&amp;utm_source=CryptoJobsList"
-                  className="hover:underline undefined"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  {" "}
-                  Etherscan
-                </Link>
-
-                <Link
-                  href="https://coinmarketcap.com/?ref=CryptoJobsList&amp;utm_source=CryptoJobsList"
-                  className="hover:underline undefined"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  {" "}
-                  CoinMarketCap
-                </Link>
 
                 <Link
                   href="https://resumescreening.ai/"
@@ -415,31 +377,6 @@ export default function Footer() {
                   About us
                 </Link>
 
-                <Link
-                  href="https://cryptojobslist.transistor.fm/episodes"
-                  className="hover:underline undefined"
-                  rel="nofollow noopener noindex self"
-                  target="_blank"
-                >
-                  {" "}
-                  Podcast
-                </Link>
-
-                <Link
-                  href="https://www.stickermule.com/cryptojobslist"
-                  className="hover:underline undefined"
-                  rel="nofollow noopener noindex self"
-                  target="_blank"
-                >
-                  {" "}
-                  Merch: Tshirts &amp; Stickers
-                </Link>
-
-                <Link className="hover:underline undefined" href="/terms">
-                  {" "}
-                  Terms
-                </Link>
-
                 <div className="flex flex-col pt-4 mt-4 space-y-2 group">
                   <h3 className="m-0 font-bold">
                     Fun <span className="hidden group-hover:inline">🎉</span>
@@ -457,7 +394,7 @@ export default function Footer() {
                     href="/crypto-wordle"
                   >
                     {" "}
-                    Crypto WORDLE
+                    .Net WORDLE
                   </Link>
                 </div>
               </div>
