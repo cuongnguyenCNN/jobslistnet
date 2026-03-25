@@ -1,5 +1,3 @@
-
-
 export default function VentureCapitals() {
   return (
     <>
@@ -7,7 +5,7 @@ export default function VentureCapitals() {
         <div className="col-span-5">
           <span className="flex items-center text-left gap-x-4">
             <h1 className="text-3xl font-extrabold !leading-[1.3em] sm:text-4xl w-full sm:text-left !m-0">
-              The Biggest List of Crypto, Blockchain and Web3 Jobs
+              Stop Wasting Time. Find Real .NET Jobs That Pay.
             </h1>
           </span>
         </div>

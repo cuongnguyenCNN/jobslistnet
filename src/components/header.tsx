@@ -38,7 +38,7 @@ export default function Header() {
                     <path d="m471.2 17.3c-1.8-.2-2.7.5-3.5 2-1.2 2.3-2.7 4.4-3.8 6.7-.7 1.4-1.2 3.1-1.2 4.6-.1 7-.1 14.1-.1 21.1v5h12c0-13.2 0-26.3 0-39.5-1.3.1-2.4.2-3.4.1z"></path>
                   </g>
                 </svg> */}
-              <h1>Web3JobList</h1>
+              <h1>DevJobsHub</h1>
             </Link>
           </div>
           <nav className="items-end hidden lg:flex">
