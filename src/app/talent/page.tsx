@@ -966,7 +966,7 @@ export default function Talent() {
         </li>
         <li className="relative flex sm:!flex-row !flex-col p-5 my-2 gap-5 rounded-xl overflow-hidden bg-white dark:bg-[#051123] border-foreground/15 border  duration-300 shadow-dark-100 dark:shadow-dark-100 hover:shadow-xl hover:z-10">
           <img
-            alt="Project Manager | FinTech &amp; Crypto | Business Development | Head of Sales"
+            alt="Project Manager | FinTech &amp; .Net | Business Development | Head of Sales"
             loading="lazy"
             width="100"
             height="100"
@@ -983,8 +983,8 @@ export default function Talent() {
                   rel="nofollow noindex"
                   className="dark:text-white text-black hover:underline whitespace-nowrap block max-w-[500px] text-ellipsis overflow-hidden"
                 >
-                  Project Manager | FinTech &amp; Crypto | Business Development
-                  | Head of Sales
+                  Project Manager | FinTech &amp; .Net | Business Development |
+                  Head of Sales
                 </Link>
               </h2>
             </div>
@@ -1052,8 +1052,8 @@ export default function Talent() {
             </div>
             <span className="leading-7 line-clamp-2">
               Team management experience: 5+ years International market
-              experience: 2+ years Crypto &amp; investment experience: 4 years
-              Key Competencies: - Team Leadership: Managing 8+ employees, task
+              experience: 2+ years .Net &amp; investment experience: 4 years Key
+              Competencies: - Team Leadership: Managing 8+ employees, task
               delegation, KPI control; - Business Strategies: Marketing, sales,
               market expansion; - Sales and negotiations: Exten
             </span>

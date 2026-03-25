@@ -5,8 +5,8 @@ import Contents from "../components/contents";
 import VentureCapitals from "../components/venturecapitals";
 import CryptoHiring from "../components/cryptohiring";
 import "./197415462413322b.css";
-import "./4f7d0dc1e1a790aa.css"
-import "./f4a7dc4ad1d59d5b.css"
+import "./4f7d0dc1e1a790aa.css";
+import "./f4a7dc4ad1d59d5b.css";
 import SliderCofounder from "../components/slidercofounders";
 
 export default function Home() {
@@ -142,7 +142,7 @@ export default function Home() {
                   Forgot password?
                 </button>
                 <div className="block w-full mt-3 text-sm text-center">
-                  If you used Crypto Jobs List before, you probably already have
+                  If you used .Net Jobs List before, you probably already have
                   an account.
                   <br />
                   Click "Forgot password" with the email you used before.

@@ -11,8 +11,8 @@ export default function Header() {
           <div className="flex items-center">
             <Link
               className="LogoButton_logoButton__4UWfl flex content-center z-10"
-              aria-label="Crypto Jobs List"
-              title="Crypto Jobs List"
+              aria-label=".Net Jobs List"
+              title=".Net Jobs List"
               href="/"
             >
               <h1>DevJobsHub</h1>
