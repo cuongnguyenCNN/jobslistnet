@@ -40,24 +40,6 @@ export default function VentureCapitals() {
             loading="lazy"
           />
           <img
-            alt="CoinMarketCap"
-            src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/resize:fill/dpr:2/width:29/height:30/rs:fit/ex:1/plain/gs:/cjl-strapi-media/Coin_Market_Cap_Logo_de09174bf6/Coin_Market_Cap_Logo_de09174bf6.svg"
-            title="CoinMarketCap"
-            className="opacity-50"
-            height="30"
-            width="29.615384615384617"
-            loading="lazy"
-          />
-          <img
-            alt="Ethereum Foundation"
-            src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/resize:fill/dpr:2/width:18/height:30/rs:fit/ex:1/plain/gs:/cjl-strapi-media/etherium_89fffeac42/etherium_89fffeac42.svg"
-            title="Ethereum Foundation"
-            className=""
-            height="30"
-            width="18.41726618705036"
-            loading="lazy"
-          />
-          <img
             alt="DappRadar"
             src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/resize:fill/dpr:2/width:33/height:30/rs:fit/ex:1/plain/gs:/cjl-strapi-media/dapp_radar_logo_ff9ce2e934/dapp_radar_logo_ff9ce2e934.svg"
             title="DappRadar"
@@ -67,39 +49,12 @@ export default function VentureCapitals() {
             loading="lazy"
           />
           <img
-            alt="Chainlink"
-            src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/resize:fill/dpr:2/width:97/height:30/rs:fit/ex:1/plain/gs:/cjl-strapi-media/Chainlink_Logo_Blue_e2edf90431/Chainlink_Logo_Blue_e2edf90431.svg"
-            title="Chainlink"
-            className=""
-            height="30"
-            width="97.36842105263158"
-            loading="lazy"
-          />
-          <img
-            alt="OKX"
-            src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/resize:fill/dpr:2/width:100/height:30/rs:fit/ex:1/plain/gs:/cjl-strapi-media/okx_logo_813282a483/okx_logo_813282a483.svg"
-            title="OKX"
-            className="opacity-40 scale-90"
-            height="30"
-            width="100.17857142857143"
-            loading="lazy"
-          />
-          <img
             alt="New York State Attorney General"
             src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/resize:fill/dpr:2/width:29/height:30/rs:fit/ex:1/plain/gs:/cjl-strapi-media/Seal_of_the_Attorney_General_of_New_York_b188abca71/Seal_of_the_Attorney_General_of_New_York_b188abca71.png"
             title="New York State Attorney General"
             className=""
             height="30"
             width="29.8828125"
-            loading="lazy"
-          />
-          <img
-            alt="Coinbase"
-            src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/resize:fill/dpr:2/width:167/height:30/rs:fit/ex:1/plain/gs:/cjl-strapi-media/coinbase_logo_780838ee99/coinbase_logo_780838ee99.svg"
-            title="Coinbase"
-            className="scale-90 mb-2 opacity-80"
-            height="30"
-            width="167.81725888324874"
             loading="lazy"
           />
           <img
@@ -240,48 +195,12 @@ export default function VentureCapitals() {
             loading="lazy"
           />
           <img
-            alt="CoinMarketCap"
-            src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/resize:fill/dpr:2/width:29/height:30/rs:fit/ex:1/plain/gs:/cjl-strapi-media/Coin_Market_Cap_Logo_de09174bf6/Coin_Market_Cap_Logo_de09174bf6.svg"
-            title="CoinMarketCap"
-            className="opacity-50"
-            height="30"
-            width="29.615384615384617"
-            loading="lazy"
-          />
-          <img
-            alt="Ethereum Foundation"
-            src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/resize:fill/dpr:2/width:18/height:30/rs:fit/ex:1/plain/gs:/cjl-strapi-media/etherium_89fffeac42/etherium_89fffeac42.svg"
-            title="Ethereum Foundation"
-            className=""
-            height="30"
-            width="18.41726618705036"
-            loading="lazy"
-          />
-          <img
             alt="DappRadar"
             src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/resize:fill/dpr:2/width:33/height:30/rs:fit/ex:1/plain/gs:/cjl-strapi-media/dapp_radar_logo_ff9ce2e934/dapp_radar_logo_ff9ce2e934.svg"
             title="DappRadar"
             className=""
             height="30"
             width="33.69718309859155"
-            loading="lazy"
-          />
-          <img
-            alt="Chainlink"
-            src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/resize:fill/dpr:2/width:97/height:30/rs:fit/ex:1/plain/gs:/cjl-strapi-media/Chainlink_Logo_Blue_e2edf90431/Chainlink_Logo_Blue_e2edf90431.svg"
-            title="Chainlink"
-            className=""
-            height="30"
-            width="97.36842105263158"
-            loading="lazy"
-          />
-          <img
-            alt="OKX"
-            src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/resize:fill/dpr:2/width:100/height:30/rs:fit/ex:1/plain/gs:/cjl-strapi-media/okx_logo_813282a483/okx_logo_813282a483.svg"
-            title="OKX"
-            className="opacity-40 scale-90"
-            height="30"
-            width="100.17857142857143"
             loading="lazy"
           />
           <img
