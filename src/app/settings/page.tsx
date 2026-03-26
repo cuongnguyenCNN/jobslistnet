@@ -1,6 +1,3 @@
-//import Link from "next/link";
-
-import Link from "next/link";
 function convertStyleStringToObject(styleString: string) {
   const styleObject: { [key: string]: string } = {};
 
