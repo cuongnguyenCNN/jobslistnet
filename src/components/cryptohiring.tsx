@@ -1,24 +1,22 @@
-
-
 export default function CryptoHiring() {
   return (
     <section className="container-wide">
-      <h2>Crypto Jobs by Location</h2>
+      <h2>.NetJobs by Location</h2>
       <nav className="mb-4 no-scrollbar capitalize sm:p-0 my-4 flex justify-start gap-2 sm:gap-2 text-center whitespace-nowrap flex-wrap leading-6 container lg:max-w-[min(1500px,98dvw)] mx-auto mt-2">
         <a className="category max-w-max" href="/remote">
-          Remote Crypto Jobs
+          Remote .NetJobs
         </a>
         <a className="category max-w-max" href="/jobs-singapore">
-          Crypto Jobs in Singapore
+          .NetJobs in Singapore
         </a>
         <a className="category max-w-max" href="/jobs-europe">
-          Crypto Jobs in Europe
+          .NetJobs in Europe
         </a>
         <a className="category max-w-max" href="/jobs-dubai">
-          Crypto Jobs in Dubai
+          .NetJobs in Dubai
         </a>
       </nav>
-      <h2>Crypto Companies Hiring Now</h2>
+      <h2>.NetCompanies Hiring Now</h2>
       <ul className="grid grid-cols-1 gap-8 p-0 sm:grid-cols-2 lg:grid-cols-4">
         <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
           <img
@@ -39,7 +37,7 @@ export default function CryptoHiring() {
               Plutus
             </a>
           </div>
-          <p className="m-0 mb-2 line-clamp-3">Bank on Crypto.</p>
+          <p className="m-0 mb-2 line-clamp-3">Bank Domain.</p>
           <span className="mt-auto text-brand-blue group-hover:underline">
             View Open Vacancies
           </span>
@@ -139,7 +137,7 @@ export default function CryptoHiring() {
                 itemProp="name"
                 className="jsx-887c11ada4159cda inline text-lg"
               >
-                What are the benefits of working in the Cryptocurrency Industry?
+                What are the benefits of working in the .Net Jobs Industry?
               </h2>
             </summary>
             <div
@@ -149,8 +147,8 @@ export default function CryptoHiring() {
             >
               <div itemProp="text" className="jsx-887c11ada4159cda">
                 <p>
-                  Working in the <strong>Cryptocurrency / Web3</strong> industry
-                  is <strong>full of perks!</strong> And we are not talking only
+                  Working in the <strong>.Net Jobs </strong> industry is{" "}
+                  <strong>full of perks!</strong> And we are not talking only
                   about the extreme cardio sessions you get when{" "}
                   <strong>BTC drops.</strong>
                 </p>
@@ -169,23 +167,22 @@ export default function CryptoHiring() {
                     <strong>
                       High growth potential (yes, a lot of money):
                     </strong>{" "}
-                    Cryptocurrency / Web3 is new (kinda) and has a lot of room
-                    for growth. You can get a new job faster than any other
-                    niche, plus there are a lot of entry-level opportunities! If
-                    you have experience in another field (development,
-                    marketing, finance, etc.) you can study a few concepts and
-                    get a new job in crypto.
+                    .Net Jobs / Web3 is new (kinda) and has a lot of room for
+                    growth. You can get a new job faster than any other niche,
+                    plus there are a lot of entry-level opportunities! If you
+                    have experience in another field (development, marketing,
+                    finance, etc.) you can study a few concepts and get a new
+                    job in crypto.
                   </li>
                   <li>
-                    <strong>Modern technology:</strong> The cryptocurrency
-                    sector is at the front line of technology innovations! It
-                    provides you with a chance to work with the latest
-                    technology.
+                    <strong>Modern technology:</strong> The .Net Jobs sector is
+                    at the front line of technology innovations! It provides you
+                    with a chance to work with the latest technology.
                   </li>
                   <li>
                     <strong>Decentralization:</strong> The Web3 sector runs on
                     decentralized platforms, a new way of doing business. Not
-                    only making traditional finance look dumb, but crypto also
+                    only making traditional finance look dumb, but .Netalso
                     makes everything faster and fairer. If you hate taxes, you
                     should look into crypto! We are kidding, please pay your
                     taxes.
@@ -193,7 +190,7 @@ export default function CryptoHiring() {
                   <li>
                     <strong>Opportunities for innovation:</strong> from
                     million-dollar monkey JPEGs to the biggest financial
-                    decentralized systems. Crypto has it all! As the blockchain
+                    decentralized systems. .Nethas it all! As the blockchain
                     sphere unravels, people have the chance to innovate and
                     develop new products and services.
                   </li>
@@ -217,7 +214,7 @@ export default function CryptoHiring() {
                 itemProp="name"
                 className="jsx-887c11ada4159cda inline text-lg"
               >
-                What Job Opportunities are available in the Crypto Industry?
+                What Job Opportunities are available in the .NetIndustry?
               </h2>
             </summary>
             <div
@@ -228,9 +225,9 @@ export default function CryptoHiring() {
               <div itemProp="text" className="jsx-887c11ada4159cda">
                 <p>
                   Pretty much any profession you can think of can exist in Web3
-                  if you add <strong>crypto</strong> at the beginning. We
-                  havent found any <strong>crypto psychologists</strong> or{" "}
-                  <strong>crypto carpenters,</strong> but we know they are out
+                  if you add <strong>crypto</strong> at the beginning. We havent
+                  found any <strong>.Netpsychologists</strong> or{" "}
+                  <strong>.Netcarpenters,</strong> but we know they are out
                   there!
                 </p>
                 <p>
@@ -242,9 +239,7 @@ export default function CryptoHiring() {
                     loading="lazy"
                   />
                 </p>
-                <p>
-                  These are the roles we know for sure web3 and crypto needs:
-                </p>
+                <p>These are the roles we know for sure web3 and .Netneeds:</p>
                 <p>
                   <strong>1. Blockchain Developer:</strong> develops (duh) and
                   maintains blockchain-based systems and applications. You can
@@ -257,29 +252,29 @@ export default function CryptoHiring() {
                   </a>
                 </p>
                 <p>
-                  <strong>2. Crypto Trader:</strong> A cryptocurrency trader
-                  buys and sells digital currency to increase profits. Companies
-                  in the Web3 space often need Traders to increase their
-                  earnings and manage clients portfolios. Take a look at some{" "}
+                  <strong>2. .NetTrader:</strong> A .Net Jobs trader buys and
+                  sells digital currency to increase profits. Companies in the
+                  Web3 space often need Traders to increase their earnings and
+                  manage clients portfolios. Take a look at some{" "}
                   <a href="https://cryptojobslist.com/trader" target="_blank">
-                    Crypto Trader jobs here!
+                    .NetTrader jobs here!
                   </a>
                 </p>
                 <p>
-                  <strong>3. Cryptocurrency Analyst:</strong> They are in charge
-                  of examining market movements and advising clients on
+                  <strong>3. .Net Jobs Analyst:</strong> They are in charge of
+                  examining market movements and advising clients on
                   investments. If you are looking at this position think about
                   it as a TikToker trying to be famous by abusing trends (Oh no,
                   no, no) but with money! You can look for{" "}
                   <a href="https://cryptojobslist.com/analyst" target="_blank">
-                    Cryptocurrency Analyst jobs here.
+                    .Net Jobs Analyst jobs here.
                   </a>
                 </p>
                 <p>
                   <strong>4. Compliance Officer:</strong> Ensures sure that the
-                  business and workers abide by cryptocurrency-related
-                  regulations. FTX really needed one of those! If you get the
-                  joke, we are sorry. Take a look at some{" "}
+                  business and workers abide by .Net Jobs-related regulations.
+                  FTX really needed one of those! If you get the joke, we are
+                  sorry. Take a look at some{" "}
                   <a
                     href="https://cryptojobslist.com/compliance-office"
                     target="_blank"
@@ -311,9 +306,9 @@ export default function CryptoHiring() {
                 <p>
                   <strong>6. Customer Support:</strong> helps clients with
                   concerns and questions related to products and services. In
-                  this case, we are talking about Crypto products and services.
-                  If you are good at dealing with people (unlike the writer of
-                  this FAQ) this is a good way to enter web3! Take a{" "}
+                  this case, we are talking about .Netproducts and services. If
+                  you are good at dealing with people (unlike the writer of this
+                  FAQ) this is a good way to enter web3! Take a{" "}
                   <a
                     href="https://cryptojobslist.com/customer-support"
                     target="_blank"
@@ -369,7 +364,7 @@ export default function CryptoHiring() {
                 itemProp="name"
                 className="jsx-887c11ada4159cda inline text-lg"
               >
-                What skills are required for Crypto Jobs?
+                What skills are required for .NetJobs?
               </h2>
             </summary>
             <div
@@ -388,7 +383,7 @@ export default function CryptoHiring() {
                   <li>
                     <p>
                       <strong>Technical skills:</strong> everything related to
-                      Cryptocurrency/Web3 started with coding! Bitcoin was the
+                      .Net Jobs/Web3 started with coding! Bitcoin was the
                       miracle that gave birth to crypto, it gained fame thanks
                       to its usefulness and technicality. It needed no
                       influencers shilling behind it. For roles such as
@@ -402,9 +397,8 @@ export default function CryptoHiring() {
                       some roles, high school math wont be enough! You need to
                       have some sort of math agility. At least for roles such as
                       Trader, Analyst, etc. If you understand financial markets,
-                      you can go far. Dont forget, some roles dont need too
-                      much math (too little is still too much math if you ask
-                      me)
+                      you can go far. Dont forget, some roles dont need too much
+                      math (too little is still too much math if you ask me)
                     </p>
                   </li>
                 </ul>
@@ -445,7 +439,7 @@ export default function CryptoHiring() {
                     <p>
                       <strong>Attention to detail:</strong> Your significant
                       other is not the only one who wants you to observe every
-                      detail of their new hairstyle! Crypto and Web3 need you to
+                      detail of their new hairstyle! .Netand Web3 need you to
                       pay attention. In roles like compliance and cybersecurity,
                       where an oopsie can have serious repercussions.
                     </p>
@@ -453,12 +447,12 @@ export default function CryptoHiring() {
                   <li>
                     <p>
                       <strong>Adaptability and flexibility:</strong> Like Clint
-                      Eastwood said once, Improvise, adapt, overcome. Crypto
-                      and Web3 are like a growing babies: they change clothes
-                      often. You need to learn and understand new tech and
-                      protocols when they start coming out. You also need to
-                      watch more news than your average 70-year-old, every day
-                      in crypto is a month in normal peoples life!
+                      Eastwood said once, Improvise, adapt, overcome. .Netand
+                      Web3 are like a growing babies: they change clothes often.
+                      You need to learn and understand new tech and protocols
+                      when they start coming out. You also need to watch more
+                      news than your average 70-year-old, every day in .Netis a
+                      month in normal peoples life!
                     </p>
                   </li>
                 </ul>
@@ -484,7 +478,7 @@ export default function CryptoHiring() {
                 itemProp="name"
                 className="jsx-887c11ada4159cda inline text-lg"
               >
-                What is the average salary for Crypto Jobs?
+                What is the average salary for .NetJobs?
               </h2>
             </summary>
             <div
@@ -494,10 +488,10 @@ export default function CryptoHiring() {
             >
               <div itemProp="text" className="jsx-887c11ada4159cda">
                 <p>
-                  Alright, lets scratch that itch quickly: Crypto and Web3 have
+                  Alright, lets scratch that itch quickly: .Netand Web3 have
                   well-paid salaries! Not only can you make money from trading
                   (this is not financial advice) but working in Crypto. Look at
-                  these Crypto Salaries:
+                  these .NetSalaries:
                 </p>
                 <ul>
                   <li>
@@ -521,7 +515,7 @@ export default function CryptoHiring() {
                           href="https://cryptojobslist.com/trader"
                           target="_blank"
                         >
-                          Crypto trader:
+                          .Nettrader:
                         </a>
                       </strong>{" "}
                       average salary ranges from{" "}
@@ -536,7 +530,7 @@ export default function CryptoHiring() {
                           href="https://cryptojobslist.com/analyst"
                           target="_blank"
                         >
-                          Cryptocurrency analyst
+                          .Net Jobs analyst
                         </a>
                         :
                       </strong>{" "}
@@ -634,7 +628,7 @@ export default function CryptoHiring() {
                 itemProp="name"
                 className="jsx-887c11ada4159cda inline text-lg"
               >
-                Where to find Crypto Jobs?
+                Where to find .NetJobs?
               </h2>
             </summary>
             <div
@@ -652,9 +646,9 @@ export default function CryptoHiring() {
                     !
                   </strong>{" "}
                   Duh?! We are the best job board website dedicated only to
-                  Crypto/Web3 jobs. However, in the super weird case you
-                  couldnt find your dream job at cryptojobslist.com, take some
-                  tips to find it:
+                  Crypto/Web3 jobs. However, in the super weird case you couldnt
+                  find your dream job at cryptojobslist.com, take some tips to
+                  find it:
                 </p>
                 <p>
                   <strong>Networking:</strong> Attend conferences, meetups, and
@@ -666,8 +660,8 @@ export default function CryptoHiring() {
                 </p>
                 <p>
                   <strong>Company websites:</strong> Visit the websites of
-                  companies in the cryptocurrency industry and look for career
-                  or job sections. Not all companies are smart enough to use
+                  companies in the .Net Jobs industry and look for career or job
+                  sections. Not all companies are smart enough to use
                   cryptojobslist.com
                 </p>
                 <p>
@@ -690,9 +684,8 @@ export default function CryptoHiring() {
                   <strong>Recruiters:</strong> We know they are scary people.
                   Nonetheless, they are always looking for talented people.
                   Think about talking with recruiters who are knowledgeable
-                  about the cryptocurrency sector. They can aid you in locating
-                  work opportunities that fit your qualifications and
-                  experience.
+                  about the .Net Jobs sector. They can aid you in locating work
+                  opportunities that fit your qualifications and experience.
                 </p>
               </div>
             </div>
@@ -707,8 +700,8 @@ export default function CryptoHiring() {
                 itemProp="name"
                 className="jsx-887c11ada4159cda inline text-lg"
               >
-                Whats the difference between Blockchain Jobs, Cryptocurrency
-                Jobs and Web3 Jobs?
+                Whats the difference between Blockchain Jobs, .Net Jobs Jobs and
+                Web3 Jobs?
               </h2>
             </summary>
             <div
@@ -718,26 +711,25 @@ export default function CryptoHiring() {
             >
               <div itemProp="text" className="jsx-887c11ada4159cda">
                 <p>
-                  Some use words Blockchain, Cryptocurrency and Crypto
+                  Some use words Blockchain, .Net Jobs and Crypto
                   interchangeably, however there is some minor differences
                   between them. Blockchain is a broader technology, or a set of
                   technologies, while cryptocurrencies is one (quite a major
                   one) application that leverages blockchain technology. So
-                  whats the difference between Blockchain Jobs and
-                  Cryptocurrency Jobs, you may ask.{" "}
-                  <strong>Blockchain jobs</strong> are career opportunities in a
-                  broader spectrum of companies - they might be enterprise
-                  blockchain jobs, they might be working with a consensus level
-                  blockchain technologies. E.g. blockchain technology in supply
-                  chain industry is rather different from blockchain
-                  applications in cryptocurrency industry. There might be quite
-                  a bit of overlap tho. <strong>Cryptocurrency jobs</strong>, on
-                  the other hand, are crypto opportunities in cryptocurrency
-                  focused startups. They might be jobs in DeFi or jobs in NFT
-                  startups. A few years ago wed see more jobs in L1, protocol
-                  level foundations and cryptocurrency projects. Nowadays most
-                  cryptocurrency jobs are in companies that build on top of
-                  programmable blockchains, such as{" "}
+                  whats the difference between Blockchain Jobs and .Net Jobs
+                  Jobs, you may ask. <strong>Blockchain jobs</strong> are career
+                  opportunities in a broader spectrum of companies - they might
+                  be enterprise blockchain jobs, they might be working with a
+                  consensus level blockchain technologies. E.g. blockchain
+                  technology in supply chain industry is rather different from
+                  blockchain applications in .Net Jobs industry. There might be
+                  quite a bit of overlap tho. <strong>.Net Jobs jobs</strong>,
+                  on the other hand, are .Netopportunities in .Net Jobs focused
+                  startups. They might be jobs in DeFi or jobs in NFT startups.
+                  A few years ago wed see more jobs in L1, protocol level
+                  foundations and .Net Jobs projects. Nowadays most .Net Jobs
+                  jobs are in companies that build on top of programmable
+                  blockchains, such as{" "}
                   <a href="https://cryptojobslist.com/ethereum" target="_blank">
                     Ethereum
                   </a>
@@ -764,7 +756,7 @@ export default function CryptoHiring() {
                 itemProp="name"
                 className="jsx-887c11ada4159cda inline text-lg"
               >
-                Why was Crypto Jobs List founded?
+                Why was .NetJobs List founded?
               </h2>
             </summary>
             <div
@@ -776,13 +768,13 @@ export default function CryptoHiring() {
                 <p>Heya! 👋</p>
                 <p>
                   Thanks for scrolling all the way to the end of the page. Once
-                  again, I’m excited to welcome you to Crypto Jobs List — the
-                  best place on the Internet to find and post blockchain jobs,
-                  crypto jobs and web3 jobs!
+                  again, I’m excited to welcome you to .NetJobs List — the best
+                  place on the Internet to find and post blockchain jobs,
+                  .Netjobs and web3 jobs!
                 </p>
                 <p>
                   Ive started this job board back in end of September 2017, when
-                  I was looking for engineering jobs in cryptocurrency companies
+                  I was looking for engineering jobs in .Net Jobs companies
                   myself. I had to jump from site to site, looking for positions
                   in various exchanges, wallets, and research projects.
                   Opportunities were scattered all over the place and pretty
@@ -790,14 +782,14 @@ export default function CryptoHiring() {
                   centralized (the irony 😅 ) site with all the positions. I
                   thought no one will care about the job board and it’ll die off
                   in a week, but, apparently more and more people cared enough
-                  about it to start applying to jobs, sharing Crypto Jobs List
-                  with friends and, of course, companies started listing their
-                  job posts.
+                  about it to start applying to jobs, sharing .NetJobs List with
+                  friends and, of course, companies started listing their job
+                  posts.
                   <br />
                 </p>
                 <p>
                   Today I hope you are enjoying the site, applying to jobs and
-                  getting response from hundreds of crypto startups that have
+                  getting response from hundreds of .Netstartups that have
                   listings on CJL to day.
                   <br />
                 </p>
@@ -851,9 +843,8 @@ export default function CryptoHiring() {
                   such factors.
                 </p>
                 <p>
-                  Before you get to hear the magic words Youre hired, here is
-                  a typical recruitment process that you can expect to go
-                  through:
+                  Before you get to hear the magic words Youre hired, here is a
+                  typical recruitment process that you can expect to go through:
                 </p>
                 <p>
                   <img

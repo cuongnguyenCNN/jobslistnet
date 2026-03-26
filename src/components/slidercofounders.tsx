@@ -21,17 +21,17 @@ function convertStyleStringToObject(styleString: string) {
 export default function SliderCofounder() {
   return (
     <div itemType="https://schema.org/Product">
-      <meta itemProp="name" content="CryptoJobsList" />
+      <meta itemProp="name" content=".NetJobsList" />
       <div
         className="Marquee_marquee-container__FDbjq my-6 horizontal-fade"
         style={convertStyleStringToObject(
-          "--pause-on-hover: paused; --pause-on-click: paused; --width: 100%; --transform: none;"
+          "--pause-on-hover: paused; --pause-on-click: paused; --width: 100%; --transform: none;",
         )}
       >
         <div
           className="Marquee_marquee__alYF4"
           style={convertStyleStringToObject(
-            "--play: running; --direction: normal; --duration: 210.32s; --delay: 0s; --iteration-count: infinite; --min-width: 100%;"
+            "--play: running; --direction: normal; --duration: 210.32s; --delay: 0s; --iteration-count: infinite; --min-width: 100%;",
           )}
         >
           <div className="Marquee_initial-child-container__kr2if">
@@ -42,7 +42,6 @@ export default function SliderCofounder() {
               <div
                 className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
                 itemProp="review"
-                
                 itemType="https://schema.org/Review"
               >
                 <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -75,7 +74,6 @@ export default function SliderCofounder() {
                   <div className="text-foreground">
                     <Link
                       itemProp="author"
-                      
                       itemType="https://schema.org/Person"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
@@ -101,18 +99,17 @@ export default function SliderCofounder() {
                 <div
                   className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                   style={convertStyleStringToObject(
-                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                   )}
                 >
                   <p className="relative pb-8" itemProp="reviewBody">
-                    <b>CryptoJobsList</b> has been <b>great!</b> About to hire 1
+                    <b>.NetJobsList</b> has been <b>great!</b> About to hire 1
                     new rep and considering countless others as well.
                   </p>
                 </div>
                 <meta itemProp="datePublished" content="2024-10-01" />
                 <div
                   itemProp="reviewRating"
-                  
                   itemType="http://schema.org/Rating"
                 >
                   <meta itemProp="ratingValue" content="5" />
@@ -126,7 +123,6 @@ export default function SliderCofounder() {
               <div
                 className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
                 itemProp="review"
-                
                 itemType="https://schema.org/Review"
               >
                 <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -159,7 +155,6 @@ export default function SliderCofounder() {
                   <div className="text-foreground">
                     <Link
                       itemProp="author"
-                      
                       itemType="https://schema.org/Person"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
@@ -184,7 +179,7 @@ export default function SliderCofounder() {
                 <div
                   className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                   style={convertStyleStringToObject(
-                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                   )}
                 >
                   <p className="relative pb-8" itemProp="reviewBody">
@@ -199,7 +194,6 @@ export default function SliderCofounder() {
                 <meta itemProp="datePublished" content="2024-01-23" />
                 <div
                   itemProp="reviewRating"
-                  
                   itemType="http://schema.org/Rating"
                 >
                   <meta itemProp="ratingValue" content="5" />
@@ -213,7 +207,6 @@ export default function SliderCofounder() {
               <div
                 className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
                 itemProp="review"
-                
                 itemType="https://schema.org/Review"
               >
                 <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -246,7 +239,6 @@ export default function SliderCofounder() {
                   <div className="text-foreground">
                     <Link
                       itemProp="author"
-                      
                       itemType="https://schema.org/Person"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
@@ -271,25 +263,24 @@ export default function SliderCofounder() {
                 <div
                   className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                   style={convertStyleStringToObject(
-                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                   )}
                 >
                   <p className="relative pb-8" itemProp="reviewBody">
                     We hired our <b>Head of Social</b> through{" "}
-                    <b>CryptoJobsList</b> and received an impressive talent pool
+                    <b>.NetJobsList</b> and received an impressive talent pool
                     of over 80 passionate individuals interested in working in
                     the crypto space. After interviewing 10 candidates, we found
                     the perfect fit for our team. The platform was easy to use,
                     and the team was incredibly responsive and helpful
                     throughout the hiring process. As a consumer web3 startup,{" "}
-                    <b>we highly recommend</b> <b>CryptoJobsList</b> for any
+                    <b>we highly recommend</b> <b>.NetJobsList</b> for any
                     company looking to hire top talent in the crypto industry.
                   </p>
                 </div>
                 <meta itemProp="datePublished" content="2023-03-28" />
                 <div
                   itemProp="reviewRating"
-                  
                   itemType="http://schema.org/Rating"
                 >
                   <meta itemProp="ratingValue" content="5" />
@@ -303,7 +294,6 @@ export default function SliderCofounder() {
               <div
                 className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
                 itemProp="review"
-                
                 itemType="https://schema.org/Review"
               >
                 <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -336,7 +326,6 @@ export default function SliderCofounder() {
                   <div className="text-foreground">
                     <Link
                       itemProp="author"
-                      
                       itemType="https://schema.org/Person"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
@@ -361,12 +350,12 @@ export default function SliderCofounder() {
                 <div
                   className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                   style={convertStyleStringToObject(
-                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                   )}
                 >
                   <p className="relative pb-8" itemProp="reviewBody">
-                    Weve had a first round of interviews with 5+ applicants
-                    from <b>CryptoJobsList</b> and, like last time,{" "}
+                    Weve had a first round of interviews with 5+ applicants from{" "}
+                    <b>.NetJobsList</b> and, like last time,{" "}
                     <b>it has been our best source of leads</b>. We are still in
                     the process of doing a second round of interviews and
                     anticipate closing the role in the next week or two.
@@ -375,7 +364,6 @@ export default function SliderCofounder() {
                 <meta itemProp="datePublished" content="2023-08-18" />
                 <div
                   itemProp="reviewRating"
-                  
                   itemType="http://schema.org/Rating"
                 >
                   <meta itemProp="ratingValue" content="5" />
@@ -389,7 +377,6 @@ export default function SliderCofounder() {
               <div
                 className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
                 itemProp="review"
-                
                 itemType="https://schema.org/Review"
               >
                 <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -422,7 +409,6 @@ export default function SliderCofounder() {
                   <div className="text-foreground">
                     <Link
                       itemProp="author"
-                      
                       itemType="https://schema.org/Person"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
@@ -447,7 +433,7 @@ export default function SliderCofounder() {
                 <div
                   className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                   style={convertStyleStringToObject(
-                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                   )}
                 >
                   <p className="relative pb-8" itemProp="reviewBody">
@@ -458,7 +444,7 @@ export default function SliderCofounder() {
                     and crypto revolution, we know the importance of connecting
                     with top talent in the industry. Thats why{" "}
                     <b>
-                      we consider <b>CryptoJobsList</b> to be an invaluable
+                      we consider <b>.NetJobsList</b> to be an invaluable
                       resource for finding and attracting the best and brightest
                       minds in this field.
                     </b>{" "}
@@ -469,7 +455,6 @@ export default function SliderCofounder() {
                 </div>
                 <div
                   itemProp="reviewRating"
-                  
                   itemType="http://schema.org/Rating"
                 >
                   <meta itemProp="ratingValue" content="5" />
@@ -483,7 +468,6 @@ export default function SliderCofounder() {
               <div
                 className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
                 itemProp="review"
-                
                 itemType="https://schema.org/Review"
               >
                 <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -516,7 +500,6 @@ export default function SliderCofounder() {
                   <div className="text-foreground">
                     <Link
                       itemProp="author"
-                      
                       itemType="https://schema.org/Person"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
@@ -541,26 +524,25 @@ export default function SliderCofounder() {
                 <div
                   className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                   style={convertStyleStringToObject(
-                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                   )}
                 >
                   <p className="relative pb-8" itemProp="reviewBody">
-                    <b>We have already made several hires via CryptoJobsList</b>
-                    . So far, we are happy with each one of them. CJL offers an
+                    <b>We have already made several hires via .NetJobsList</b>.
+                    So far, we are happy with each one of them. CJL offers an
                     easy to use platform and the candidates we receive are
                     generally well versed with and a good fit for the web3 space
                     — which is a challenge when hiring via traditional
                     platforms. On top of this, the team has been super
-                    responsive whenever weve tried reaching out and we feel
-                    like we are talking to a friend. Excited to keep seeing CJL
-                    grow together with us, as we deliver the future of
+                    responsive whenever weve tried reaching out and we feel like
+                    we are talking to a friend. Excited to keep seeing CJL grow
+                    together with us, as we deliver the future of
                     wallet-to-wallet messaging!
                   </p>
                 </div>
                 <meta itemProp="datePublished" content="2023-02-11" />
                 <div
                   itemProp="reviewRating"
-                  
                   itemType="http://schema.org/Rating"
                 >
                   <meta itemProp="ratingValue" content="5" />
@@ -574,7 +556,6 @@ export default function SliderCofounder() {
               <div
                 className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
                 itemProp="review"
-                
                 itemType="https://schema.org/Review"
               >
                 <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -607,7 +588,6 @@ export default function SliderCofounder() {
                   <div className="text-foreground">
                     <Link
                       itemProp="author"
-                      
                       itemType="https://schema.org/Person"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
@@ -632,7 +612,7 @@ export default function SliderCofounder() {
                 <div
                   className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                   style={convertStyleStringToObject(
-                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                   )}
                 >
                   <p className="relative pb-8" itemProp="reviewBody">
@@ -644,7 +624,6 @@ export default function SliderCofounder() {
                 <meta itemProp="datePublished" content="2022-10-27" />
                 <div
                   itemProp="reviewRating"
-                  
                   itemType="http://schema.org/Rating"
                 >
                   <meta itemProp="ratingValue" content="5" />
@@ -658,7 +637,6 @@ export default function SliderCofounder() {
               <div
                 className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
                 itemProp="review"
-                
                 itemType="https://schema.org/Review"
               >
                 <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -691,7 +669,6 @@ export default function SliderCofounder() {
                   <div className="text-foreground">
                     <Link
                       itemProp="author"
-                      
                       itemType="https://schema.org/Person"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
@@ -716,11 +693,11 @@ export default function SliderCofounder() {
                 <div
                   className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                   style={convertStyleStringToObject(
-                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                   )}
                 >
                   <p className="relative pb-8" itemProp="reviewBody">
-                    We recently switched to using <b>CryptoJobsList</b> as our
+                    We recently switched to using <b>.NetJobsList</b> as our
                     primary crypto job board provider, and I have been pretty
                     impressed thus far with the talent coming through. The
                     latest feature of having a dashboard is a game changer, so
@@ -729,7 +706,6 @@ export default function SliderCofounder() {
                 </div>
                 <div
                   itemProp="reviewRating"
-                  
                   itemType="http://schema.org/Rating"
                 >
                   <meta itemProp="ratingValue" content="5" />
@@ -743,7 +719,6 @@ export default function SliderCofounder() {
               <div
                 className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
                 itemProp="review"
-                
                 itemType="https://schema.org/Review"
               >
                 <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -776,7 +751,6 @@ export default function SliderCofounder() {
                   <div className="text-foreground">
                     <Link
                       itemProp="author"
-                      
                       itemType="https://schema.org/Person"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
@@ -801,7 +775,7 @@ export default function SliderCofounder() {
                 <div
                   className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                   style={convertStyleStringToObject(
-                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                   )}
                 >
                   <p className="relative pb-8" itemProp="reviewBody">
@@ -813,7 +787,6 @@ export default function SliderCofounder() {
                 </div>
                 <div
                   itemProp="reviewRating"
-                  
                   itemType="http://schema.org/Rating"
                 >
                   <meta itemProp="ratingValue" content="5" />
@@ -827,7 +800,6 @@ export default function SliderCofounder() {
               <div
                 className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
                 itemProp="review"
-                
                 itemType="https://schema.org/Review"
               >
                 <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -860,7 +832,6 @@ export default function SliderCofounder() {
                   <div className="text-foreground">
                     <Link
                       itemProp="author"
-                      
                       itemType="https://schema.org/Person"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
@@ -885,15 +856,15 @@ export default function SliderCofounder() {
                 <div
                   className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                   style={convertStyleStringToObject(
-                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                   )}
                 >
                   <p className="relative pb-8" itemProp="reviewBody">
-                    Id recommend using <b>CryptoJobsList</b> if youre looking
-                    to hire someone in crypto, they cater to a number of
-                    different skill sets including marketing and community sales
-                    and business development traders and of course, developers
-                    and engineers. We{" "}
+                    Id recommend using <b>.NetJobsList</b> if youre looking to
+                    hire someone in crypto, they cater to a number of different
+                    skill sets including marketing and community sales and
+                    business development traders and of course, developers and
+                    engineers. We{" "}
                     <Link
                       href="https://medium.com/epicenterpodcast/epicenter-has-a-new-cmo-welcome-graham-tonkin-788d24cd7758"
                       target="_blank"
@@ -907,7 +878,6 @@ export default function SliderCofounder() {
                 </div>
                 <div
                   itemProp="reviewRating"
-                  
                   itemType="http://schema.org/Rating"
                 >
                   <meta itemProp="ratingValue" content="5" />
@@ -921,7 +891,6 @@ export default function SliderCofounder() {
               <div
                 className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
                 itemProp="review"
-                
                 itemType="https://schema.org/Review"
               >
                 <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -954,7 +923,6 @@ export default function SliderCofounder() {
                   <div className="text-foreground">
                     <Link
                       itemProp="author"
-                      
                       itemType="https://schema.org/Person"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
@@ -979,7 +947,7 @@ export default function SliderCofounder() {
                 <div
                   className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                   style={convertStyleStringToObject(
-                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                   )}
                 >
                   <p className="relative pb-8" itemProp="reviewBody">
@@ -987,12 +955,11 @@ export default function SliderCofounder() {
                     oftalent that was really passionate about working in the
                     crypto space. We{" "}
                     <b>received 150+ applications, interviewed 10</b> and{" "}
-                    <b>hired the one from CryptoJobsList.</b>
+                    <b>hired the one from .NetJobsList.</b>
                   </p>
                 </div>
                 <div
                   itemProp="reviewRating"
-                  
                   itemType="http://schema.org/Rating"
                 >
                   <meta itemProp="ratingValue" content="5" />
@@ -1004,7 +971,7 @@ export default function SliderCofounder() {
         <div
           className="Marquee_marquee__alYF4"
           style={convertStyleStringToObject(
-            "--play: running; --direction: normal; --duration: 210.32s; --delay: 0s; --iteration-count: infinite; --min-width: 100%;"
+            "--play: running; --direction: normal; --duration: 210.32s; --delay: 0s; --iteration-count: infinite; --min-width: 100%;",
           )}
         >
           <div
@@ -1014,7 +981,6 @@ export default function SliderCofounder() {
             <div
               className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
               itemProp="review"
-              
               itemType="https://schema.org/Review"
             >
               <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -1047,7 +1013,6 @@ export default function SliderCofounder() {
                 <div className="text-foreground">
                   <Link
                     itemProp="author"
-                    
                     itemType="https://schema.org/Person"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
@@ -1073,20 +1038,16 @@ export default function SliderCofounder() {
               <div
                 className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                 style={convertStyleStringToObject(
-                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                 )}
               >
                 <p className="relative pb-8" itemProp="reviewBody">
-                  <b>CryptoJobsList</b> has been <b>great!</b> About to hire 1
-                  new rep and considering countless others as well.
+                  <b>.NetJobsList</b> has been <b>great!</b> About to hire 1 new
+                  rep and considering countless others as well.
                 </p>
               </div>
               <meta itemProp="datePublished" content="2024-10-01" />
-              <div
-                itemProp="reviewRating"
-                
-                itemType="http://schema.org/Rating"
-              >
+              <div itemProp="reviewRating" itemType="http://schema.org/Rating">
                 <meta itemProp="ratingValue" content="5" />
               </div>
             </div>
@@ -1098,7 +1059,6 @@ export default function SliderCofounder() {
             <div
               className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
               itemProp="review"
-              
               itemType="https://schema.org/Review"
             >
               <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -1131,7 +1091,6 @@ export default function SliderCofounder() {
                 <div className="text-foreground">
                   <Link
                     itemProp="author"
-                    
                     itemType="https://schema.org/Person"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
@@ -1156,7 +1115,7 @@ export default function SliderCofounder() {
               <div
                 className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                 style={convertStyleStringToObject(
-                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                 )}
               >
                 <p className="relative pb-8" itemProp="reviewBody">
@@ -1169,11 +1128,7 @@ export default function SliderCofounder() {
                 </p>
               </div>
               <meta itemProp="datePublished" content="2024-01-23" />
-              <div
-                itemProp="reviewRating"
-                
-                itemType="http://schema.org/Rating"
-              >
+              <div itemProp="reviewRating" itemType="http://schema.org/Rating">
                 <meta itemProp="ratingValue" content="5" />
               </div>
             </div>
@@ -1185,7 +1140,6 @@ export default function SliderCofounder() {
             <div
               className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
               itemProp="review"
-              
               itemType="https://schema.org/Review"
             >
               <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -1218,7 +1172,6 @@ export default function SliderCofounder() {
                 <div className="text-foreground">
                   <Link
                     itemProp="author"
-                    
                     itemType="https://schema.org/Person"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
@@ -1243,27 +1196,23 @@ export default function SliderCofounder() {
               <div
                 className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                 style={convertStyleStringToObject(
-                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                 )}
               >
                 <p className="relative pb-8" itemProp="reviewBody">
-                  We hired our <b>Head of Social</b> through{" "}
-                  <b>CryptoJobsList</b> and received an impressive talent pool
-                  of over 80 passionate individuals interested in working in the
-                  crypto space. After interviewing 10 candidates, we found the
-                  perfect fit for our team. The platform was easy to use, and
-                  the team was incredibly responsive and helpful throughout the
-                  hiring process. As a consumer web3 startup,{" "}
-                  <b>we highly recommend</b> <b>CryptoJobsList</b> for any
-                  company looking to hire top talent in the crypto industry.
+                  We hired our <b>Head of Social</b> through <b>.NetJobsList</b>{" "}
+                  and received an impressive talent pool of over 80 passionate
+                  individuals interested in working in the crypto space. After
+                  interviewing 10 candidates, we found the perfect fit for our
+                  team. The platform was easy to use, and the team was
+                  incredibly responsive and helpful throughout the hiring
+                  process. As a consumer web3 startup,{" "}
+                  <b>we highly recommend</b> <b>.NetJobsList</b> for any company
+                  looking to hire top talent in the crypto industry.
                 </p>
               </div>
               <meta itemProp="datePublished" content="2023-03-28" />
-              <div
-                itemProp="reviewRating"
-                
-                itemType="http://schema.org/Rating"
-              >
+              <div itemProp="reviewRating" itemType="http://schema.org/Rating">
                 <meta itemProp="ratingValue" content="5" />
               </div>
             </div>
@@ -1275,7 +1224,6 @@ export default function SliderCofounder() {
             <div
               className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
               itemProp="review"
-              
               itemType="https://schema.org/Review"
             >
               <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -1308,7 +1256,6 @@ export default function SliderCofounder() {
                 <div className="text-foreground">
                   <Link
                     itemProp="author"
-                    
                     itemType="https://schema.org/Person"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
@@ -1333,23 +1280,19 @@ export default function SliderCofounder() {
               <div
                 className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                 style={convertStyleStringToObject(
-                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                 )}
               >
                 <p className="relative pb-8" itemProp="reviewBody">
                   Weve had a first round of interviews with 5+ applicants from{" "}
-                  <b>CryptoJobsList</b> and, like last time,{" "}
+                  <b>.NetJobsList</b> and, like last time,{" "}
                   <b>it has been our best source of leads</b>. We are still in
                   the process of doing a second round of interviews and
                   anticipate closing the role in the next week or two.
                 </p>
               </div>
               <meta itemProp="datePublished" content="2023-08-18" />
-              <div
-                itemProp="reviewRating"
-                
-                itemType="http://schema.org/Rating"
-              >
+              <div itemProp="reviewRating" itemType="http://schema.org/Rating">
                 <meta itemProp="ratingValue" content="5" />
               </div>
             </div>
@@ -1361,7 +1304,6 @@ export default function SliderCofounder() {
             <div
               className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
               itemProp="review"
-              
               itemType="https://schema.org/Review"
             >
               <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -1394,7 +1336,6 @@ export default function SliderCofounder() {
                 <div className="text-foreground">
                   <Link
                     itemProp="author"
-                    
                     itemType="https://schema.org/Person"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
@@ -1419,7 +1360,7 @@ export default function SliderCofounder() {
               <div
                 className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                 style={convertStyleStringToObject(
-                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                 )}
               >
                 <p className="relative pb-8" itemProp="reviewBody">
@@ -1430,20 +1371,16 @@ export default function SliderCofounder() {
                   revolution, we know the importance of connecting with top
                   talent in the industry. Thats why{" "}
                   <b>
-                    we consider <b>CryptoJobsList</b> to be an invaluable
-                    resource for finding and attracting the best and brightest
-                    minds in this field.
+                    we consider <b>.NetJobsList</b> to be an invaluable resource
+                    for finding and attracting the best and brightest minds in
+                    this field.
                   </b>{" "}
                   It has proven to be a valuable and effective tool in our
                   hiring efforts and we are grateful for the opportunities it
                   has presented us.
                 </p>
               </div>
-              <div
-                itemProp="reviewRating"
-                
-                itemType="http://schema.org/Rating"
-              >
+              <div itemProp="reviewRating" itemType="http://schema.org/Rating">
                 <meta itemProp="ratingValue" content="5" />
               </div>
             </div>
@@ -1455,7 +1392,6 @@ export default function SliderCofounder() {
             <div
               className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
               itemProp="review"
-              
               itemType="https://schema.org/Review"
             >
               <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -1488,7 +1424,6 @@ export default function SliderCofounder() {
                 <div className="text-foreground">
                   <Link
                     itemProp="author"
-                    
                     itemType="https://schema.org/Person"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
@@ -1513,15 +1448,15 @@ export default function SliderCofounder() {
               <div
                 className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                 style={convertStyleStringToObject(
-                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                 )}
               >
                 <p className="relative pb-8" itemProp="reviewBody">
-                  <b>We have already made several hires via CryptoJobsList</b>.
-                  So far, we are happy with each one of them. CJL offers an easy
-                  to use platform and the candidates we receive are generally
-                  well versed with and a good fit for the web3 space — which is
-                  a challenge when hiring via traditional platforms. On top of
+                  <b>We have already made several hires via .NetJobsList</b>. So
+                  far, we are happy with each one of them. CJL offers an easy to
+                  use platform and the candidates we receive are generally well
+                  versed with and a good fit for the web3 space — which is a
+                  challenge when hiring via traditional platforms. On top of
                   this, the team has been super responsive whenever weve tried
                   reaching out and we feel like we are talking to a friend.
                   Excited to keep seeing CJL grow together with us, as we
@@ -1529,11 +1464,7 @@ export default function SliderCofounder() {
                 </p>
               </div>
               <meta itemProp="datePublished" content="2023-02-11" />
-              <div
-                itemProp="reviewRating"
-                
-                itemType="http://schema.org/Rating"
-              >
+              <div itemProp="reviewRating" itemType="http://schema.org/Rating">
                 <meta itemProp="ratingValue" content="5" />
               </div>
             </div>
@@ -1545,7 +1476,6 @@ export default function SliderCofounder() {
             <div
               className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
               itemProp="review"
-              
               itemType="https://schema.org/Review"
             >
               <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -1578,7 +1508,6 @@ export default function SliderCofounder() {
                 <div className="text-foreground">
                   <Link
                     itemProp="author"
-                    
                     itemType="https://schema.org/Person"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
@@ -1603,7 +1532,7 @@ export default function SliderCofounder() {
               <div
                 className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                 style={convertStyleStringToObject(
-                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                 )}
               >
                 <p className="relative pb-8" itemProp="reviewBody">
@@ -1613,11 +1542,7 @@ export default function SliderCofounder() {
                 </p>
               </div>
               <meta itemProp="datePublished" content="2022-10-27" />
-              <div
-                itemProp="reviewRating"
-                
-                itemType="http://schema.org/Rating"
-              >
+              <div itemProp="reviewRating" itemType="http://schema.org/Rating">
                 <meta itemProp="ratingValue" content="5" />
               </div>
             </div>
@@ -1629,7 +1554,6 @@ export default function SliderCofounder() {
             <div
               className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
               itemProp="review"
-              
               itemType="https://schema.org/Review"
             >
               <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -1662,7 +1586,6 @@ export default function SliderCofounder() {
                 <div className="text-foreground">
                   <Link
                     itemProp="author"
-                    
                     itemType="https://schema.org/Person"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
@@ -1687,21 +1610,17 @@ export default function SliderCofounder() {
               <div
                 className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                 style={convertStyleStringToObject(
-                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                 )}
               >
                 <p className="relative pb-8" itemProp="reviewBody">
-                  We recently switched to using <b>CryptoJobsList</b> as our
+                  We recently switched to using <b>.NetJobsList</b> as our
                   primary crypto job board provider, and I have been pretty
                   impressed thus far with the talent coming through. The latest
                   feature of having a dashboard is a game changer, so thank you!
                 </p>
               </div>
-              <div
-                itemProp="reviewRating"
-                
-                itemType="http://schema.org/Rating"
-              >
+              <div itemProp="reviewRating" itemType="http://schema.org/Rating">
                 <meta itemProp="ratingValue" content="5" />
               </div>
             </div>
@@ -1713,7 +1632,6 @@ export default function SliderCofounder() {
             <div
               className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
               itemProp="review"
-              
               itemType="https://schema.org/Review"
             >
               <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -1746,7 +1664,6 @@ export default function SliderCofounder() {
                 <div className="text-foreground">
                   <Link
                     itemProp="author"
-                    
                     itemType="https://schema.org/Person"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
@@ -1771,7 +1688,7 @@ export default function SliderCofounder() {
               <div
                 className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                 style={convertStyleStringToObject(
-                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                 )}
               >
                 <p className="relative pb-8" itemProp="reviewBody">
@@ -1781,11 +1698,7 @@ export default function SliderCofounder() {
                   so far!
                 </p>
               </div>
-              <div
-                itemProp="reviewRating"
-                
-                itemType="http://schema.org/Rating"
-              >
+              <div itemProp="reviewRating" itemType="http://schema.org/Rating">
                 <meta itemProp="ratingValue" content="5" />
               </div>
             </div>
@@ -1797,7 +1710,6 @@ export default function SliderCofounder() {
             <div
               className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
               itemProp="review"
-              
               itemType="https://schema.org/Review"
             >
               <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -1830,7 +1742,6 @@ export default function SliderCofounder() {
                 <div className="text-foreground">
                   <Link
                     itemProp="author"
-                    
                     itemType="https://schema.org/Person"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
@@ -1855,11 +1766,11 @@ export default function SliderCofounder() {
               <div
                 className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                 style={convertStyleStringToObject(
-                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                 )}
               >
                 <p className="relative pb-8" itemProp="reviewBody">
-                  Id recommend using <b>CryptoJobsList</b> if youre looking to
+                  Id recommend using <b>.NetJobsList</b> if youre looking to
                   hire someone in crypto, they cater to a number of different
                   skill sets including marketing and community sales and
                   business development traders and of course, developers and
@@ -1875,11 +1786,7 @@ export default function SliderCofounder() {
                   here!
                 </p>
               </div>
-              <div
-                itemProp="reviewRating"
-                
-                itemType="http://schema.org/Rating"
-              >
+              <div itemProp="reviewRating" itemType="http://schema.org/Rating">
                 <meta itemProp="ratingValue" content="5" />
               </div>
             </div>
@@ -1891,7 +1798,6 @@ export default function SliderCofounder() {
             <div
               className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
               itemProp="review"
-              
               itemType="https://schema.org/Review"
             >
               <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -1924,7 +1830,6 @@ export default function SliderCofounder() {
                 <div className="text-foreground">
                   <Link
                     itemProp="author"
-                    
                     itemType="https://schema.org/Person"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
@@ -1949,7 +1854,7 @@ export default function SliderCofounder() {
               <div
                 className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                 style={convertStyleStringToObject(
-                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                 )}
               >
                 <p className="relative pb-8" itemProp="reviewBody">
@@ -1957,14 +1862,10 @@ export default function SliderCofounder() {
                   oftalent that was really passionate about working in the
                   crypto space. We{" "}
                   <b>received 150+ applications, interviewed 10</b> and{" "}
-                  <b>hired the one from CryptoJobsList.</b>
+                  <b>hired the one from .NetJobsList.</b>
                 </p>
               </div>
-              <div
-                itemProp="reviewRating"
-                
-                itemType="http://schema.org/Rating"
-              >
+              <div itemProp="reviewRating" itemType="http://schema.org/Rating">
                 <meta itemProp="ratingValue" content="5" />
               </div>
             </div>
@@ -1974,13 +1875,13 @@ export default function SliderCofounder() {
       <div
         className="Marquee_marquee-container__FDbjq my-6 horizontal-fade"
         style={convertStyleStringToObject(
-          "--pause-on-hover: paused; --pause-on-click: paused; --width: 100%; --transform: none;"
+          "--pause-on-hover: paused; --pause-on-click: paused; --width: 100%; --transform: none;",
         )}
       >
         <div
           className="Marquee_marquee__alYF4"
           style={convertStyleStringToObject(
-            "--play: running; --direction: reverse; --duration: 155.84s; --delay: 0s; --iteration-count: infinite; --min-width: 100%;"
+            "--play: running; --direction: reverse; --duration: 155.84s; --delay: 0s; --iteration-count: infinite; --min-width: 100%;",
           )}
         >
           <div className="Marquee_initial-child-container__kr2if">
@@ -1991,7 +1892,6 @@ export default function SliderCofounder() {
               <div
                 className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
                 itemProp="review"
-                
                 itemType="https://schema.org/Review"
               >
                 <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -2024,7 +1924,6 @@ export default function SliderCofounder() {
                   <div className="text-foreground">
                     <Link
                       itemProp="author"
-                      
                       itemType="https://schema.org/Person"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
@@ -2049,7 +1948,7 @@ export default function SliderCofounder() {
                 <div
                   className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                   style={convertStyleStringToObject(
-                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                   )}
                 >
                   <p className="relative pb-8" itemProp="reviewBody">
@@ -2065,12 +1964,11 @@ export default function SliderCofounder() {
                     </Link>
                     . It has been very effective and would{" "}
                     <b>highly recommend</b>. Service is excellent, UX simple.
-                    Thanks CryptoJobsList!
+                    Thanks .NetJobsList!
                   </p>
                 </div>
                 <div
                   itemProp="reviewRating"
-                  
                   itemType="http://schema.org/Rating"
                 >
                   <meta itemProp="ratingValue" content="5" />
@@ -2084,7 +1982,6 @@ export default function SliderCofounder() {
               <div
                 className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
                 itemProp="review"
-                
                 itemType="https://schema.org/Review"
               >
                 <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -2117,7 +2014,6 @@ export default function SliderCofounder() {
                   <div className="text-foreground">
                     <Link
                       itemProp="author"
-                      
                       itemType="https://schema.org/Person"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
@@ -2142,18 +2038,17 @@ export default function SliderCofounder() {
                 <div
                   className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                   style={convertStyleStringToObject(
-                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                   )}
                 >
                   <p className="relative pb-8" itemProp="reviewBody">
                     Great experience. We have had excellent candidates via Raman
-                    and the <b>CryptoJobsList</b> platform. Will definitely use
+                    and the <b>.NetJobsList</b> platform. Will definitely use
                     again as we build out other components of the team!
                   </p>
                 </div>
                 <div
                   itemProp="reviewRating"
-                  
                   itemType="http://schema.org/Rating"
                 >
                   <meta itemProp="ratingValue" content="5" />
@@ -2258,12 +2153,12 @@ export default function SliderCofounder() {
                       excellent, UX simple. Thanks{" "}
                     </span>
                     <Link
-                      href="https://x.com/CryptoJobsList"
+                      href="https://x.com/.NetJobsList"
                       className="tweet-link_root__4EzRS"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
                     >
-                      @CryptoJobsList
+                      @.NetJobsList
                     </Link>
                     <span>h/t </span>
                     <Link
@@ -2400,7 +2295,6 @@ export default function SliderCofounder() {
               <div
                 className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
                 itemProp="review"
-                
                 itemType="https://schema.org/Review"
               >
                 <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -2433,7 +2327,6 @@ export default function SliderCofounder() {
                   <div className="text-foreground">
                     <Link
                       itemProp="author"
-                      
                       itemType="https://schema.org/Person"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
@@ -2458,19 +2351,18 @@ export default function SliderCofounder() {
                 <div
                   className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                   style={convertStyleStringToObject(
-                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                   )}
                 >
                   <p className="relative pb-8" itemProp="reviewBody">
                     <span className="text-normal">
-                      <b>CryptoJobsList</b> drives <b>more qualified leads</b>{" "}
+                      <b>.NetJobsList</b> drives <b>more qualified leads</b>{" "}
                       than AngelList!
                     </span>
                   </p>
                 </div>
                 <div
                   itemProp="reviewRating"
-                  
                   itemType="http://schema.org/Rating"
                 >
                   <meta itemProp="ratingValue" content="5" />
@@ -2484,7 +2376,6 @@ export default function SliderCofounder() {
               <div
                 className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
                 itemProp="review"
-                
                 itemType="https://schema.org/Review"
               >
                 <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -2517,7 +2408,6 @@ export default function SliderCofounder() {
                   <div className="text-foreground">
                     <Link
                       itemProp="author"
-                      
                       itemType="https://schema.org/Person"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
@@ -2542,18 +2432,16 @@ export default function SliderCofounder() {
                 <div
                   className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                   style={convertStyleStringToObject(
-                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                   )}
                 >
                   <p className="relative pb-8" itemProp="reviewBody">
                     Weve gotten great leads for <b>developers</b> from
-                    CryptoJobsList. Im definitely a continuous user going
-                    forward!
+                    .NetJobsList. Im definitely a continuous user going forward!
                   </p>
                 </div>
                 <div
                   itemProp="reviewRating"
-                  
                   itemType="http://schema.org/Rating"
                 >
                   <meta itemProp="ratingValue" content="5" />
@@ -2567,7 +2455,6 @@ export default function SliderCofounder() {
               <div
                 className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
                 itemProp="review"
-                
                 itemType="https://schema.org/Review"
               >
                 <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -2600,7 +2487,6 @@ export default function SliderCofounder() {
                   <div className="text-foreground">
                     <Link
                       itemProp="author"
-                      
                       itemType="https://schema.org/Person"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
@@ -2625,7 +2511,7 @@ export default function SliderCofounder() {
                 <div
                   className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                   style={convertStyleStringToObject(
-                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                   )}
                 >
                   <p className="relative pb-8" itemProp="reviewBody">
@@ -2637,7 +2523,6 @@ export default function SliderCofounder() {
                 </div>
                 <div
                   itemProp="reviewRating"
-                  
                   itemType="http://schema.org/Rating"
                 >
                   <meta itemProp="ratingValue" content="5" />
@@ -2651,7 +2536,6 @@ export default function SliderCofounder() {
               <div
                 className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
                 itemProp="review"
-                
                 itemType="https://schema.org/Review"
               >
                 <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -2684,7 +2568,6 @@ export default function SliderCofounder() {
                   <div className="text-foreground">
                     <Link
                       itemProp="author"
-                      
                       itemType="https://schema.org/Person"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
@@ -2709,7 +2592,7 @@ export default function SliderCofounder() {
                 <div
                   className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                   style={convertStyleStringToObject(
-                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                   )}
                 >
                   <p className="relative pb-8" itemProp="reviewBody">
@@ -2729,7 +2612,6 @@ export default function SliderCofounder() {
                 </div>
                 <div
                   itemProp="reviewRating"
-                  
                   itemType="http://schema.org/Rating"
                 >
                   <meta itemProp="ratingValue" content="5" />
@@ -2743,7 +2625,6 @@ export default function SliderCofounder() {
               <div
                 className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
                 itemProp="review"
-                
                 itemType="https://schema.org/Review"
               >
                 <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -2764,7 +2645,6 @@ export default function SliderCofounder() {
                   <div className="text-foreground">
                     <Link
                       itemProp="author"
-                      
                       itemType="https://schema.org/Person"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
@@ -2782,11 +2662,11 @@ export default function SliderCofounder() {
                 <div
                   className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                   style={convertStyleStringToObject(
-                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                    "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                   )}
                 >
                   <p className="relative pb-8" itemProp="reviewBody">
-                    We posted on <b>CryptoJobsList</b> looking for{" "}
+                    We posted on <b>.NetJobsList</b> looking for{" "}
                     <b>marketing</b> help with community engagement, digital
                     marketing and social media and found{" "}
                     <b>two highly qualified candidates within days</b>! We
@@ -2795,7 +2675,6 @@ export default function SliderCofounder() {
                 </div>
                 <div
                   itemProp="reviewRating"
-                  
                   itemType="http://schema.org/Rating"
                 >
                   <meta itemProp="ratingValue" content="5" />
@@ -2807,7 +2686,7 @@ export default function SliderCofounder() {
         <div
           className="Marquee_marquee__alYF4"
           style={convertStyleStringToObject(
-            "--play: running; --direction: reverse; --duration: 155.84s; --delay: 0s; --iteration-count: infinite; --min-width: 100%;"
+            "--play: running; --direction: reverse; --duration: 155.84s; --delay: 0s; --iteration-count: infinite; --min-width: 100%;",
           )}
         >
           <div
@@ -2817,7 +2696,6 @@ export default function SliderCofounder() {
             <div
               className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
               itemProp="review"
-              
               itemType="https://schema.org/Review"
             >
               <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -2850,7 +2728,6 @@ export default function SliderCofounder() {
                 <div className="text-foreground">
                   <Link
                     itemProp="author"
-                    
                     itemType="https://schema.org/Person"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
@@ -2875,7 +2752,7 @@ export default function SliderCofounder() {
               <div
                 className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                 style={convertStyleStringToObject(
-                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                 )}
               >
                 <p className="relative pb-8" itemProp="reviewBody">
@@ -2889,14 +2766,10 @@ export default function SliderCofounder() {
                     this post
                   </Link>
                   . It has been very effective and would <b>highly recommend</b>
-                  . Service is excellent, UX simple. Thanks CryptoJobsList!
+                  . Service is excellent, UX simple. Thanks .NetJobsList!
                 </p>
               </div>
-              <div
-                itemProp="reviewRating"
-                
-                itemType="http://schema.org/Rating"
-              >
+              <div itemProp="reviewRating" itemType="http://schema.org/Rating">
                 <meta itemProp="ratingValue" content="5" />
               </div>
             </div>
@@ -2908,7 +2781,6 @@ export default function SliderCofounder() {
             <div
               className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
               itemProp="review"
-              
               itemType="https://schema.org/Review"
             >
               <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -2941,7 +2813,6 @@ export default function SliderCofounder() {
                 <div className="text-foreground">
                   <Link
                     itemProp="author"
-                    
                     itemType="https://schema.org/Person"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
@@ -2966,20 +2837,16 @@ export default function SliderCofounder() {
               <div
                 className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                 style={convertStyleStringToObject(
-                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                 )}
               >
                 <p className="relative pb-8" itemProp="reviewBody">
                   Great experience. We have had excellent candidates via Raman
-                  and the <b>CryptoJobsList</b> platform. Will definitely use
+                  and the <b>.NetJobsList</b> platform. Will definitely use
                   again as we build out other components of the team!
                 </p>
               </div>
-              <div
-                itemProp="reviewRating"
-                
-                itemType="http://schema.org/Rating"
-              >
+              <div itemProp="reviewRating" itemType="http://schema.org/Rating">
                 <meta itemProp="ratingValue" content="5" />
               </div>
             </div>
@@ -3080,12 +2947,12 @@ export default function SliderCofounder() {
                     excellent, UX simple. Thanks{" "}
                   </span>
                   <Link
-                    href="https://x.com/CryptoJobsList"
+                    href="https://x.com/.NetJobsList"
                     className="tweet-link_root__4EzRS"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
                   >
-                    @CryptoJobsList
+                    @.NetJobsList
                   </Link>
                   <span>h/t </span>
                   <Link
@@ -3222,7 +3089,6 @@ export default function SliderCofounder() {
             <div
               className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
               itemProp="review"
-              
               itemType="https://schema.org/Review"
             >
               <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -3255,7 +3121,6 @@ export default function SliderCofounder() {
                 <div className="text-foreground">
                   <Link
                     itemProp="author"
-                    
                     itemType="https://schema.org/Person"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
@@ -3280,21 +3145,17 @@ export default function SliderCofounder() {
               <div
                 className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                 style={convertStyleStringToObject(
-                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                 )}
               >
                 <p className="relative pb-8" itemProp="reviewBody">
                   <span className="text-normal">
-                    <b>CryptoJobsList</b> drives <b>more qualified leads</b>{" "}
-                    than AngelList!
+                    <b>.NetJobsList</b> drives <b>more qualified leads</b> than
+                    AngelList!
                   </span>
                 </p>
               </div>
-              <div
-                itemProp="reviewRating"
-                
-                itemType="http://schema.org/Rating"
-              >
+              <div itemProp="reviewRating" itemType="http://schema.org/Rating">
                 <meta itemProp="ratingValue" content="5" />
               </div>
             </div>
@@ -3306,7 +3167,6 @@ export default function SliderCofounder() {
             <div
               className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
               itemProp="review"
-              
               itemType="https://schema.org/Review"
             >
               <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -3339,7 +3199,6 @@ export default function SliderCofounder() {
                 <div className="text-foreground">
                   <Link
                     itemProp="author"
-                    
                     itemType="https://schema.org/Person"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
@@ -3364,20 +3223,15 @@ export default function SliderCofounder() {
               <div
                 className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                 style={convertStyleStringToObject(
-                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                 )}
               >
                 <p className="relative pb-8" itemProp="reviewBody">
                   Weve gotten great leads for <b>developers</b> from
-                  CryptoJobsList. Im definitely a continuous user going
-                  forward!
+                  .NetJobsList. Im definitely a continuous user going forward!
                 </p>
               </div>
-              <div
-                itemProp="reviewRating"
-                
-                itemType="http://schema.org/Rating"
-              >
+              <div itemProp="reviewRating" itemType="http://schema.org/Rating">
                 <meta itemProp="ratingValue" content="5" />
               </div>
             </div>
@@ -3389,7 +3243,6 @@ export default function SliderCofounder() {
             <div
               className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
               itemProp="review"
-              
               itemType="https://schema.org/Review"
             >
               <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -3422,7 +3275,6 @@ export default function SliderCofounder() {
                 <div className="text-foreground">
                   <Link
                     itemProp="author"
-                    
                     itemType="https://schema.org/Person"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
@@ -3447,7 +3299,7 @@ export default function SliderCofounder() {
               <div
                 className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                 style={convertStyleStringToObject(
-                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                 )}
               >
                 <p className="relative pb-8" itemProp="reviewBody">
@@ -3456,11 +3308,7 @@ export default function SliderCofounder() {
                   and have the past experience to hit the ground running.
                 </p>
               </div>
-              <div
-                itemProp="reviewRating"
-                
-                itemType="http://schema.org/Rating"
-              >
+              <div itemProp="reviewRating" itemType="http://schema.org/Rating">
                 <meta itemProp="ratingValue" content="5" />
               </div>
             </div>
@@ -3472,7 +3320,6 @@ export default function SliderCofounder() {
             <div
               className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
               itemProp="review"
-              
               itemType="https://schema.org/Review"
             >
               <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -3505,7 +3352,6 @@ export default function SliderCofounder() {
                 <div className="text-foreground">
                   <Link
                     itemProp="author"
-                    
                     itemType="https://schema.org/Person"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
@@ -3530,7 +3376,7 @@ export default function SliderCofounder() {
               <div
                 className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                 style={convertStyleStringToObject(
-                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                 )}
               >
                 <p className="relative pb-8" itemProp="reviewBody">
@@ -3548,11 +3394,7 @@ export default function SliderCofounder() {
                   the crypto industry.
                 </p>
               </div>
-              <div
-                itemProp="reviewRating"
-                
-                itemType="http://schema.org/Rating"
-              >
+              <div itemProp="reviewRating" itemType="http://schema.org/Rating">
                 <meta itemProp="ratingValue" content="5" />
               </div>
             </div>
@@ -3564,7 +3406,6 @@ export default function SliderCofounder() {
             <div
               className="mx-4 w-[min(100dvw,450px)] flex flex-col gap-4 p-8 overflow-hidden list-none border border-solid rounded-xl border-black/20 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 dark:border-dark-100 group @container h-[300px]"
               itemProp="review"
-              
               itemType="https://schema.org/Review"
             >
               <div className="flex flex-col items-start @[250px]:items-center gap-2 @[250px]:flex-row">
@@ -3585,7 +3426,6 @@ export default function SliderCofounder() {
                 <div className="text-foreground">
                   <Link
                     itemProp="author"
-                    
                     itemType="https://schema.org/Person"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
@@ -3603,21 +3443,18 @@ export default function SliderCofounder() {
               <div
                 className="overflow-scroll line-clamp-8 opacity-90 scrollbar-none [-ms-overflow-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden relative"
                 style={convertStyleStringToObject(
-                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);"
+                  "mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);",
                 )}
               >
                 <p className="relative pb-8" itemProp="reviewBody">
-                  We posted on <b>CryptoJobsList</b> looking for{" "}
-                  <b>marketing</b> help with community engagement, digital
-                  marketing and social media and found{" "}
+                  We posted on <b>.NetJobsList</b> looking for <b>marketing</b>{" "}
+                  help with community engagement, digital marketing and social
+                  media and found{" "}
                   <b>two highly qualified candidates within days</b>! We
                   interviewed and hired them within three weeks.
                 </p>
               </div>
-              <div
-                itemProp="reviewRating"              
-                itemType="http://schema.org/Rating"
-              >
+              <div itemProp="reviewRating" itemType="http://schema.org/Rating">
                 <meta itemProp="ratingValue" content="5" />
               </div>
             </div>
@@ -3627,7 +3464,6 @@ export default function SliderCofounder() {
       <div
         itemProp="aggregateRating"
         itemType="https://schema.org/AggregateRating"
-        
       >
         <meta itemProp="reviewCount" content="105" />
         <meta itemProp="ratingValue" content="4.9" />
