@@ -4,16 +4,1816 @@ import Link from "next/link";
 
 export default function Companies() {
   return (
-  <main><section className="Company_companyList___9rHS relative container-wide"><h1 className="text-3xl font-extrabold !leading-[1.3em] sm:text-4xl w-full text-center sm:text-left">Crypto Companies &amp; Web3 Projects</h1><p className="px-2 text-xl sm:px-auto">Find top 2569 growing <b>cryptocurrency &amp; blockchain companies</b> for March 2025.
-  <br className="desktop-only"/> Learn their stories, company culture, why they are the companies you should work for.</p>
-  <nav className="capitalize p-0 sm:-mx-3 my-4 flex gap-1 sm:gap-2 text-center whitespace-nowrap flex-wrap justify-center sm:justify-start sm:px-3 leading-6"><Link className="category" href="/b2b-companies">B2B</Link><Link className="category" href="/b2c-companies">B2C</Link><Link className="category" href="/exchange-companies">Exchange</Link><Link className="category" href="/protocol-companies">Protocol</Link><Link className="category" href="/infrastructure-companies">Infrastructure</Link><Link className="category" href="/stable-coin-companies">Stable Coin</Link><Link className="category" href="/foundation-companies">Foundation</Link><Link className="category" href="/investment-fund-companies">Investment Fund</Link><Link className="category" href="/consulting-agency-companies">Consultancy</Link><Link className="category" href="/advisory-companies">Advisory</Link><Link className="category" href="/pre-product-market-fit-companies">Pre Product Market Fit</Link><Link className="category" href="/mining-companies">Mining</Link><Link className="category" href="/remote-companies">Remote</Link><Link className="category" href="/remote-usa-companies">Remote (USA)</Link><Link className="category" href="/remote-europe-companies">Remote (Europe)</Link><Link className="category" href="/remote-asia-companies">Remote (Asia)</Link><Link className="category" href="/flexible-hours-companies">Flexible Hours</Link><Link className="category" href="/transparent-companies">Transparent</Link><Link className="category" href="/family-friendly-companies">Family Friendly</Link><Link className="category" href="/daily-standup-companies">Daily Stand up</Link><Link className="category" href="/pair-programming-companies">Pair Programming</Link><Link className="category" href="/open-source-companies">OpenSource Contributor</Link><Link className="category" href="/agile-companies">Agile</Link><Link className="category" href="/has-internship-program-companies">Has Internship Program</Link><Link className="category" href="/bootstrapped-companies">Bootstrapped</Link><Link className="category" href="/vc-funded-companies">VC Funded</Link><Link className="category" href="/ico-companies">ICO Funded</Link><Link className="category" href="/self-funded-companies">Self Funded</Link><Link className="category" href="/technical-founders-companies">Technical Founders</Link><Link className="category" href="/defi-companies">DeFi</Link><Link className="category" href="/nft-companies">NFT</Link><Link className="category" href="/dao-companies">DAO</Link><Link className="category" href="/metaverse-companies">Metaverse</Link></nav></section><section className="mt-8 text-center container-wide ui"><div className="flex flex-col items-stretch justify-between gap-6 my-5 md:items-center md:flex-row"><div className="flex gap-2"><div className="relative w-full md:w-[400px] h-9 px-3 ![background-image:none] !text-sm py-1 dark:!bg-dark-200 flex items-center justify-between whitespace-nowrap rounded-md !border border-input !shadow-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:!ring-ring disabled:cursor-not-allowed disabled:opacity-50 [&amp;>span]:line-clamp-1 bg-background"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" className="absolute h-full left-3" color="grey" aria-hidden="true"  height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg><input placeholder="Search Companies" name="search" className="w-full py-0.5 pl-6 pr-4 border-0 rounded-l-none rounded-r  sm:pr-6 focus:outline-none dark:bg-gray-900 dark:text-white !bg-transparent" value=""/></div><button type="button" role="combobox" aria-controls="radix-:r0:" aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed" data-placeholder="" className="flex h-9 w-full items-center justify-between whitespace-nowrap rounded-md border border-input bg-transparent px-3 py-2 text-sm shadow-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-ring disabled:cursor-not-allowed disabled:opacity-50 [&amp;>span]:line-clamp-1 notranslate bg-white dark:bg-dark-200 max-w-[100px]"><span >Sort</span><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 opacity-50" aria-hidden="true"><path d="M4.93179 5.43179C4.75605 5.60753 4.75605 5.89245 4.93179 6.06819C5.10753 6.24392 5.39245 6.24392 5.56819 6.06819L7.49999 4.13638L9.43179 6.06819C9.60753 6.24392 9.89245 6.24392 10.0682 6.06819C10.2439 5.89245 10.2439 5.60753 10.0682 5.43179L7.81819 3.18179C7.73379 3.0974 7.61933 3.04999 7.49999 3.04999C7.38064 3.04999 7.26618 3.0974 7.18179 3.18179L4.93179 5.43179ZM10.0682 9.56819C10.2439 9.39245 10.2439 9.10753 10.0682 8.93179C9.89245 8.75606 9.60753 8.75606 9.43179 8.93179L7.49999 10.8636L5.56819 8.93179C5.39245 8.75606 5.10753 8.75606 4.93179 8.93179C4.75605 9.10753 4.75605 9.39245 4.93179 9.56819L7.18179 11.8182C7.35753 11.9939 7.64245 11.9939 7.81819 11.8182L10.0682 9.56819Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></button></div><p className="text-center sm:text-left text-foreground/60">Showing 50 Crypto Companies &amp; Web3 Projects companies out of 2569. Page 1 of 51.</p></div><ul className="grid grid-cols-1 gap-8 p-0 mt-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ui"><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Solidity Labs logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/4c1a88e3-0cb6-4ea6-8318-e915ffd26a4f.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/4c1a88e3-0cb6-4ea6-8318-e915ffd26a4f.jpg 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/4c1a88e3-0cb6-4ea6-8318-e915ffd26a4f.jpg" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/solidity-labs">Solidity Labs</Link><span title="Verified Profile" className="relative flex items-center justify-center w-[2em] h-auto hover:animate-wiggle !inline-block ml-2 !w-[1.2em]"><svg viewBox="1.081 0.076 22 21" xmlns="http://www.w3.org/2000/svg"><g><rect x="4.528" y="5.509" width="14.271" height="10.67" ></rect><path d="M 23.081 10.576 L 20.641 7.786 L 20.981 4.096 L 17.371 3.276 L 15.481 0.076 L 12.081 1.536 L 8.681 0.076 L 6.791 3.266 L 3.181 4.076 L 3.521 7.776 L 1.081 10.576 L 3.521 13.366 L 3.181 17.066 L 6.791 17.886 L 8.681 21.076 L 12.081 19.606 L 15.481 21.066 L 17.371 17.876 L 20.981 17.056 L 20.641 13.366 L 23.081 10.576 Z M 10.171 15.296 L 6.371 11.486 L 7.851 10.006 L 10.171 12.336 L 16.021 6.466 L 17.501 7.946 L 10.171 15.296 Z" ></path></g></svg></span></div>
-  <span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="TheStreet Roundtable logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/f6e01eb4-62ea-4866-9476-dab2153c6938.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/f6e01eb4-62ea-4866-9476-dab2153c6938.png 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/f6e01eb4-62ea-4866-9476-dab2153c6938.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/thestreet-roundtable">TheStreet Roundtable</Link><span title="Verified Profile" className="relative flex items-center justify-center w-[2em] h-auto hover:animate-wiggle !inline-block ml-2 !w-[1.2em]"><svg viewBox="1.081 0.076 22 21" xmlns="http://www.w3.org/2000/svg"><g><rect x="4.528" y="5.509" width="14.271" height="10.67" ></rect><path d="M 23.081 10.576 L 20.641 7.786 L 20.981 4.096 L 17.371 3.276 L 15.481 0.076 L 12.081 1.536 L 8.681 0.076 L 6.791 3.266 L 3.181 4.076 L 3.521 7.776 L 1.081 10.576 L 3.521 13.366 L 3.181 17.066 L 6.791 17.886 L 8.681 21.076 L 12.081 19.606 L 15.481 21.066 L 17.371 17.876 L 20.981 17.056 L 20.641 13.366 L 23.081 10.576 Z M 10.171 15.296 L 6.371 11.486 L 7.851 10.006 L 10.171 12.336 L 16.021 6.466 L 17.501 7.946 L 10.171 15.296 Z" ></path></g></svg></span></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Multiverse logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/598c8a5f-33e0-4623-9321-faa9dfbd96f6.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/598c8a5f-33e0-4623-9321-faa9dfbd96f6.jpg 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/598c8a5f-33e0-4623-9321-faa9dfbd96f6.jpg" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/multiverse">Multiverse</Link><span title="Verified Profile" className="relative flex items-center justify-center w-[2em] h-auto hover:animate-wiggle !inline-block ml-2 !w-[1.2em]"><svg viewBox="1.081 0.076 22 21" xmlns="http://www.w3.org/2000/svg"><g><rect x="4.528" y="5.509" width="14.271" height="10.67" ></rect><path d="M 23.081 10.576 L 20.641 7.786 L 20.981 4.096 L 17.371 3.276 L 15.481 0.076 L 12.081 1.536 L 8.681 0.076 L 6.791 3.266 L 3.181 4.076 L 3.521 7.776 L 1.081 10.576 L 3.521 13.366 L 3.181 17.066 L 6.791 17.886 L 8.681 21.076 L 12.081 19.606 L 15.481 21.066 L 17.371 17.876 L 20.981 17.056 L 20.641 13.366 L 23.081 10.576 Z M 10.171 15.296 L 6.371 11.486 L 7.851 10.006 L 10.171 12.336 L 16.021 6.466 L 17.501 7.946 L 10.171 15.296 Z" ></path></g></svg></span></div><p className="m-0 mb-2 line-clamp-3">Help us create the ultimate Web3 game!</p><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Mosaic Blocks (Telos Blockchain Block Producer) logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/2fe26c61-8acf-47b6-8b07-6866bded7436.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/2fe26c61-8acf-47b6-8b07-6866bded7436.png 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/2fe26c61-8acf-47b6-8b07-6866bded7436.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/mosaic-blocks-telos-blockchain-block-producer">Mosaic Blocks (Telos Blockchain Block Producer)</Link><span title="Verified Profile" className="relative flex items-center justify-center w-[2em] h-auto hover:animate-wiggle !inline-block ml-2 !w-[1.2em]"><svg viewBox="1.081 0.076 22 21" xmlns="http://www.w3.org/2000/svg"><g><rect x="4.528" y="5.509" width="14.271" height="10.67" ></rect><path d="M 23.081 10.576 L 20.641 7.786 L 20.981 4.096 L 17.371 3.276 L 15.481 0.076 L 12.081 1.536 L 8.681 0.076 L 6.791 3.266 L 3.181 4.076 L 3.521 7.776 L 1.081 10.576 L 3.521 13.366 L 3.181 17.066 L 6.791 17.886 L 8.681 21.076 L 12.081 19.606 L 15.481 21.066 L 17.371 17.876 L 20.981 17.056 L 20.641 13.366 L 23.081 10.576 Z M 10.171 15.296 L 6.371 11.486 L 7.851 10.006 L 10.171 12.336 L 16.021 6.466 L 17.501 7.946 L 10.171 15.296 Z" ></path></g></svg></span></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Tundrax logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/4f998e63-580d-4ebe-bd3f-f4bc7551384c.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/4f998e63-580d-4ebe-bd3f-f4bc7551384c.png 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/4f998e63-580d-4ebe-bd3f-f4bc7551384c.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/tundrax">Tundrax</Link><span title="Verified Profile" className="relative flex items-center justify-center w-[2em] h-auto hover:animate-wiggle !inline-block ml-2 !w-[1.2em]"><svg viewBox="1.081 0.076 22 21" xmlns="http://www.w3.org/2000/svg"><g><rect x="4.528" y="5.509" width="14.271" height="10.67" ></rect><path d="M 23.081 10.576 L 20.641 7.786 L 20.981 4.096 L 17.371 3.276 L 15.481 0.076 L 12.081 1.536 L 8.681 0.076 L 6.791 3.266 L 3.181 4.076 L 3.521 7.776 L 1.081 10.576 L 3.521 13.366 L 3.181 17.066 L 6.791 17.886 L 8.681 21.076 L 12.081 19.606 L 15.481 21.066 L 17.371 17.876 L 20.981 17.056 L 20.641 13.366 L 23.081 10.576 Z M 10.171 15.296 L 6.371 11.486 L 7.851 10.006 L 10.171 12.336 L 16.021 6.466 L 17.501 7.946 L 10.171 15.296 Z" ></path></g></svg></span></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="DeFiFoundation logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/17b96af1-1173-437e-85b7-178f7929dad0.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/17b96af1-1173-437e-85b7-178f7929dad0.png 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/17b96af1-1173-437e-85b7-178f7929dad0.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/defifoundation-switzerland">DeFiFoundation</Link><span title="Verified Profile" className="relative flex items-center justify-center w-[2em] h-auto hover:animate-wiggle !inline-block ml-2 !w-[1.2em]"><svg viewBox="1.081 0.076 22 21" xmlns="http://www.w3.org/2000/svg"><g><rect x="4.528" y="5.509" width="14.271" height="10.67" ></rect><path d="M 23.081 10.576 L 20.641 7.786 L 20.981 4.096 L 17.371 3.276 L 15.481 0.076 L 12.081 1.536 L 8.681 0.076 L 6.791 3.266 L 3.181 4.076 L 3.521 7.776 L 1.081 10.576 L 3.521 13.366 L 3.181 17.066 L 6.791 17.886 L 8.681 21.076 L 12.081 19.606 L 15.481 21.066 L 17.371 17.876 L 20.981 17.056 L 20.641 13.366 L 23.081 10.576 Z M 10.171 15.296 L 6.371 11.486 L 7.851 10.006 L 10.171 12.336 L 16.021 6.466 L 17.501 7.946 L 10.171 15.296 Z" ></path></g></svg></span></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="BABB logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/75ae9b92-c6a3-401b-9923-90c46463d0db.jpeg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/75ae9b92-c6a3-401b-9923-90c46463d0db.jpeg 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/75ae9b92-c6a3-401b-9923-90c46463d0db.jpeg" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/babb">BABB</Link><span title="Verified Profile" className="relative flex items-center justify-center w-[2em] h-auto hover:animate-wiggle !inline-block ml-2 !w-[1.2em]"><svg viewBox="1.081 0.076 22 21" xmlns="http://www.w3.org/2000/svg"><g><rect x="4.528" y="5.509" width="14.271" height="10.67" ></rect><path d="M 23.081 10.576 L 20.641 7.786 L 20.981 4.096 L 17.371 3.276 L 15.481 0.076 L 12.081 1.536 L 8.681 0.076 L 6.791 3.266 L 3.181 4.076 L 3.521 7.776 L 1.081 10.576 L 3.521 13.366 L 3.181 17.066 L 6.791 17.886 L 8.681 21.076 L 12.081 19.606 L 15.481 21.066 L 17.371 17.876 L 20.981 17.056 L 20.641 13.366 L 23.081 10.576 Z M 10.171 15.296 L 6.371 11.486 L 7.851 10.006 L 10.171 12.336 L 16.021 6.466 L 17.501 7.946 L 10.171 15.296 Z" ></path></g></svg></span></div><p className="m-0 mb-2 line-clamp-3">Universal Access to Banking </p><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Kraken Digital Asset Exchange logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/kraken-digital-asset-exchange-logo-1677303879776.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/kraken-digital-asset-exchange-logo-1677303879776.jpg 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/kraken-digital-asset-exchange-logo-1677303879776.jpg" /><div className="my-2 mt-3">
-  <Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/kraken-digital-asset-exchange">Kraken Digital Asset Exchange</Link>
-  <span title="Verified Profile" className="relative flex items-center justify-center w-[2em] h-auto hover:animate-wiggle !inline-block ml-2 !w-[1.2em]"><svg viewBox="1.081 0.076 22 21" xmlns="http://www.w3.org/2000/svg"><g>
-  <rect x="4.528" y="5.509" width="14.271" height="10.67" ></rect><path d="M 23.081 10.576 L 20.641 7.786 L 20.981 4.096 L 17.371 3.276 L 15.481 0.076 L 12.081 1.536 L 8.681 0.076 L 6.791 3.266 L 3.181 4.076 L 3.521 7.776 L 1.081 10.576 L 3.521 13.366 L 3.181 17.066 L 6.791 17.886 L 8.681 21.076 L 12.081 19.606 L 15.481 21.066 L 17.371 17.876 L 20.981 17.056 L 20.641 13.366 L 23.081 10.576 Z M 10.171 15.296 L 6.371 11.486 L 7.851 10.006 L 10.171 12.336 L 16.021 6.466 L 17.501 7.946 L 10.171 15.296 Z" ></path></g></svg></span></div><p className="m-0 mb-2 line-clamp-3">As one of the largest and most trusted digital asset platforms globally, we are empowering people to experience the life-changing potential of crypto. </p><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span><div className="flex flex-wrap leading-6"><Link className="hover:underline whitespace-nowrap text-muted-foreground" href="/exchange-companies">Exchange</Link><span className="mx-1 text-muted-foreground">•</span><Link className="hover:underline whitespace-nowrap text-muted-foreground" href="/remote-companies">Remote</Link><span className="mx-1 text-muted-foreground">•</span><Link className="hover:underline whitespace-nowrap text-muted-foreground" href="/b2b-companies">B2b</Link><span className="mx-1 text-muted-foreground">•</span><Link className="hover:underline whitespace-nowrap text-muted-foreground" href="/b2c-companies">B2c</Link></div></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Global CxO logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/b7ccd849-ef12-4c7b-bf8a-4f7676853364.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/b7ccd849-ef12-4c7b-bf8a-4f7676853364.png 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/b7ccd849-ef12-4c7b-bf8a-4f7676853364.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/global-cxo">Global CxO</Link><span title="Verified Profile" className="relative flex items-center justify-center w-[2em] h-auto hover:animate-wiggle !inline-block ml-2 !w-[1.2em]"><svg viewBox="1.081 0.076 22 21" xmlns="http://www.w3.org/2000/svg"><g><rect x="4.528" y="5.509" width="14.271" height="10.67" ></rect><path d="M 23.081 10.576 L 20.641 7.786 L 20.981 4.096 L 17.371 3.276 L 15.481 0.076 L 12.081 1.536 L 8.681 0.076 L 6.791 3.266 L 3.181 4.076 L 3.521 7.776 L 1.081 10.576 L 3.521 13.366 L 3.181 17.066 L 6.791 17.886 L 8.681 21.076 L 12.081 19.606 L 15.481 21.066 L 17.371 17.876 L 20.981 17.056 L 20.641 13.366 L 23.081 10.576 Z M 10.171 15.296 L 6.371 11.486 L 7.851 10.006 L 10.171 12.336 L 16.021 6.466 L 17.501 7.946 L 10.171 15.296 Z" ></path></g></svg></span></div><p className="m-0 mb-2 line-clamp-3">A Global Talent Search Boutique for Emerging Technology companies with a passion for Web3/Blockchain.</p><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Binance logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/374423c7-b3ab-4fa1-8e7c-82bf99bc1722.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/374423c7-b3ab-4fa1-8e7c-82bf99bc1722.png 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/374423c7-b3ab-4fa1-8e7c-82bf99bc1722.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/binance">Binance</Link></div><p className="m-0 mb-2 line-clamp-3">The world’s leading blockchain ecosystem and digital asset exchange.</p><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span><div className="flex flex-wrap leading-6"><Link className="hover:underline whitespace-nowrap text-muted-foreground" href="/exchange-companies">Exchange</Link></div></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Galaxy Digital logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/galaxy-digital-logo-1681113871490.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/galaxy-digital-logo-1681113871490.jpg 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/galaxy-digital-logo-1681113871490.jpg" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/galaxy">Galaxy Digital</Link></div><p className="m-0 mb-2 line-clamp-3">Custom-made solutions for a digitally native ecosystem.</p><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Keyrock logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/a23a160f-ff5d-42ce-b5ec-48c8010583f2.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/a23a160f-ff5d-42ce-b5ec-48c8010583f2.png 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/a23a160f-ff5d-42ce-b5ec-48c8010583f2.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/keyrock">Keyrock</Link></div>
-  <p className="m-0 mb-2 line-clamp-3">Digital asset market makers building scalable, self-adaptive technologies to support efficient markets.</p><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span><div className="flex flex-wrap leading-6"><Link className="hover:underline whitespace-nowrap text-muted-foreground" href="/b2b-companies">B2b</Link><span className="mx-1 text-muted-foreground">•</span><Link className="hover:underline whitespace-nowrap text-muted-foreground" href="/vc-funded-companies">Vc Funded</Link><span className="mx-1 text-muted-foreground">•</span><Link className="hover:underline whitespace-nowrap text-muted-foreground" href="/remote-companies">Remote</Link><span className="mx-1 text-muted-foreground">•</span><Link className="hover:underline whitespace-nowrap text-muted-foreground" href="/remote-usa-companies">Remote USA</Link></div></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Shakepay logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/logo1200x628px-1702193567249.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/logo1200x628px-1702193567249.png 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/logo1200x628px-1702193567249.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/shakepay">Shakepay</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Helio logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/dfua3czzswgvhticb66i8nmuaoxf-1712745374310.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/dfua3czzswgvhticb66i8nmuaoxf-1712745374310.png 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/dfua3czzswgvhticb66i8nmuaoxf-1712745374310.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/helio-sell-more-with-crypto">Helio</Link></div><p className="m-0 mb-2 line-clamp-3">Sell more with Crypto</p><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Stellar Development Foundation logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/logoimage1-1699762004726.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/logoimage1-1699762004726.png 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/logoimage1-1699762004726.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/stellar-development-foundation">Stellar Development Foundation</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Polygon Labs logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/7fb55e63-b76e-4d3c-b15c-ecb8fa5399db-1679486849624-1693471883907.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/7fb55e63-b76e-4d3c-b15c-ecb8fa5399db-1679486849624-1693471883907.png 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/7fb55e63-b76e-4d3c-b15c-ecb8fa5399db-1679486849624-1693471883907.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/polygon-labs">Polygon Labs</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Uniswap Labs logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/uniswap-labs-logo-1677303723414.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/uniswap-labs-logo-1677303723414.jpg 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/uniswap-labs-logo-1677303723414.jpg" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/uniswap-labs">Uniswap Labs</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><div className="fadeIn text-gray-300 text-center pt-4 text-2xl font-extrabold border-solid border-[2px] dark:ring-white ring-foreground/5  rounded bg-white relative block h-[60px] w-[60px] object-contain">G</div><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/galaxy-1">Galaxy</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Ethereum Foundation logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/b4cfe414-b949-4989-b62f-e34bb1817ee3-1644535907857-1693471617654.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/b4cfe414-b949-4989-b62f-e34bb1817ee3-1644535907857-1693471617654.png 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/b4cfe414-b949-4989-b62f-e34bb1817ee3-1644535907857-1693471617654.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/ethereum-foundation">Ethereum Foundation</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="ElboCoin logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/d20d158c-bdc2-42fc-8133-ad43fc59615a.jpeg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/d20d158c-bdc2-42fc-8133-ad43fc59615a.jpeg 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/d20d158c-bdc2-42fc-8133-ad43fc59615a.jpeg" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/elbocoin-llc">ElboCoin</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Privy logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/37d206f7-ef11-418c-82fd-39c1b8a2a741-1713142815311.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/37d206f7-ef11-418c-82fd-39c1b8a2a741-1713142815311.png 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/37d206f7-ef11-418c-82fd-39c1b8a2a741-1713142815311.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/privy">Privy</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="OAK Network logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/dad86833-ca2f-448d-b30b-1ee31f3a29bb-1699542660128.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/dad86833-ca2f-448d-b30b-1ee31f3a29bb-1699542660128.png 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/dad86833-ca2f-448d-b30b-1ee31f3a29bb-1699542660128.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/oak-network">OAK Network</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Windranger Labs logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/5967609f-30e9-4cfc-8981-b21c24d4c4c4.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/5967609f-30e9-4cfc-8981-b21c24d4c4c4.jpg 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/5967609f-30e9-4cfc-8981-b21c24d4c4c4.jpg" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/windranger-labs">Windranger Labs</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Seer logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/e8394e06-7df3-485e-9860-1eb05dc44400.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/e8394e06-7df3-485e-9860-1eb05dc44400.png 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/e8394e06-7df3-485e-9860-1eb05dc44400.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/seer">Seer</Link></div><p className="m-0 mb-2 line-clamp-3">Positive sum prediction market</p><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="3Commas logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/24046865-e519-4da2-881f-37a3787e255a.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/24046865-e519-4da2-881f-37a3787e255a.png 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/24046865-e519-4da2-881f-37a3787e255a.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/3commas-io">3Commas</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Paradex logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/ec129b21-6865-46ef-92db-b16ec851dcbe.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/ec129b21-6865-46ef-92db-b16ec851dcbe.jpg 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/ec129b21-6865-46ef-92db-b16ec851dcbe.jpg" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/paradex">Paradex</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="SafeGlobal logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/168fea1e-3638-4323-908c-d58245a6ff90-1699253448634.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/168fea1e-3638-4323-908c-d58245a6ff90-1699253448634.png 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/168fea1e-3638-4323-908c-d58245a6ff90-1699253448634.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/safeglobal">SafeGlobal</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Ledger logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/ledger-logo-1677302483745.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/ledger-logo-1677302483745.jpg 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/ledger-logo-1677302483745.jpg" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/ledger">Ledger</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span><div className="flex flex-wrap leading-6">
-  <Link className="hover:underline whitespace-nowrap text-muted-foreground" href="/b2b-companies">B2b</Link>
-  <span className="mx-1 text-muted-foreground">•</span><Link className="hover:underline whitespace-nowrap text-muted-foreground" href="/b2c-companies">B2c</Link></div></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Rain logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/08f5f2c5-6aa1-4bec-aed4-844b122762ba-1702087871080.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/08f5f2c5-6aa1-4bec-aed4-844b122762ba-1702087871080.png 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/08f5f2c5-6aa1-4bec-aed4-844b122762ba-1702087871080.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/rain">Rain</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Succinct logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/23fc2a35-8020-459d-86f4-1d151fedbc1d-1701051907705.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/23fc2a35-8020-459d-86f4-1d151fedbc1d-1701051907705.png 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/23fc2a35-8020-459d-86f4-1d151fedbc1d-1701051907705.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/succinct">Succinct</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Aptos Foundation logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/5665d179-2f0c-48f4-9e88-e26be2cad4a9-1702087802752.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/5665d179-2f0c-48f4-9e88-e26be2cad4a9-1702087802752.png 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/5665d179-2f0c-48f4-9e88-e26be2cad4a9-1702087802752.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/aptos-foundation">Aptos Foundation</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="TOK Chain logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/18543372-a0a8-417a-b0c1-801a36f4d3e9.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/18543372-a0a8-417a-b0c1-801a36f4d3e9.jpg 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/18543372-a0a8-417a-b0c1-801a36f4d3e9.jpg" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/tok-chain">TOK Chain</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Payplug logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/f7d0acb3-119c-4be5-9dfc-c287182008be.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/f7d0acb3-119c-4be5-9dfc-c287182008be.png 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/f7d0acb3-119c-4be5-9dfc-c287182008be.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/payplug">Payplug</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Ordeez.io logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/f2d45c16-83ac-4733-ae93-03c2d4422e7d.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/f2d45c16-83ac-4733-ae93-03c2d4422e7d.png 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/f2d45c16-83ac-4733-ae93-03c2d4422e7d.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/ordeez-io">Ordeez.io</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Swaps.io logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/a785f59f-9326-4b31-a2a1-ecb7afd9521f.jpeg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/a785f59f-9326-4b31-a2a1-ecb7afd9521f.jpeg 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/a785f59f-9326-4b31-a2a1-ecb7afd9521f.jpeg" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/kinetex-network">Swaps.io</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Chiilz logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/533bae31-2649-4594-bcc9-81477810d0db.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/533bae31-2649-4594-bcc9-81477810d0db.png 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/533bae31-2649-4594-bcc9-81477810d0db.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/chiilz">Chiilz</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Flashbots logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/934c8e1d-dc60-4940-b117-8b7130a7f394-1699255561601.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/934c8e1d-dc60-4940-b117-8b7130a7f394-1699255561601.png 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/934c8e1d-dc60-4940-b117-8b7130a7f394-1699255561601.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/flashbots">Flashbots</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Re7 Capital logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/0a8da100-f493-41ef-9bdc-fe49bca38162.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/0a8da100-f493-41ef-9bdc-fe49bca38162.jpg 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/0a8da100-f493-41ef-9bdc-fe49bca38162.jpg" />
-  <div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/re7-capital">Re7 Capital</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Moonke.biz logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/4ae3ca2d-1cec-4046-be97-7164e619e5f9.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/4ae3ca2d-1cec-4046-be97-7164e619e5f9.png 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/4ae3ca2d-1cec-4046-be97-7164e619e5f9.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/moonke-biz">Moonke.biz</Link></div><p className="m-0 mb-2 line-clamp-3">Kickstarter for memecoins</p><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span><div className="flex flex-wrap leading-6"><Link className="hover:underline whitespace-nowrap text-muted-foreground" href="/protocol-companies">Protocol</Link><span className="mx-1 text-muted-foreground">•</span><Link className="hover:underline whitespace-nowrap text-muted-foreground" href="/remote-usa-companies">Remote USA</Link><span className="mx-1 text-muted-foreground">•</span><Link className="hover:underline whitespace-nowrap text-muted-foreground" href="/defi-companies">DeFi</Link></div></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="EXMO.com logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/exmocom-logo-1685939036809.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/exmocom-logo-1685939036809.jpg 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/exmocom-logo-1685939036809.jpg" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/exmo-com">EXMO.com</Link></div><p className="m-0 mb-2 line-clamp-3">EXMO.com is a cryptocurrency exchange to easily buy or sell cryptocurrency in exchange for fiat currency and vice versa.</p><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="PlayToEarn logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/35cb2110-4377-4a70-8eed-8cc1ba12bf5c.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/35cb2110-4377-4a70-8eed-8cc1ba12bf5c.jpg 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/35cb2110-4377-4a70-8eed-8cc1ba12bf5c.jpg" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/playtoearn-net">PlayToEarn</Link></div><p className="m-0 mb-2 line-clamp-3">Web3 Gaming Data Aggregator</p><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span><div className="flex flex-wrap leading-6"><Link className="hover:underline whitespace-nowrap text-muted-foreground" href="/metaverse-companies">Metaverse</Link><span className="mx-1 text-muted-foreground">•</span><Link className="hover:underline whitespace-nowrap text-muted-foreground" href="/remote-companies">Remote</Link><span className="mx-1 text-muted-foreground">•</span><Link className="hover:underline whitespace-nowrap text-muted-foreground" href="/flexible-hours-companies">Flexible Hours</Link><span className="mx-1 text-muted-foreground">•</span><Link className="hover:underline whitespace-nowrap text-muted-foreground" href="/transparent-companies">Transparent</Link></div></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="OpenBIT logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/aa0071f2-4cfb-44c8-8272-1e7a5934612f.jpeg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/aa0071f2-4cfb-44c8-8272-1e7a5934612f.jpeg 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/aa0071f2-4cfb-44c8-8272-1e7a5934612f.jpeg" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/openbit">OpenBIT</Link></div><p className="m-0 mb-2 line-clamp-3">Pump Liquidity in Bitcoin, Next-Level Potential Unleashed with Next-Level Security</p><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="TekRek logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/0447e1a7-930b-484e-b44d-226a56fb97a7.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/0447e1a7-930b-484e-b44d-226a56fb97a7.jpg 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/0447e1a7-930b-484e-b44d-226a56fb97a7.jpg" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/tekrek">TekRek</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="RockTree Capital logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/aed88080-7bce-45d6-98ce-8e1293161187.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/aed88080-7bce-45d6-98ce-8e1293161187.jpg 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/aed88080-7bce-45d6-98ce-8e1293161187.jpg" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/rocktree-capital">RockTree Capital</Link></div><p className="m-0 mb-2 line-clamp-3">We are an international merchant bank focused on cross-border transactions and strategic international expansion in blockchain.</p><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="ValiDAO logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/5877ef15-b5a9-4073-afdd-4ceb691e7a9a.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/5877ef15-b5a9-4073-afdd-4ceb691e7a9a.jpg 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/5877ef15-b5a9-4073-afdd-4ceb691e7a9a.jpg" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/validao">ValiDAO</Link></div><p className="m-0 mb-2 line-clamp-3">A community-governed validator operating infrastructure for the on-chain world.</p><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Gemz Trade logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/ec90f2d7-2f80-4908-9bcc-d7fec5430e5e.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/ec90f2d7-2f80-4908-9bcc-d7fec5430e5e.png 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/ec90f2d7-2f80-4908-9bcc-d7fec5430e5e.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/gemz-trade">Gemz Trade</Link></div><p className="m-0 mb-2 line-clamp-3">#1 Trading App on TON</p><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Radix DLT logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://res.cloudinary.com/cryptojobslist/image/upload/v1532947759/un2sdgzpazvemcbbw0wk.png 1x, https://res.cloudinary.com/cryptojobslist/image/upload/v1532947759/un2sdgzpazvemcbbw0wk.png 2x" src="https://res.cloudinary.com/cryptojobslist/image/upload/v1532947759/un2sdgzpazvemcbbw0wk.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/radix-dlt">Radix DLT</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="MyToken logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/dae6b857-bc55-409f-8e39-1dbb25b9225f.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/dae6b857-bc55-409f-8e39-1dbb25b9225f.png 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/dae6b857-bc55-409f-8e39-1dbb25b9225f.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/mytoken">MyToken</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><img alt="Risk Labs logo" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"  srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/8886b5bf-f324-4f9d-a365-b8c3406bfb79-1671129886810-1693471735012.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/8886b5bf-f324-4f9d-a365-b8c3406bfb79-1671129886810-1693471735012.png 2x" src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/8886b5bf-f324-4f9d-a365-b8c3406bfb79-1671129886810-1693471735012.png" /><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/risk-labs">Risk Labs</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li><li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md"><div className="fadeIn text-gray-300 text-center pt-4 text-2xl font-extrabold border-solid border-[2px] dark:ring-white ring-foreground/5  rounded bg-white relative block h-[60px] w-[60px] object-contain">T</div><div className="my-2 mt-3"><Link className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline" href="/companies/tokenomics">Tokenomics</Link></div><span className="mt-auto text-brand-blue group-hover:underline">View Open Vacancies</span></li></ul><nav role="navigation" aria-label="pagination" className="mx-auto flex w-full justify-center my-8 leading-7 container-wide" arial-label="Pagination"><ul className="flex flex-row items-center gap-1"><li className=""><Link className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 gap-1 pl-2.5 pointer-events-none" aria-label="Previous page" rel="prev" href="/companies?page=1"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 !m-0"><path d="M8.84182 3.13514C9.04327 3.32401 9.05348 3.64042 8.86462 3.84188L5.43521 7.49991L8.86462 11.1579C9.05348 11.3594 9.04327 11.6758 8.84182 11.8647C8.64036 12.0535 8.32394 12.0433 8.13508 11.8419L4.38508 7.84188C4.20477 7.64955 4.20477 7.35027 4.38508 7.15794L8.13508 3.15794C8.32394 2.95648 8.64036 2.94628 8.84182 3.13514Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg><span>Previous</span></Link></li><li className=""><span aria-current="page" className="pointer-events-none inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 w-9">1</span></li><li className=""><Link className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed hover:bg-accent hover:text-accent-foreground h-9 w-9" href="/companies?page=2">2</Link></li><li className=""><span aria-hidden="true" className="flex h-9 w-9 items-center justify-center"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 !m-0"><path d="M3.625 7.5C3.625 8.12132 3.12132 8.625 2.5 8.625C1.87868 8.625 1.375 8.12132 1.375 7.5C1.375 6.87868 1.87868 6.375 2.5 6.375C3.12132 6.375 3.625 6.87868 3.625 7.5ZM8.625 7.5C8.625 8.12132 8.12132 8.625 7.5 8.625C6.87868 8.625 6.375 8.12132 6.375 7.5C6.375 6.87868 6.87868 6.375 7.5 6.375C8.12132 6.375 8.625 6.87868 8.625 7.5ZM12.5 8.625C13.1213 8.625 13.625 8.12132 13.625 7.5C13.625 6.87868 13.1213 6.375 12.5 6.375C11.8787 6.375 11.375 6.87868 11.375 7.5C11.375 8.12132 11.8787 8.625 12.5 8.625Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg><span className="sr-only">More pages</span></span></li><li className=""><Link className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 gap-1 pr-2.5" aria-label="Next page" rel="next" href="/companies?page=2"><span>Next</span><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 !m-0"><path d="M6.1584 3.13508C6.35985 2.94621 6.67627 2.95642 6.86514 3.15788L10.6151 7.15788C10.7954 7.3502 10.7954 7.64949 10.6151 7.84182L6.86514 11.8418C6.67627 12.0433 6.35985 12.0535 6.1584 11.8646C5.95694 11.6757 5.94673 11.3593 6.1356 11.1579L9.565 7.49985L6.1356 3.84182C5.94673 3.64036 5.95694 3.32394 6.1584 3.13508Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></Link></li></ul></nav></section></main>
+    <main>
+      <section className="Company_companyList___9rHS relative container-wide">
+        <h1 className="text-3xl font-extrabold !leading-[1.3em] sm:text-4xl w-full text-center sm:text-left">
+          Software Companies &amp; Projects
+        </h1>
+        <p className="px-2 text-xl sm:px-auto">
+          Find top 2569 growing <b>cryptocurrency &amp; blockchain companies</b>{" "}
+          for March 2025.
+          <br className="desktop-only" /> Learn their stories, company culture,
+          why they are the companies you should work for.
+        </p>
+        <nav className="capitalize p-0 sm:-mx-3 my-4 flex gap-1 sm:gap-2 text-center whitespace-nowrap flex-wrap justify-center sm:justify-start sm:px-3 leading-6">
+          <Link className="category" href="/b2b-companies">
+            B2B
+          </Link>
+          <Link className="category" href="/b2c-companies">
+            B2C
+          </Link>
+          <Link className="category" href="/exchange-companies">
+            Exchange
+          </Link>
+          <Link className="category" href="/protocol-companies">
+            Protocol
+          </Link>
+          <Link className="category" href="/infrastructure-companies">
+            Infrastructure
+          </Link>
+          <Link className="category" href="/stable-coin-companies">
+            Stable Coin
+          </Link>
+          <Link className="category" href="/foundation-companies">
+            Foundation
+          </Link>
+          <Link className="category" href="/investment-fund-companies">
+            Investment Fund
+          </Link>
+          <Link className="category" href="/consulting-agency-companies">
+            Consultancy
+          </Link>
+          <Link className="category" href="/advisory-companies">
+            Advisory
+          </Link>
+          <Link className="category" href="/pre-product-market-fit-companies">
+            Pre Product Market Fit
+          </Link>
+          <Link className="category" href="/mining-companies">
+            Mining
+          </Link>
+          <Link className="category" href="/remote-companies">
+            Remote
+          </Link>
+          <Link className="category" href="/remote-usa-companies">
+            Remote (USA)
+          </Link>
+          <Link className="category" href="/remote-europe-companies">
+            Remote (Europe)
+          </Link>
+          <Link className="category" href="/remote-asia-companies">
+            Remote (Asia)
+          </Link>
+          <Link className="category" href="/flexible-hours-companies">
+            Flexible Hours
+          </Link>
+          <Link className="category" href="/transparent-companies">
+            Transparent
+          </Link>
+          <Link className="category" href="/family-friendly-companies">
+            Family Friendly
+          </Link>
+          <Link className="category" href="/daily-standup-companies">
+            Daily Stand up
+          </Link>
+          <Link className="category" href="/pair-programming-companies">
+            Pair Programming
+          </Link>
+          <Link className="category" href="/open-source-companies">
+            OpenSource Contributor
+          </Link>
+          <Link className="category" href="/agile-companies">
+            Agile
+          </Link>
+          <Link className="category" href="/has-internship-program-companies">
+            Has Internship Program
+          </Link>
+          <Link className="category" href="/bootstrapped-companies">
+            Bootstrapped
+          </Link>
+          <Link className="category" href="/vc-funded-companies">
+            VC Funded
+          </Link>
+          <Link className="category" href="/ico-companies">
+            ICO Funded
+          </Link>
+          <Link className="category" href="/self-funded-companies">
+            Self Funded
+          </Link>
+          <Link className="category" href="/technical-founders-companies">
+            Technical Founders
+          </Link>
+          <Link className="category" href="/defi-companies">
+            DeFi
+          </Link>
+          <Link className="category" href="/nft-companies">
+            NFT
+          </Link>
+          <Link className="category" href="/dao-companies">
+            DAO
+          </Link>
+          <Link className="category" href="/metaverse-companies">
+            Metaverse
+          </Link>
+        </nav>
+      </section>
+      <section className="mt-8 text-center container-wide ui">
+        <div className="flex flex-col items-stretch justify-between gap-6 my-5 md:items-center md:flex-row">
+          <div className="flex gap-2">
+            <div className="relative w-full md:w-[400px] h-9 px-3 ![background-image:none] !text-sm py-1 dark:!bg-dark-200 flex items-center justify-between whitespace-nowrap rounded-md !border border-input !shadow-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:!ring-ring disabled:cursor-not-allowed disabled:opacity-50 [&amp;>span]:line-clamp-1 bg-background">
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                className="absolute h-full left-3"
+                color="grey"
+                aria-hidden="true"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path>
+              </svg>
+              <input
+                placeholder="Search Companies"
+                name="search"
+                className="w-full py-0.5 pl-6 pr-4 border-0 rounded-l-none rounded-r  sm:pr-6 focus:outline-none dark:bg-gray-900 dark:text-white !bg-transparent"
+                value=""
+              />
+            </div>
+            <button
+              type="button"
+              role="combobox"
+              aria-controls="radix-:r0:"
+              aria-expanded="false"
+              aria-autocomplete="none"
+              dir="ltr"
+              data-state="closed"
+              data-placeholder=""
+              className="flex h-9 w-full items-center justify-between whitespace-nowrap rounded-md border border-input bg-transparent px-3 py-2 text-sm shadow-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-ring disabled:cursor-not-allowed disabled:opacity-50 [&amp;>span]:line-clamp-1 notranslate bg-white dark:bg-dark-200 max-w-[100px]"
+            >
+              <span>Sort</span>
+              <svg
+                width="15"
+                height="15"
+                viewBox="0 0 15 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-4 h-4 opacity-50"
+                aria-hidden="true"
+              >
+                <path
+                  d="M4.93179 5.43179C4.75605 5.60753 4.75605 5.89245 4.93179 6.06819C5.10753 6.24392 5.39245 6.24392 5.56819 6.06819L7.49999 4.13638L9.43179 6.06819C9.60753 6.24392 9.89245 6.24392 10.0682 6.06819C10.2439 5.89245 10.2439 5.60753 10.0682 5.43179L7.81819 3.18179C7.73379 3.0974 7.61933 3.04999 7.49999 3.04999C7.38064 3.04999 7.26618 3.0974 7.18179 3.18179L4.93179 5.43179ZM10.0682 9.56819C10.2439 9.39245 10.2439 9.10753 10.0682 8.93179C9.89245 8.75606 9.60753 8.75606 9.43179 8.93179L7.49999 10.8636L5.56819 8.93179C5.39245 8.75606 5.10753 8.75606 4.93179 8.93179C4.75605 9.10753 4.75605 9.39245 4.93179 9.56819L7.18179 11.8182C7.35753 11.9939 7.64245 11.9939 7.81819 11.8182L10.0682 9.56819Z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <p className="text-center sm:text-left text-foreground/60">
+            Showing 50 Software Companies &amp; Projects companies out of 2569.
+            Page 1 of 51.
+          </p>
+        </div>
+        <ul className="grid grid-cols-1 gap-8 p-0 mt-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ui">
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Solidity Labs logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/4c1a88e3-0cb6-4ea6-8318-e915ffd26a4f.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/4c1a88e3-0cb6-4ea6-8318-e915ffd26a4f.jpg 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/4c1a88e3-0cb6-4ea6-8318-e915ffd26a4f.jpg"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/solidity-labs"
+              >
+                Solidity Labs
+              </Link>
+              <span
+                title="Verified Profile"
+                className="relative flex items-center justify-center w-[2em] h-auto hover:animate-wiggle !inline-block ml-2 !w-[1.2em]"
+              >
+                <svg
+                  viewBox="1.081 0.076 22 21"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g>
+                    <rect
+                      x="4.528"
+                      y="5.509"
+                      width="14.271"
+                      height="10.67"
+                    ></rect>
+                    <path d="M 23.081 10.576 L 20.641 7.786 L 20.981 4.096 L 17.371 3.276 L 15.481 0.076 L 12.081 1.536 L 8.681 0.076 L 6.791 3.266 L 3.181 4.076 L 3.521 7.776 L 1.081 10.576 L 3.521 13.366 L 3.181 17.066 L 6.791 17.886 L 8.681 21.076 L 12.081 19.606 L 15.481 21.066 L 17.371 17.876 L 20.981 17.056 L 20.641 13.366 L 23.081 10.576 Z M 10.171 15.296 L 6.371 11.486 L 7.851 10.006 L 10.171 12.336 L 16.021 6.466 L 17.501 7.946 L 10.171 15.296 Z"></path>
+                  </g>
+                </svg>
+              </span>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="TheStreet Roundtable logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/f6e01eb4-62ea-4866-9476-dab2153c6938.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/f6e01eb4-62ea-4866-9476-dab2153c6938.png 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/f6e01eb4-62ea-4866-9476-dab2153c6938.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/thestreet-roundtable"
+              >
+                TheStreet Roundtable
+              </Link>
+              <span
+                title="Verified Profile"
+                className="relative flex items-center justify-center w-[2em] h-auto hover:animate-wiggle !inline-block ml-2 !w-[1.2em]"
+              >
+                <svg
+                  viewBox="1.081 0.076 22 21"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g>
+                    <rect
+                      x="4.528"
+                      y="5.509"
+                      width="14.271"
+                      height="10.67"
+                    ></rect>
+                    <path d="M 23.081 10.576 L 20.641 7.786 L 20.981 4.096 L 17.371 3.276 L 15.481 0.076 L 12.081 1.536 L 8.681 0.076 L 6.791 3.266 L 3.181 4.076 L 3.521 7.776 L 1.081 10.576 L 3.521 13.366 L 3.181 17.066 L 6.791 17.886 L 8.681 21.076 L 12.081 19.606 L 15.481 21.066 L 17.371 17.876 L 20.981 17.056 L 20.641 13.366 L 23.081 10.576 Z M 10.171 15.296 L 6.371 11.486 L 7.851 10.006 L 10.171 12.336 L 16.021 6.466 L 17.501 7.946 L 10.171 15.296 Z"></path>
+                  </g>
+                </svg>
+              </span>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Multiverse logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/598c8a5f-33e0-4623-9321-faa9dfbd96f6.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/598c8a5f-33e0-4623-9321-faa9dfbd96f6.jpg 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/598c8a5f-33e0-4623-9321-faa9dfbd96f6.jpg"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/multiverse"
+              >
+                Multiverse
+              </Link>
+              <span
+                title="Verified Profile"
+                className="relative flex items-center justify-center w-[2em] h-auto hover:animate-wiggle !inline-block ml-2 !w-[1.2em]"
+              >
+                <svg
+                  viewBox="1.081 0.076 22 21"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g>
+                    <rect
+                      x="4.528"
+                      y="5.509"
+                      width="14.271"
+                      height="10.67"
+                    ></rect>
+                    <path d="M 23.081 10.576 L 20.641 7.786 L 20.981 4.096 L 17.371 3.276 L 15.481 0.076 L 12.081 1.536 L 8.681 0.076 L 6.791 3.266 L 3.181 4.076 L 3.521 7.776 L 1.081 10.576 L 3.521 13.366 L 3.181 17.066 L 6.791 17.886 L 8.681 21.076 L 12.081 19.606 L 15.481 21.066 L 17.371 17.876 L 20.981 17.056 L 20.641 13.366 L 23.081 10.576 Z M 10.171 15.296 L 6.371 11.486 L 7.851 10.006 L 10.171 12.336 L 16.021 6.466 L 17.501 7.946 L 10.171 15.296 Z"></path>
+                  </g>
+                </svg>
+              </span>
+            </div>
+            <p className="m-0 mb-2 line-clamp-3">
+              Help us create the ultimate game!
+            </p>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Mosaic Blocks (Telos Blockchain Block Producer) logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/2fe26c61-8acf-47b6-8b07-6866bded7436.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/2fe26c61-8acf-47b6-8b07-6866bded7436.png 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/2fe26c61-8acf-47b6-8b07-6866bded7436.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/mosaic-blocks-telos-blockchain-block-producer"
+              >
+                Mosaic Blocks (Telos Blockchain Block Producer)
+              </Link>
+              <span
+                title="Verified Profile"
+                className="relative flex items-center justify-center w-[2em] h-auto hover:animate-wiggle !inline-block ml-2 !w-[1.2em]"
+              >
+                <svg
+                  viewBox="1.081 0.076 22 21"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g>
+                    <rect
+                      x="4.528"
+                      y="5.509"
+                      width="14.271"
+                      height="10.67"
+                    ></rect>
+                    <path d="M 23.081 10.576 L 20.641 7.786 L 20.981 4.096 L 17.371 3.276 L 15.481 0.076 L 12.081 1.536 L 8.681 0.076 L 6.791 3.266 L 3.181 4.076 L 3.521 7.776 L 1.081 10.576 L 3.521 13.366 L 3.181 17.066 L 6.791 17.886 L 8.681 21.076 L 12.081 19.606 L 15.481 21.066 L 17.371 17.876 L 20.981 17.056 L 20.641 13.366 L 23.081 10.576 Z M 10.171 15.296 L 6.371 11.486 L 7.851 10.006 L 10.171 12.336 L 16.021 6.466 L 17.501 7.946 L 10.171 15.296 Z"></path>
+                  </g>
+                </svg>
+              </span>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Tundrax logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/4f998e63-580d-4ebe-bd3f-f4bc7551384c.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/4f998e63-580d-4ebe-bd3f-f4bc7551384c.png 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/4f998e63-580d-4ebe-bd3f-f4bc7551384c.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/tundrax"
+              >
+                Tundrax
+              </Link>
+              <span
+                title="Verified Profile"
+                className="relative flex items-center justify-center w-[2em] h-auto hover:animate-wiggle !inline-block ml-2 !w-[1.2em]"
+              >
+                <svg
+                  viewBox="1.081 0.076 22 21"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g>
+                    <rect
+                      x="4.528"
+                      y="5.509"
+                      width="14.271"
+                      height="10.67"
+                    ></rect>
+                    <path d="M 23.081 10.576 L 20.641 7.786 L 20.981 4.096 L 17.371 3.276 L 15.481 0.076 L 12.081 1.536 L 8.681 0.076 L 6.791 3.266 L 3.181 4.076 L 3.521 7.776 L 1.081 10.576 L 3.521 13.366 L 3.181 17.066 L 6.791 17.886 L 8.681 21.076 L 12.081 19.606 L 15.481 21.066 L 17.371 17.876 L 20.981 17.056 L 20.641 13.366 L 23.081 10.576 Z M 10.171 15.296 L 6.371 11.486 L 7.851 10.006 L 10.171 12.336 L 16.021 6.466 L 17.501 7.946 L 10.171 15.296 Z"></path>
+                  </g>
+                </svg>
+              </span>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="DeFiFoundation logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/17b96af1-1173-437e-85b7-178f7929dad0.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/17b96af1-1173-437e-85b7-178f7929dad0.png 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/17b96af1-1173-437e-85b7-178f7929dad0.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/defifoundation-switzerland"
+              >
+                DeFiFoundation
+              </Link>
+              <span
+                title="Verified Profile"
+                className="relative flex items-center justify-center w-[2em] h-auto hover:animate-wiggle !inline-block ml-2 !w-[1.2em]"
+              >
+                <svg
+                  viewBox="1.081 0.076 22 21"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g>
+                    <rect
+                      x="4.528"
+                      y="5.509"
+                      width="14.271"
+                      height="10.67"
+                    ></rect>
+                    <path d="M 23.081 10.576 L 20.641 7.786 L 20.981 4.096 L 17.371 3.276 L 15.481 0.076 L 12.081 1.536 L 8.681 0.076 L 6.791 3.266 L 3.181 4.076 L 3.521 7.776 L 1.081 10.576 L 3.521 13.366 L 3.181 17.066 L 6.791 17.886 L 8.681 21.076 L 12.081 19.606 L 15.481 21.066 L 17.371 17.876 L 20.981 17.056 L 20.641 13.366 L 23.081 10.576 Z M 10.171 15.296 L 6.371 11.486 L 7.851 10.006 L 10.171 12.336 L 16.021 6.466 L 17.501 7.946 L 10.171 15.296 Z"></path>
+                  </g>
+                </svg>
+              </span>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="BABB logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/75ae9b92-c6a3-401b-9923-90c46463d0db.jpeg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/75ae9b92-c6a3-401b-9923-90c46463d0db.jpeg 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/75ae9b92-c6a3-401b-9923-90c46463d0db.jpeg"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/babb"
+              >
+                BABB
+              </Link>
+              <span
+                title="Verified Profile"
+                className="relative flex items-center justify-center w-[2em] h-auto hover:animate-wiggle !inline-block ml-2 !w-[1.2em]"
+              >
+                <svg
+                  viewBox="1.081 0.076 22 21"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g>
+                    <rect
+                      x="4.528"
+                      y="5.509"
+                      width="14.271"
+                      height="10.67"
+                    ></rect>
+                    <path d="M 23.081 10.576 L 20.641 7.786 L 20.981 4.096 L 17.371 3.276 L 15.481 0.076 L 12.081 1.536 L 8.681 0.076 L 6.791 3.266 L 3.181 4.076 L 3.521 7.776 L 1.081 10.576 L 3.521 13.366 L 3.181 17.066 L 6.791 17.886 L 8.681 21.076 L 12.081 19.606 L 15.481 21.066 L 17.371 17.876 L 20.981 17.056 L 20.641 13.366 L 23.081 10.576 Z M 10.171 15.296 L 6.371 11.486 L 7.851 10.006 L 10.171 12.336 L 16.021 6.466 L 17.501 7.946 L 10.171 15.296 Z"></path>
+                  </g>
+                </svg>
+              </span>
+            </div>
+            <p className="m-0 mb-2 line-clamp-3">
+              Universal Access to Banking{" "}
+            </p>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Kraken Digital Asset Exchange logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/kraken-digital-asset-exchange-logo-1677303879776.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/kraken-digital-asset-exchange-logo-1677303879776.jpg 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/kraken-digital-asset-exchange-logo-1677303879776.jpg"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/kraken-digital-asset-exchange"
+              >
+                Kraken Digital Asset Exchange
+              </Link>
+              <span
+                title="Verified Profile"
+                className="relative flex items-center justify-center w-[2em] h-auto hover:animate-wiggle !inline-block ml-2 !w-[1.2em]"
+              >
+                <svg
+                  viewBox="1.081 0.076 22 21"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g>
+                    <rect
+                      x="4.528"
+                      y="5.509"
+                      width="14.271"
+                      height="10.67"
+                    ></rect>
+                    <path d="M 23.081 10.576 L 20.641 7.786 L 20.981 4.096 L 17.371 3.276 L 15.481 0.076 L 12.081 1.536 L 8.681 0.076 L 6.791 3.266 L 3.181 4.076 L 3.521 7.776 L 1.081 10.576 L 3.521 13.366 L 3.181 17.066 L 6.791 17.886 L 8.681 21.076 L 12.081 19.606 L 15.481 21.066 L 17.371 17.876 L 20.981 17.056 L 20.641 13.366 L 23.081 10.576 Z M 10.171 15.296 L 6.371 11.486 L 7.851 10.006 L 10.171 12.336 L 16.021 6.466 L 17.501 7.946 L 10.171 15.296 Z"></path>
+                  </g>
+                </svg>
+              </span>
+            </div>
+            <p className="m-0 mb-2 line-clamp-3">
+              As one of the largest and most trusted digital asset platforms
+              globally, we are empowering people to experience the life-changing
+              potential of crypto.{" "}
+            </p>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+            <div className="flex flex-wrap leading-6">
+              <Link
+                className="hover:underline whitespace-nowrap text-muted-foreground"
+                href="/exchange-companies"
+              >
+                Exchange
+              </Link>
+              <span className="mx-1 text-muted-foreground">•</span>
+              <Link
+                className="hover:underline whitespace-nowrap text-muted-foreground"
+                href="/remote-companies"
+              >
+                Remote
+              </Link>
+              <span className="mx-1 text-muted-foreground">•</span>
+              <Link
+                className="hover:underline whitespace-nowrap text-muted-foreground"
+                href="/b2b-companies"
+              >
+                B2b
+              </Link>
+              <span className="mx-1 text-muted-foreground">•</span>
+              <Link
+                className="hover:underline whitespace-nowrap text-muted-foreground"
+                href="/b2c-companies"
+              >
+                B2c
+              </Link>
+            </div>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Global CxO logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/b7ccd849-ef12-4c7b-bf8a-4f7676853364.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/b7ccd849-ef12-4c7b-bf8a-4f7676853364.png 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/b7ccd849-ef12-4c7b-bf8a-4f7676853364.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/global-cxo"
+              >
+                Global CxO
+              </Link>
+              <span
+                title="Verified Profile"
+                className="relative flex items-center justify-center w-[2em] h-auto hover:animate-wiggle !inline-block ml-2 !w-[1.2em]"
+              >
+                <svg
+                  viewBox="1.081 0.076 22 21"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g>
+                    <rect
+                      x="4.528"
+                      y="5.509"
+                      width="14.271"
+                      height="10.67"
+                    ></rect>
+                    <path d="M 23.081 10.576 L 20.641 7.786 L 20.981 4.096 L 17.371 3.276 L 15.481 0.076 L 12.081 1.536 L 8.681 0.076 L 6.791 3.266 L 3.181 4.076 L 3.521 7.776 L 1.081 10.576 L 3.521 13.366 L 3.181 17.066 L 6.791 17.886 L 8.681 21.076 L 12.081 19.606 L 15.481 21.066 L 17.371 17.876 L 20.981 17.056 L 20.641 13.366 L 23.081 10.576 Z M 10.171 15.296 L 6.371 11.486 L 7.851 10.006 L 10.171 12.336 L 16.021 6.466 L 17.501 7.946 L 10.171 15.296 Z"></path>
+                  </g>
+                </svg>
+              </span>
+            </div>
+            <p className="m-0 mb-2 line-clamp-3">
+              A Global Talent Search Boutique for Emerging Technology companies
+              with a passion for /Blockchain.
+            </p>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Binance logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/374423c7-b3ab-4fa1-8e7c-82bf99bc1722.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/374423c7-b3ab-4fa1-8e7c-82bf99bc1722.png 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/374423c7-b3ab-4fa1-8e7c-82bf99bc1722.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/binance"
+              >
+                Binance
+              </Link>
+            </div>
+            <p className="m-0 mb-2 line-clamp-3">
+              The world’s leading blockchain ecosystem and digital asset
+              exchange.
+            </p>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+            <div className="flex flex-wrap leading-6">
+              <Link
+                className="hover:underline whitespace-nowrap text-muted-foreground"
+                href="/exchange-companies"
+              >
+                Exchange
+              </Link>
+            </div>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Galaxy Digital logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/galaxy-digital-logo-1681113871490.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/galaxy-digital-logo-1681113871490.jpg 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/galaxy-digital-logo-1681113871490.jpg"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/galaxy"
+              >
+                Galaxy Digital
+              </Link>
+            </div>
+            <p className="m-0 mb-2 line-clamp-3">
+              Custom-made solutions for a digitally native ecosystem.
+            </p>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Keyrock logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/a23a160f-ff5d-42ce-b5ec-48c8010583f2.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/a23a160f-ff5d-42ce-b5ec-48c8010583f2.png 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/a23a160f-ff5d-42ce-b5ec-48c8010583f2.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/keyrock"
+              >
+                Keyrock
+              </Link>
+            </div>
+            <p className="m-0 mb-2 line-clamp-3">
+              Digital asset market makers building scalable, self-adaptive
+              technologies to support efficient markets.
+            </p>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+            <div className="flex flex-wrap leading-6">
+              <Link
+                className="hover:underline whitespace-nowrap text-muted-foreground"
+                href="/b2b-companies"
+              >
+                B2b
+              </Link>
+              <span className="mx-1 text-muted-foreground">•</span>
+              <Link
+                className="hover:underline whitespace-nowrap text-muted-foreground"
+                href="/vc-funded-companies"
+              >
+                Vc Funded
+              </Link>
+              <span className="mx-1 text-muted-foreground">•</span>
+              <Link
+                className="hover:underline whitespace-nowrap text-muted-foreground"
+                href="/remote-companies"
+              >
+                Remote
+              </Link>
+              <span className="mx-1 text-muted-foreground">•</span>
+              <Link
+                className="hover:underline whitespace-nowrap text-muted-foreground"
+                href="/remote-usa-companies"
+              >
+                Remote USA
+              </Link>
+            </div>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Shakepay logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/logo1200x628px-1702193567249.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/logo1200x628px-1702193567249.png 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/logo1200x628px-1702193567249.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/shakepay"
+              >
+                Shakepay
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Helio logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/dfua3czzswgvhticb66i8nmuaoxf-1712745374310.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/dfua3czzswgvhticb66i8nmuaoxf-1712745374310.png 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/dfua3czzswgvhticb66i8nmuaoxf-1712745374310.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/helio-sell-more-with-crypto"
+              >
+                Helio
+              </Link>
+            </div>
+            <p className="m-0 mb-2 line-clamp-3">Sell more with Software</p>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Stellar Development Foundation logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/logoimage1-1699762004726.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/logoimage1-1699762004726.png 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/logoimage1-1699762004726.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/stellar-development-foundation"
+              >
+                Stellar Development Foundation
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Polygon Labs logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/7fb55e63-b76e-4d3c-b15c-ecb8fa5399db-1679486849624-1693471883907.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/7fb55e63-b76e-4d3c-b15c-ecb8fa5399db-1679486849624-1693471883907.png 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/7fb55e63-b76e-4d3c-b15c-ecb8fa5399db-1679486849624-1693471883907.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/polygon-labs"
+              >
+                Polygon Labs
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Uniswap Labs logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/uniswap-labs-logo-1677303723414.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/uniswap-labs-logo-1677303723414.jpg 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/uniswap-labs-logo-1677303723414.jpg"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/uniswap-labs"
+              >
+                Uniswap Labs
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <div className="fadeIn text-gray-300 text-center pt-4 text-2xl font-extrabold border-solid border-[2px] dark:ring-white ring-foreground/5  rounded bg-white relative block h-[60px] w-[60px] object-contain">
+              G
+            </div>
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/galaxy-1"
+              >
+                Galaxy
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Ethereum Foundation logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/b4cfe414-b949-4989-b62f-e34bb1817ee3-1644535907857-1693471617654.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/b4cfe414-b949-4989-b62f-e34bb1817ee3-1644535907857-1693471617654.png 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/b4cfe414-b949-4989-b62f-e34bb1817ee3-1644535907857-1693471617654.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/ethereum-foundation"
+              >
+                Ethereum Foundation
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="ElboCoin logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/d20d158c-bdc2-42fc-8133-ad43fc59615a.jpeg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/d20d158c-bdc2-42fc-8133-ad43fc59615a.jpeg 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/d20d158c-bdc2-42fc-8133-ad43fc59615a.jpeg"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/elbocoin-llc"
+              >
+                ElboCoin
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Privy logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/37d206f7-ef11-418c-82fd-39c1b8a2a741-1713142815311.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/37d206f7-ef11-418c-82fd-39c1b8a2a741-1713142815311.png 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/37d206f7-ef11-418c-82fd-39c1b8a2a741-1713142815311.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/privy"
+              >
+                Privy
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="OAK Network logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/dad86833-ca2f-448d-b30b-1ee31f3a29bb-1699542660128.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/dad86833-ca2f-448d-b30b-1ee31f3a29bb-1699542660128.png 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/dad86833-ca2f-448d-b30b-1ee31f3a29bb-1699542660128.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/oak-network"
+              >
+                OAK Network
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Windranger Labs logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/5967609f-30e9-4cfc-8981-b21c24d4c4c4.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/5967609f-30e9-4cfc-8981-b21c24d4c4c4.jpg 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/5967609f-30e9-4cfc-8981-b21c24d4c4c4.jpg"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/windranger-labs"
+              >
+                Windranger Labs
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Seer logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/e8394e06-7df3-485e-9860-1eb05dc44400.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/e8394e06-7df3-485e-9860-1eb05dc44400.png 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/e8394e06-7df3-485e-9860-1eb05dc44400.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/seer"
+              >
+                Seer
+              </Link>
+            </div>
+            <p className="m-0 mb-2 line-clamp-3">
+              Positive sum prediction market
+            </p>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="3Commas logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/24046865-e519-4da2-881f-37a3787e255a.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/24046865-e519-4da2-881f-37a3787e255a.png 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/24046865-e519-4da2-881f-37a3787e255a.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/3commas-io"
+              >
+                3Commas
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Paradex logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/ec129b21-6865-46ef-92db-b16ec851dcbe.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/ec129b21-6865-46ef-92db-b16ec851dcbe.jpg 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/ec129b21-6865-46ef-92db-b16ec851dcbe.jpg"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/paradex"
+              >
+                Paradex
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="SafeGlobal logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/168fea1e-3638-4323-908c-d58245a6ff90-1699253448634.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/168fea1e-3638-4323-908c-d58245a6ff90-1699253448634.png 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/168fea1e-3638-4323-908c-d58245a6ff90-1699253448634.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/safeglobal"
+              >
+                SafeGlobal
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Ledger logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/ledger-logo-1677302483745.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/ledger-logo-1677302483745.jpg 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/ledger-logo-1677302483745.jpg"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/ledger"
+              >
+                Ledger
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+            <div className="flex flex-wrap leading-6">
+              <Link
+                className="hover:underline whitespace-nowrap text-muted-foreground"
+                href="/b2b-companies"
+              >
+                B2b
+              </Link>
+              <span className="mx-1 text-muted-foreground">•</span>
+              <Link
+                className="hover:underline whitespace-nowrap text-muted-foreground"
+                href="/b2c-companies"
+              >
+                B2c
+              </Link>
+            </div>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Rain logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/08f5f2c5-6aa1-4bec-aed4-844b122762ba-1702087871080.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/08f5f2c5-6aa1-4bec-aed4-844b122762ba-1702087871080.png 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/08f5f2c5-6aa1-4bec-aed4-844b122762ba-1702087871080.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/rain"
+              >
+                Rain
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Succinct logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/23fc2a35-8020-459d-86f4-1d151fedbc1d-1701051907705.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/23fc2a35-8020-459d-86f4-1d151fedbc1d-1701051907705.png 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/23fc2a35-8020-459d-86f4-1d151fedbc1d-1701051907705.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/succinct"
+              >
+                Succinct
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Aptos Foundation logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/5665d179-2f0c-48f4-9e88-e26be2cad4a9-1702087802752.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/5665d179-2f0c-48f4-9e88-e26be2cad4a9-1702087802752.png 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/5665d179-2f0c-48f4-9e88-e26be2cad4a9-1702087802752.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/aptos-foundation"
+              >
+                Aptos Foundation
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="TOK Chain logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/18543372-a0a8-417a-b0c1-801a36f4d3e9.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/18543372-a0a8-417a-b0c1-801a36f4d3e9.jpg 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/18543372-a0a8-417a-b0c1-801a36f4d3e9.jpg"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/tok-chain"
+              >
+                TOK Chain
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Payplug logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/f7d0acb3-119c-4be5-9dfc-c287182008be.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/f7d0acb3-119c-4be5-9dfc-c287182008be.png 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/f7d0acb3-119c-4be5-9dfc-c287182008be.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/payplug"
+              >
+                Payplug
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Ordeez.io logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/f2d45c16-83ac-4733-ae93-03c2d4422e7d.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/f2d45c16-83ac-4733-ae93-03c2d4422e7d.png 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/f2d45c16-83ac-4733-ae93-03c2d4422e7d.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/ordeez-io"
+              >
+                Ordeez.io
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Swaps.io logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/a785f59f-9326-4b31-a2a1-ecb7afd9521f.jpeg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/a785f59f-9326-4b31-a2a1-ecb7afd9521f.jpeg 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/a785f59f-9326-4b31-a2a1-ecb7afd9521f.jpeg"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/kinetex-network"
+              >
+                Swaps.io
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Chiilz logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/533bae31-2649-4594-bcc9-81477810d0db.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/533bae31-2649-4594-bcc9-81477810d0db.png 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/533bae31-2649-4594-bcc9-81477810d0db.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/chiilz"
+              >
+                Chiilz
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Flashbots logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/934c8e1d-dc60-4940-b117-8b7130a7f394-1699255561601.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/934c8e1d-dc60-4940-b117-8b7130a7f394-1699255561601.png 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/934c8e1d-dc60-4940-b117-8b7130a7f394-1699255561601.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/flashbots"
+              >
+                Flashbots
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Re7 Capital logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/0a8da100-f493-41ef-9bdc-fe49bca38162.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/0a8da100-f493-41ef-9bdc-fe49bca38162.jpg 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/0a8da100-f493-41ef-9bdc-fe49bca38162.jpg"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/re7-capital"
+              >
+                Re7 Capital
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Moonke.biz logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/4ae3ca2d-1cec-4046-be97-7164e619e5f9.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/4ae3ca2d-1cec-4046-be97-7164e619e5f9.png 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/4ae3ca2d-1cec-4046-be97-7164e619e5f9.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/moonke-biz"
+              >
+                Moonke.biz
+              </Link>
+            </div>
+            <p className="m-0 mb-2 line-clamp-3">Kickstarter for memecoins</p>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+            <div className="flex flex-wrap leading-6">
+              <Link
+                className="hover:underline whitespace-nowrap text-muted-foreground"
+                href="/protocol-companies"
+              >
+                Protocol
+              </Link>
+              <span className="mx-1 text-muted-foreground">•</span>
+              <Link
+                className="hover:underline whitespace-nowrap text-muted-foreground"
+                href="/remote-usa-companies"
+              >
+                Remote USA
+              </Link>
+              <span className="mx-1 text-muted-foreground">•</span>
+              <Link
+                className="hover:underline whitespace-nowrap text-muted-foreground"
+                href="/defi-companies"
+              >
+                DeFi
+              </Link>
+            </div>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="EXMO.com logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/exmocom-logo-1685939036809.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/exmocom-logo-1685939036809.jpg 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/exmocom-logo-1685939036809.jpg"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/exmo-com"
+              >
+                EXMO.com
+              </Link>
+            </div>
+            <p className="m-0 mb-2 line-clamp-3">
+              EXMO.com is a cryptocurrency exchange to easily buy or sell
+              cryptocurrency in exchange for fiat currency and vice versa.
+            </p>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="PlayToEarn logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/35cb2110-4377-4a70-8eed-8cc1ba12bf5c.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/35cb2110-4377-4a70-8eed-8cc1ba12bf5c.jpg 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/35cb2110-4377-4a70-8eed-8cc1ba12bf5c.jpg"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/playtoearn-net"
+              >
+                PlayToEarn
+              </Link>
+            </div>
+            <p className="m-0 mb-2 line-clamp-3"> Gaming Data Aggregator</p>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+            <div className="flex flex-wrap leading-6">
+              <Link
+                className="hover:underline whitespace-nowrap text-muted-foreground"
+                href="/metaverse-companies"
+              >
+                Metaverse
+              </Link>
+              <span className="mx-1 text-muted-foreground">•</span>
+              <Link
+                className="hover:underline whitespace-nowrap text-muted-foreground"
+                href="/remote-companies"
+              >
+                Remote
+              </Link>
+              <span className="mx-1 text-muted-foreground">•</span>
+              <Link
+                className="hover:underline whitespace-nowrap text-muted-foreground"
+                href="/flexible-hours-companies"
+              >
+                Flexible Hours
+              </Link>
+              <span className="mx-1 text-muted-foreground">•</span>
+              <Link
+                className="hover:underline whitespace-nowrap text-muted-foreground"
+                href="/transparent-companies"
+              >
+                Transparent
+              </Link>
+            </div>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="OpenBIT logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/aa0071f2-4cfb-44c8-8272-1e7a5934612f.jpeg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/aa0071f2-4cfb-44c8-8272-1e7a5934612f.jpeg 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/aa0071f2-4cfb-44c8-8272-1e7a5934612f.jpeg"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/openbit"
+              >
+                OpenBIT
+              </Link>
+            </div>
+            <p className="m-0 mb-2 line-clamp-3">
+              Pump Liquidity in Bitcoin, Next-Level Potential Unleashed with
+              Next-Level Security
+            </p>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="TekRek logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/0447e1a7-930b-484e-b44d-226a56fb97a7.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/0447e1a7-930b-484e-b44d-226a56fb97a7.jpg 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/0447e1a7-930b-484e-b44d-226a56fb97a7.jpg"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/tekrek"
+              >
+                TekRek
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="RockTree Capital logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/aed88080-7bce-45d6-98ce-8e1293161187.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/aed88080-7bce-45d6-98ce-8e1293161187.jpg 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/aed88080-7bce-45d6-98ce-8e1293161187.jpg"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/rocktree-capital"
+              >
+                RockTree Capital
+              </Link>
+            </div>
+            <p className="m-0 mb-2 line-clamp-3">
+              We are an international merchant bank focused on cross-border
+              transactions and strategic international expansion in blockchain.
+            </p>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="ValiDAO logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/5877ef15-b5a9-4073-afdd-4ceb691e7a9a.jpg 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/5877ef15-b5a9-4073-afdd-4ceb691e7a9a.jpg 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/5877ef15-b5a9-4073-afdd-4ceb691e7a9a.jpg"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/validao"
+              >
+                ValiDAO
+              </Link>
+            </div>
+            <p className="m-0 mb-2 line-clamp-3">
+              A community-governed validator operating infrastructure for the
+              on-chain world.
+            </p>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Gemz Trade logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/ec90f2d7-2f80-4908-9bcc-d7fec5430e5e.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/ec90f2d7-2f80-4908-9bcc-d7fec5430e5e.png 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/ec90f2d7-2f80-4908-9bcc-d7fec5430e5e.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/gemz-trade"
+              >
+                Gemz Trade
+              </Link>
+            </div>
+            <p className="m-0 mb-2 line-clamp-3">#1 Trading App on TON</p>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Radix DLT logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://res.cloudinary.com/cryptojobslist/image/upload/v1532947759/un2sdgzpazvemcbbw0wk.png 1x, https://res.cloudinary.com/cryptojobslist/image/upload/v1532947759/un2sdgzpazvemcbbw0wk.png 2x"
+              src="https://res.cloudinary.com/cryptojobslist/image/upload/v1532947759/un2sdgzpazvemcbbw0wk.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/radix-dlt"
+              >
+                Radix DLT
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="MyToken logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/dae6b857-bc55-409f-8e39-1dbb25b9225f.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/dae6b857-bc55-409f-8e39-1dbb25b9225f.png 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/dae6b857-bc55-409f-8e39-1dbb25b9225f.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/mytoken"
+              >
+                MyToken
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <img
+              alt="Risk Labs logo"
+              loading="lazy"
+              width="60"
+              height="60"
+              decoding="async"
+              data-nimg="1"
+              className="fadeIn ring-[1.3px] ring-white rounded bg-white relative h-[60px] w-[60px] object-contain"
+              srcSet="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:64/rs:fill/ex:1/plain/gs:/job-listing-logos/8886b5bf-f324-4f9d-a365-b8c3406bfb79-1671129886810-1693471735012.png 1x, https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/8886b5bf-f324-4f9d-a365-b8c3406bfb79-1671129886810-1693471735012.png 2x"
+              src="https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:128/rs:fill/ex:1/plain/gs:/job-listing-logos/8886b5bf-f324-4f9d-a365-b8c3406bfb79-1671129886810-1693471735012.png"
+            />
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/risk-labs"
+              >
+                Risk Labs
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+          <li className="flex flex-col w-full p-4 overflow-hidden text-left list-none duration-300 border border-gray-200 border-solid rounded-lg cursor-pointer dark:border-dark-100 shadow-dark-100 dark:shadow-dark-100 dark:bg-dark-300 group hover:shadow-md">
+            <div className="fadeIn text-gray-300 text-center pt-4 text-2xl font-extrabold border-solid border-[2px] dark:ring-white ring-foreground/5  rounded bg-white relative block h-[60px] w-[60px] object-contain">
+              T
+            </div>
+            <div className="my-2 mt-3">
+              <Link
+                className="inline text-xl font-bold text-black text-decoration:none dark:text-white hover:underline"
+                href="/companies/tokenomics"
+              >
+                Tokenomics
+              </Link>
+            </div>
+            <span className="mt-auto text-brand-blue group-hover:underline">
+              View Open Vacancies
+            </span>
+          </li>
+        </ul>
+        <nav
+          role="navigation"
+          aria-label="pagination"
+          className="mx-auto flex w-full justify-center my-8 leading-7 container-wide"
+          arial-label="Pagination"
+        >
+          <ul className="flex flex-row items-center gap-1">
+            <li className="">
+              <Link
+                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 gap-1 pl-2.5 pointer-events-none"
+                aria-label="Previous page"
+                rel="prev"
+                href="/companies?page=1"
+              >
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-4 h-4 !m-0"
+                >
+                  <path
+                    d="M8.84182 3.13514C9.04327 3.32401 9.05348 3.64042 8.86462 3.84188L5.43521 7.49991L8.86462 11.1579C9.05348 11.3594 9.04327 11.6758 8.84182 11.8647C8.64036 12.0535 8.32394 12.0433 8.13508 11.8419L4.38508 7.84188C4.20477 7.64955 4.20477 7.35027 4.38508 7.15794L8.13508 3.15794C8.32394 2.95648 8.64036 2.94628 8.84182 3.13514Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                <span>Previous</span>
+              </Link>
+            </li>
+            <li className="">
+              <span
+                aria-current="page"
+                className="pointer-events-none inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 w-9"
+              >
+                1
+              </span>
+            </li>
+            <li className="">
+              <Link
+                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed hover:bg-accent hover:text-accent-foreground h-9 w-9"
+                href="/companies?page=2"
+              >
+                2
+              </Link>
+            </li>
+            <li className="">
+              <span
+                aria-hidden="true"
+                className="flex h-9 w-9 items-center justify-center"
+              >
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-4 h-4 !m-0"
+                >
+                  <path
+                    d="M3.625 7.5C3.625 8.12132 3.12132 8.625 2.5 8.625C1.87868 8.625 1.375 8.12132 1.375 7.5C1.375 6.87868 1.87868 6.375 2.5 6.375C3.12132 6.375 3.625 6.87868 3.625 7.5ZM8.625 7.5C8.625 8.12132 8.12132 8.625 7.5 8.625C6.87868 8.625 6.375 8.12132 6.375 7.5C6.375 6.87868 6.87868 6.375 7.5 6.375C8.12132 6.375 8.625 6.87868 8.625 7.5ZM12.5 8.625C13.1213 8.625 13.625 8.12132 13.625 7.5C13.625 6.87868 13.1213 6.375 12.5 6.375C11.8787 6.375 11.375 6.87868 11.375 7.5C11.375 8.12132 11.8787 8.625 12.5 8.625Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                <span className="sr-only">More pages</span>
+              </span>
+            </li>
+            <li className="">
+              <Link
+                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 gap-1 pr-2.5"
+                aria-label="Next page"
+                rel="next"
+                href="/companies?page=2"
+              >
+                <span>Next</span>
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-4 h-4 !m-0"
+                >
+                  <path
+                    d="M6.1584 3.13508C6.35985 2.94621 6.67627 2.95642 6.86514 3.15788L10.6151 7.15788C10.7954 7.3502 10.7954 7.64949 10.6151 7.84182L6.86514 11.8418C6.67627 12.0433 6.35985 12.0535 6.1584 11.8646C5.95694 11.6757 5.94673 11.3593 6.1356 11.1579L9.565 7.49985L6.1356 3.84182C5.94673 3.64036 5.95694 3.32394 6.1584 3.13508Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </Link>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </main>
   );
 }
