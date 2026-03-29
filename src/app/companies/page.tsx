@@ -10,8 +10,7 @@ export default function Companies() {
           Software Companies &amp; Projects
         </h1>
         <p className="px-2 text-xl sm:px-auto">
-          Find top 2569 growing <b>cryptocurrency &amp; blockchain companies</b>{" "}
-          for March 2025.
+          Find top 2569 growing <b>software companies</b> for March 2025.
           <br className="desktop-only" /> Learn their stories, company culture,
           why they are the companies you should work for.
         </p>
